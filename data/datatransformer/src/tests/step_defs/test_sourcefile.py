@@ -27,9 +27,13 @@ def dt_service(sourcefile):
     sourceFilePath = sourceTestFilesPath + sourcefile
     return sourcefileservice(sourceFilePath, datatransformer.datatypes.JSON, ["categories"], destinationFileType=datatransformer.datatypes.JSON)
 
-@when(parsers.parse('I read and transform the source file'))
-def dt_readSourceFile(dt_service):
-    dt_service.transformSourceData()
+@when(parsers.parse('I read, transform and flatten the source file'))
+def dt_readSourceFile(dt_service: sourcefileservice):
+    dt_service.transformSourceData(flattenSourceData=True)
+
+@when(parsers.parse("I read, transform and don't flatten the source file"))
+def dt_readSourceFile(dt_service: sourcefileservice):
+    dt_service.transformSourceData(flattenSourceData=False)
 
 # Then Steps
 

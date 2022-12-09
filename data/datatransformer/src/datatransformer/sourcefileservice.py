@@ -18,14 +18,12 @@ class sourcefileservice:
                 ,sourceFilePath
                 ,sourceDataType
                 ,strSplitColumns = []
-                ,flattenSourceData = True
                 ,readerChunksize = 100000
                 ,destinationFilePath = None
                 ,destinationFileType = datatypes.CSV
                 ):
         self.sourceFilePath = sourceFilePath
         self.sourceDataType = sourceDataType
-        self.flattenSourceData = flattenSourceData
         self.strSplitColumns = strSplitColumns
         self.readerChunkSize = readerChunksize
         self.destinationFileType = destinationFileType
@@ -50,22 +48,27 @@ class sourcefileservice:
                     chunk.to_parquet(self.destinationFilePath, engine='fastparquet', append=True, index=False)
             case datatypes.CSV:
                 chunk.to_csv(path_or_buf=self.destinationFilePath,sep=';',mode="a", index=False)
-    def transformSourceData(self):
- 
+    def transformSourceData(self,flattenSourceData = True):
+        self.flattenSourceData = flattenSourceData
         if(self.sourceDataType==datatypes.JSON):
             count = 0
             #Divide pandas in different chunks in order to manage big files
             with pd.read_json(self.sourceFilePath,orient='records', lines=True, chunksize=self.readerChunkSize) as reader:
                 for chunk in reader:
-                    #remove Pandas Index
+                    #ConvertNested Json/Dict Structure to something usable
+                    chunk = self._convertNestedJsonStrings(chunk)
+
                     if(self.flattenSourceData):
-                        chunk = self.convertNestedJsonStrings(chunk)
-                        
+                        chunk = self._flattenJsonStructure(chunk)
                     self._writeToDestination(chunk)
                     count = count + self.readerChunkSize
                     print(f"# {count} records written to {self.destinationFilePath}")
 
-    def convertNestedJsonStrings(self,chunk):
+    def _flattenJsonStructure(self,chunk: pd.DataFrame):
+        chunkDict = chunk.to_dict('records')
+        return pd.json_normalize(chunkDict, max_level=100)
+
+    def _convertNestedJsonStrings(self,chunk: pd.DataFrame):
         jsonBlob = chunk.to_json(orient="records")
         arrayOfJsonRecords= json.loads(jsonBlob)
         for i, JsonRecord in enumerate(arrayOfJsonRecords):
@@ -82,7 +85,7 @@ class sourcefileservice:
                 #try converting string split columns to list type
                 if(isinstance(value, str) and "," in value and key in self.strSplitColumns):
                     arrayOfJsonRecords[i][key] = value.split(", ")
-        return chunk.from_dict(arrayOfJsonRecords)
+        return pd.DataFrame.from_dict(arrayOfJsonRecords)
 
     @property
     def sourceFilePath(self):
