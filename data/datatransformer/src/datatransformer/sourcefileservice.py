@@ -56,10 +56,21 @@ class sourcefileservice:
             with pd.read_json(self.sourceFilePath,orient='records', lines=True, chunksize=self.readerChunkSize) as reader:
                 for chunk in reader:
                     #ConvertNested Json/Dict Structure to something usable
+
                     chunk = self._convertNestedJsonStrings(chunk)
 
                     if(self.flattenSourceData):
                         chunk = self._flattenJsonStructure(chunk)
+                        try:
+                            for column in self.strSplitColumns:
+                                #extract columns from strsplitcolumn
+                                chunk = chunk.join(chunk[column].str.split(pat=",", n=-1, expand=True).add_prefix(column))
+                                chunk = chunk.drop(columns=column)
+                        except Exception as e:
+                            print(e)
+                            pass
+                            
+                    
                     self._writeToDestination(chunk)
                     count = count + self.readerChunkSize
                     print(f"# {count} records written to {self.destinationFilePath}")
@@ -83,7 +94,7 @@ class sourcefileservice:
                         except:
                             pass
                 #try converting string split columns to list type
-                if(isinstance(value, str) and "," in value and key in self.strSplitColumns):
+                if(isinstance(value, str) and "," in value and key in self.strSplitColumns and self.flattenSourceData == False):
                     arrayOfJsonRecords[i][key] = value.split(", ")
         return pd.DataFrame.from_dict(arrayOfJsonRecords)
 
