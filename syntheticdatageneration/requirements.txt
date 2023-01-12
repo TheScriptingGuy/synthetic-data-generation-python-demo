@@ -12,3 +12,6 @@ streamlit
 holoviews
 distributed
 hvplot
+faker
+pydbgen
+Faker==2.0.5
