@@ -19,6 +19,30 @@ input_data_files = json.load(f)
 f.close()
        
 
+def hvHeatmap (df, title):
+   """
+    Creates a masked hvplot heatmap
+
+            Parameters:
+               df : dataframe
+                  the dataframe containing the data
+               title : str
+                  the title of the heatmap
+
+            Returns:
+                    heatmap: hvplot HeatMap
+   """
+   #calculate a pearson coefficient
+   corr = df.corr(method="pearson").compute().abs()
+   corr.values[np.triu_indices_from(corr, 0)] = np.nan
+
+   heatmap = hv.HeatMap((corr.columns, corr.index, corr))\
+         .opts(tools=['hover'],  height=400, width=400, fontsize=9,
+               toolbar='above', colorbar=False, cmap='Blues',
+               invert_yaxis=True, xrotation=90, xlabel='', ylabel='',
+               title=title)
+   return heatmap
+
 def processCSVFiles(input_data_file):
       original_datafile_path= f"/data/datafiles/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered.csv"
       synthetic_datafile_path = f"/data/datafiles/out/independent_attribute_mode/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic.csv"
@@ -58,14 +82,17 @@ def processCSVFiles(input_data_file):
             else:
                syntheticDfOut = syntheticDf.astype({label: 'category'}).categorize(columns=[label])
             syntheticDfOut[label]=syntheticDfOut[label].cat.codes
-      #Do a pearson coefficient
-      heatmap_orgDf = originalDfOut.corr(method="pearson").compute()
-      heatmap_org = heatmap_orgDf.hvplot.heatmap(width=1200).opts(title="Heatmap original")
-      heatmap_synthDf = syntheticDfOut.corr(method="pearson").compute()
-      heatmap_synth = heatmap_synthDf.hvplot.heatmap(width=1200).opts(title="Heatmap synthethic")
-      st.write(hv.render(heatmap_org, backend='bokeh'))
-      st.write(hv.render(heatmap_synth, backend='bokeh'))
-         
+      
+      #generate heatmaps
+      heatmap_org = hvHeatmap(originalDfOut, 'Heatmap original')
+      heatmap_synth = hvHeatmap(syntheticDfOut, 'Heatmap synthethic')
+
+      col1, col2 = st.columns(2)
+      col1.write(hv.render(heatmap_org, backend='bokeh'))
+      col2.write(hv.render(heatmap_synth, backend='bokeh'))
+
+
+
 processCSVFiles(input_data_files[0])
 
 #data synthesizer methods for generating heatmap, is very slow.
