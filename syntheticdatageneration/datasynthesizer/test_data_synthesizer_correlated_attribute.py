@@ -6,10 +6,9 @@
 # ### Step 1 import packages
 
 # %%
-from DataSynthesizer.DataDescriber import DataDescriber
-from DataSynthesizer.DataGenerator import DataGenerator
-from DataSynthesizer.ModelInspector import ModelInspector
-from DataSynthesizer.lib.utils import read_json_file, display_bayesian_network
+from datasynthesizer_mod import DataDescriber
+from datasynthesizer_mod import DataGenerator
+from datasynthesizer_mod.lib.utils import read_json_file, display_bayesian_network
 
 import pandas as pd
 import csv
@@ -37,7 +36,7 @@ f.close()
 numberOfRowsFilter = 20000
 
 # location of two output files
-mode = 'independent_attribute_mode'
+mode = 'correlated_attribute_mode'
 destination_file_folder = f'/data/datafiles/out/{mode}'
 
 
@@ -64,52 +63,52 @@ num_tuples_to_generate = 20000 # Here 32561 is the same as input dataset, but it
 # 2. To accomodate to these requirements, the dataset will be prepared in the next step.
 
 # %%
-from pandas import DataFrame
-
-
+#from pandas import DataFrame
+#
+#
 filtered_output_files: list = []
-
-def prepare_dataframe_for_synthesizer(df: DataFrame, dropColumns: list, foreignKeys) -> DataFrame:
-    #replace boolean values by bit, because synthesizer does not accept boolean type
-    df =df.replace(True,1)
-    df = df.replace(False,0)
-    df = df.drop(columns=dropColumns) if len(dropColumns) > 0 else df
-    #drop columns which are empty
-    df.dropna(how='all', axis=1, inplace=True)
-    return df
-
-def get_input_df(input_data_file) -> DataFrame:
-    inputDf: pd.DataFrame()
-    foreignKeys =input_data_file['foreign_keys']
-    if len(foreignKeys) == 0:
-        inputDf = pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
-                                                ,sep=";"
-                                                ,nrows=numberOfRowsFilter
-                                                ,low_memory=False) 
-    if len(foreignKeys) > 0:
-        #only get related foreign key records when foreign keys are defined
-        for foreignKey in foreignKeys:
-            foreign_key_reference_file_path = f"{os.path.dirname(foreignKey['reference_file'])}/{os.path.basename(foreignKey['reference_file']).split('.')[0]}_filtered.csv"
-            foreign_key_df: pd.DataFrame = pd.read_csv(filepath_or_buffer=foreign_key_reference_file_path
-                                                ,sep=","
-                                                ,low_memory=False)[foreignKey['reference_key']]
-
-            foreign_key_df_list = foreign_key_df.to_list()
-
-            for chunk in pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
-                                                ,sep=";"
-                                                , chunksize=10000):
-                if 'inputDf' in locals():           
-                    inputDf = pd.concat([inputDf,chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]])
-                else:
-                    inputDf = chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]
-
-            
-
-
-    return inputDf
-
-#filter input files based on numberOfRows Parameter
+#
+#def prepare_dataframe_for_synthesizer(df: DataFrame, dropColumns: list, foreignKeys) -> DataFrame:
+#    #replace boolean values by bit, because synthesizer does not accept boolean type
+#    df =df.replace(True,1)
+#    df = df.replace(False,0)
+#    df = df.drop(columns=dropColumns) if len(dropColumns) > 0 else df
+#    #drop columns which are empty
+#    df.dropna(how='all', axis=1, inplace=True)
+#    return df
+#
+#def get_input_df(input_data_file) -> DataFrame:
+#    inputDf: pd.DataFrame()
+#    foreignKeys =input_data_file['foreign_keys']
+#    if len(foreignKeys) == 0:
+#        inputDf = pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
+#                                                ,sep=";"
+#                                                ,nrows=numberOfRowsFilter
+#                                                ,low_memory=False) 
+#    if len(foreignKeys) > 0:
+#        #only get related foreign key records when foreign keys are defined
+#        for foreignKey in foreignKeys:
+#            foreign_key_reference_file_path = f"{os.path.dirname(foreignKey['reference_file'])}/{os.path.basename(foreignKey['reference_file']).split('.')[0]}_filtered.csv"
+#            foreign_key_df: pd.DataFrame = pd.read_csv(filepath_or_buffer=foreign_key_reference_file_path
+#                                                ,sep=","
+#                                                ,low_memory=False)[foreignKey['reference_key']]
+#
+#            foreign_key_df_list = foreign_key_df.to_list()
+#
+#            for chunk in pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
+#                                                ,sep=";"
+#                                                , chunksize=10000):
+#                if 'inputDf' in locals():           
+#                    inputDf = pd.concat([inputDf,chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]])
+#                else:
+#                    inputDf = chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]
+#
+#            
+#
+#
+#    return inputDf
+#
+##filter input files based on numberOfRows Parameter
 for input_data_file in input_data_files:
     filtered_output_data = {"filtered_output_path": f"{os.path.dirname(input_data_file['input_file_path'])}/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered.csv"
                                             ,"candidate_keys": input_data_file['candidate_keys']
@@ -117,15 +116,15 @@ for input_data_file in input_data_files:
                                             ,"synthetic_file_path": f"{destination_file_folder}/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic.csv"
                                             }
     filtered_output_files.append(filtered_output_data)  
-    if numberOfRowsFilter > 0:
-        inputDf = get_input_df(input_data_file=input_data_file)                              
-        inputDf = prepare_dataframe_for_synthesizer(inputDf,dropColumns=input_data_file['drop_columns'], foreignKeys=input_data_file['foreign_keys'])
-        inputDf.to_csv(f"{filtered_output_data['filtered_output_path']}"
-                        ,sep=","
-                        ,index=False
-                        ,quoting = csv.QUOTE_NONNUMERIC)
-
-
+#    if numberOfRowsFilter > 0:
+#        inputDf = get_input_df(input_data_file=input_data_file)                              
+#        inputDf = prepare_dataframe_for_synthesizer(inputDf,dropColumns=input_data_file['drop_columns'], foreignKeys=input_data_file['foreign_keys'])
+#        inputDf.to_csv(f"{filtered_output_data['filtered_output_path']}"
+#                        ,sep=","
+#                        ,index=False
+#                        ,quoting = csv.QUOTE_NONNUMERIC)
+#
+#
 # %% [markdown]
 # ### DataDescriber
 # 
@@ -152,6 +151,7 @@ for filtered_data_file in filtered_output_files:
                                                         k=degree_of_bayesian_network,
                                                         attribute_to_is_categorical=categorical_attributes,
                                                         attribute_to_is_candidate_key=candidate_keys)
+        print(filtered_data_file['description_file_path'])
         describer.save_dataset_description_to_file(filtered_data_file['description_file_path'])
 
         ### Step 4 generate synthetic dataset
