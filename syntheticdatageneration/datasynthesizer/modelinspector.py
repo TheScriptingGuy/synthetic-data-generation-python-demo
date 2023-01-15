@@ -42,7 +42,8 @@ def hvHeatmap (df, title):
                invert_yaxis=True, xrotation=90, xlabel='', ylabel='',
                title=title)
    return heatmap
-
+listOfOriginalDfs = {}
+listOfSyntheticDfs = {}
 def processCSVFiles(input_data_file):
       original_datafile_path= f"/data/datafiles/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered.csv"
       synthetic_datafile_path = f"/data/datafiles/out/independent_attribute_mode/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic.csv"
@@ -53,6 +54,25 @@ def processCSVFiles(input_data_file):
       #Read into Dask Dataframes
       originalDf: dd = dd.read_csv(urlpath=original_datafile_path,sep=",")
       syntheticDf: dd = dd.read_csv(urlpath=synthetic_datafile_path,sep=",")
+
+      listOfOriginalDfs.update({f"{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered":originalDf})
+      listOfSyntheticDfs.update({f"{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic":syntheticDf})
+      originalDf_joined = None
+      syntheticDf_joined = None
+      if len(input_data_file['foreign_keys'])> 0:
+         for foreign_key in input_data_file['foreign_keys']:
+            originalDf_joined = dd.multi.merge(left=originalDf
+                           ,right=listOfOriginalDfs.get(f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_filtered")
+                           ,how='left'
+                           ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
+                           ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
+            
+            syntheticDf_joined = dd.multi.merge(left=syntheticDf
+                           ,right=listOfSyntheticDfs[f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_synthentic"]
+                           ,how='left'
+                           ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
+                           ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
+
       st.write(f"# datafile: {os.path.basename(original_datafile_path)}")
       #Iterate through all attributes
       labels = []
@@ -86,19 +106,19 @@ def processCSVFiles(input_data_file):
       #generate heatmaps
       heatmap_org = hvHeatmap(originalDfOut, 'Heatmap original')
       heatmap_synth = hvHeatmap(syntheticDfOut, 'Heatmap synthethic')
-
+      if originalDf_joined is not None:
+         heatmap_org_joined = hvHeatmap(originalDf_joined, f"Heatmap original joined to {os.path.basename(foreign_key['reference_file']).split('.')[0]}_filtered.csv")
+         col1, col2 = st.columns(2)
+         col1.write(hv.render(heatmap_org_joined, backend='bokeh'))
+      if syntheticDf_joined is not None:
+         heatmap_synth_joined = hvHeatmap(syntheticDf_joined, f"Heatmap synth joined to {os.path.basename(foreign_key['reference_file']).split('.')[0]}_synthentic.csv")
+         col2.write(hv.render(heatmap_synth_joined, backend='bokeh'))
       col1, col2 = st.columns(2)
       col1.write(hv.render(heatmap_org, backend='bokeh'))
       col2.write(hv.render(heatmap_synth, backend='bokeh'))
 
-
-
-processCSVFiles(input_data_files[0])
-
-#data synthesizer methods for generating heatmap, is very slow.
-#pairwise_attributes_mutual_information(syntheticDf.compute())
-#pairwise_attributes_mutual_information(filteredDf.compute())
-
+for file in input_data_files:
+   processCSVFiles(file)
 
 
 
