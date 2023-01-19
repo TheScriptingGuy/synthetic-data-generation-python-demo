@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  python:
+    image: general
+    user: root
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    #command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes:
+        - .:/workspace:cached
+        - ../data:/data
+    ports:
+      - 8000:8000
+      - 5678:5678
+      - 8501:8501
+    environment:
+      - FLASK_APP=helloapp.webapp:app
+      - FLASK_ENV=development
