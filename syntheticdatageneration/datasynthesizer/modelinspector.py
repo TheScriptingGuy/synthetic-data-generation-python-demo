@@ -11,13 +11,7 @@ import json
 import streamlit as st
 import os
 hvplot.extension('bokeh')
-
-f = open('/data/datafiles/dataset_configuration.json',)
-
-input_data_files = json.load(f)
-
-f.close()
-       
+ 
 
 def hvHeatmap (df, title):
    """
@@ -42,11 +36,13 @@ def hvHeatmap (df, title):
                invert_yaxis=True, xrotation=90, xlabel='', ylabel='',
                title=title)
    return heatmap
+
 listOfOriginalDfs = {}
 listOfSyntheticDfs = {}
+
 def processCSVFiles(input_data_file):
-      original_datafile_path= f"/data/datafiles/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered.csv"
-      synthetic_datafile_path = f"/data/datafiles/out/independent_attribute_mode/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic.csv"
+      original_datafile_path= input_data_file['input_file_path']
+      synthetic_datafile_path = input_data_file['output_file_path']
 
       originalDfOut: dd
       syntheticDfOut: dd
@@ -59,19 +55,20 @@ def processCSVFiles(input_data_file):
       listOfSyntheticDfs.update({f"{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic":syntheticDf})
       originalDf_joined = None
       syntheticDf_joined = None
-      if len(input_data_file['foreign_keys'])> 0:
-         for foreign_key in input_data_file['foreign_keys']:
-            originalDf_joined = dd.multi.merge(left=originalDf
-                           ,right=listOfOriginalDfs.get(f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_filtered")
-                           ,how='left'
-                           ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
-                           ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
-            
-            syntheticDf_joined = dd.multi.merge(left=syntheticDf
-                           ,right=listOfSyntheticDfs[f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_synthentic"]
-                           ,how='left'
-                           ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
-                           ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
+      if 'foreign_keys' in input_data_file:
+         if len(input_data_file['foreign_keys'])> 0:
+            for foreign_key in input_data_file['foreign_keys']:
+               originalDf_joined = dd.multi.merge(left=originalDf
+                              ,right=listOfOriginalDfs.get(f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_filtered")
+                              ,how='left'
+                              ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
+                              ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
+               
+               syntheticDf_joined = dd.multi.merge(left=syntheticDf
+                              ,right=listOfSyntheticDfs[f"{os.path.basename(foreign_key['reference_file']).split('.')[0]}_synthentic"]
+                              ,how='left'
+                              ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
+                              ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
 
       st.write(f"# datafile: {os.path.basename(original_datafile_path)}")
       #Iterate through all attributes
@@ -117,8 +114,25 @@ def processCSVFiles(input_data_file):
       col1.write(hv.render(heatmap_org, backend='bokeh'))
       col2.write(hv.render(heatmap_synth, backend='bokeh'))
 
-for file in input_data_files:
-   processCSVFiles(file)
+
+option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania'])
+json_path = f"/data/datafiles/{option}.json"
+
+
+try:
+   f = open(json_path,)
+   input_data_files = json.load(f)
+   f.close()
+         
+   st.write('Selected output:', option)
+
+   if input_data_files is not None:
+      for file in input_data_files:
+         processCSVFiles(file)
+except:
+   st.write ('Could not find selected file:', json_path)
+
+
 
 
 
