@@ -70,7 +70,10 @@ def processCSVFiles(input_data_file):
                               ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
                               ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
 
-      st.write(f"# datafile: {os.path.basename(original_datafile_path)}")
+      st.write(f" datafile: {os.path.basename(original_datafile_path)}")
+      col1, col2 = st.columns(2, gap="medium")
+      col1.header("Original")
+      col2.header("Synthetic")
       #Iterate through all attributes
       labels = []
       for label, content in originalDf.items(): 
@@ -84,8 +87,17 @@ def processCSVFiles(input_data_file):
             attrOriginalDf = attributeSeries_Org.to_frame().reset_index().rename(columns={label:"count","index":label}).assign(type="original")
             attrSyntheticDf = attributeSeries_Synth.to_frame().reset_index().rename(columns={label:"count","index":label}).assign(type="synthetic")  
             unionDf = dd.concat([attrOriginalDf, attrSyntheticDf]).sort_values(by="count", ascending=False)       
-            plot= unionDf.head(10).hvplot.bar(y="count",x=label, by="type",stacked=False, width=1200).opts(title=f"Histogram by {label}")
-            st.write(hv.render(plot, backend='bokeh'))
+            #plot= unionDf.head(10).hvplot.bar(y="count",x=label, by="type",stacked=False,rot=60).opts(title=f"Histogram by {label}")
+
+            plot1= attrOriginalDf.sort_values(by="count", ascending=False).head(10).hvplot.bar(y="count",x=label,stacked=False,rot=60, width=1000).opts(title=f"Histogram by {label}")
+            plot2= attrSyntheticDf.sort_values(by="count", ascending=False).head(10).hvplot.bar(y="count",x=label,stacked=False,rot=60).opts(title=f"Histogram by {label}")
+
+            #plot1= attrOriginalDf.head(10).hvplot.hist("count",by="type",stacked=False,rot=60).opts(title=f"Histogram by {label}")
+
+            #col1.write(hv.render(plot1, backend='bokeh'))
+            col1.bar_chart(attrOriginalDf.sort_values(by="count", ascending=False).head(10), x=label, y="count")
+            col2.bar_chart(attrSyntheticDf.sort_values(by="count", ascending=False).head(10), x=label, y="count")
+            #col2.write(hv.render(plot2, backend='bokeh'))
 
             #construct heatmap by categorizing attributes
             if 'originalDfOut' in locals():  
@@ -110,12 +122,12 @@ def processCSVFiles(input_data_file):
       if syntheticDf_joined is not None:
          heatmap_synth_joined = hvHeatmap(syntheticDf_joined, f"Heatmap synth joined to {os.path.basename(foreign_key['reference_file']).split('.')[0]}_synthentic.csv")
          col2.write(hv.render(heatmap_synth_joined, backend='bokeh'))
-      col1, col2 = st.columns(2)
+      
       col1.write(hv.render(heatmap_org, backend='bokeh'))
       col2.write(hv.render(heatmap_synth, backend='bokeh'))
 
 
-option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania'])
+option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania','faker'])
 json_path = f"/data/datafiles/{option}.json"
 
 
@@ -125,14 +137,13 @@ try:
    f.close()
          
    st.write('Selected output:', option)
-
-   if input_data_files is not None:
-      for file in input_data_files:
-         processCSVFiles(file)
 except:
    st.write ('Could not find selected file:', json_path)
 
-
+if input_data_files is not None:
+   for file in input_data_files:
+      with st.spinner('Files are loading...'):
+         processCSVFiles(file)
 
 
 
