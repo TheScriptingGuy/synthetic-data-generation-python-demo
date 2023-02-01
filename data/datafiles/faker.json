@@ -1,0 +1,6 @@
+[{
+    "input_file_path":"/data/datafiles/yelp_academic_dataset_business_transformed_filtered.CSV"
+    ,"output_file_path": "/data/datafiles/out/faker/yelp_academic_dataset_business_transformed_synthetic.csv"
+    ,"candidate_keys": ["business_id","name"]
+}
+]
