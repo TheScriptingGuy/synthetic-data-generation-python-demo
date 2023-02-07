@@ -22,7 +22,7 @@ import os
 import json
    
 # Opening JSON file
-f = open('/data/datafiles/dataset_configuration.json',)
+f = open('/data/datafiles/datasynthesizer.json',)
 
 input_data_files = json.load(f)
 
@@ -57,62 +57,15 @@ from pandas import DataFrame
 
 filtered_output_files: list = []
 
-def prepare_dataframe_for_synthesizer(df: DataFrame, dropColumns: list, foreignKeys) -> DataFrame:
-    #replace boolean values by bit, because synthesizer does not accept boolean type
-    df =df.replace(True,1)
-    df = df.replace(False,0)
-    df = df.drop(columns=dropColumns) if len(dropColumns) > 0 else df
-    #drop columns which are empty
-    df.dropna(how='all', axis=1, inplace=True)
-    return df
-
-def get_input_df(input_data_file) -> DataFrame:
-    inputDf: pd.DataFrame()
-    foreignKeys =input_data_file['foreign_keys']
-    if len(foreignKeys) == 0:
-        inputDf = pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
-                                                ,sep=";"
-                                                ,nrows=numberOfRowsFilter
-                                                ,low_memory=False) 
-    if len(foreignKeys) > 0:
-        #only get related foreign key records when foreign keys are defined
-        for foreignKey in foreignKeys:
-            foreign_key_reference_file_path = f"{os.path.dirname(foreignKey['reference_file'])}/{os.path.basename(foreignKey['reference_file']).split('.')[0]}_filtered.csv"
-            foreign_key_df: pd.DataFrame = pd.read_csv(filepath_or_buffer=foreign_key_reference_file_path
-                                                ,sep=","
-                                                ,low_memory=False)[foreignKey['reference_key']]
-
-            foreign_key_df_list = foreign_key_df.to_list()
-
-            for chunk in pd.read_csv(filepath_or_buffer=input_data_file['input_file_path']
-                                                ,sep=";"
-                                                , chunksize=10000):
-                if 'inputDf' in locals():           
-                    inputDf = pd.concat([inputDf,chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]])
-                else:
-                    inputDf = chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]
-
-            
-
-
-    return inputDf
-
 #filter input files based on numberOfRows Parameter
 for input_data_file in input_data_files:
-    filtered_output_data = {"filtered_output_path": f"{os.path.dirname(input_data_file['input_file_path'])}/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_filtered.csv"
+    inputfile="_".join(input_data_file['input_file_path'].split("_")[0:-1]) + ".csv"
+    filtered_output_data = {"filtered_output_path": f"{os.path.dirname(inputfile)}/{os.path.basename(inputfile).split('.')[0]}_filtered.csv"
                                             ,"candidate_keys": input_data_file['candidate_keys']
-                                            ,"description_file_path": f"{destination_file_folder}/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_description.json"
-                                            ,"synthetic_file_path": f"{destination_file_folder}/{os.path.basename(input_data_file['input_file_path']).split('.')[0]}_synthentic.csv"
+                                            ,"description_file_path": f"{destination_file_folder}/{os.path.basename(inputfile).split('.')[0]}_description.json"
+                                            ,"synthetic_file_path": f"{destination_file_folder}/{os.path.basename(inputfile).split('.')[0]}_synthentic.csv"
                                             }
     filtered_output_files.append(filtered_output_data)  
-    if numberOfRowsFilter > 0:
-        inputDf = get_input_df(input_data_file=input_data_file)                              
-        inputDf = prepare_dataframe_for_synthesizer(inputDf,dropColumns=input_data_file['drop_columns'], foreignKeys=input_data_file['foreign_keys'])
-        inputDf.to_csv(f"{filtered_output_data['filtered_output_path']}"
-                        ,sep=","
-                        ,index=False
-                        ,quoting = csv.QUOTE_NONNUMERIC)
-
 
 # %% [markdown]
 # ### DataDescriber

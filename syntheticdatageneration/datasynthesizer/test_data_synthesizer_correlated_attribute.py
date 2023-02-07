@@ -26,7 +26,7 @@ import os
 import json
    
 # Opening JSON file
-f = open('/data/datafiles/dataset_configuration.json',)
+f = open('/data/datafiles/datasynthesizer.json',)
 
 input_data_files = json.load(f)
 
