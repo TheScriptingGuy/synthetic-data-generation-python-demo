@@ -15,3 +15,4 @@ hvplot
 faker
 pydbgen
 Faker==2.0.5
+sdv=0.18.0
