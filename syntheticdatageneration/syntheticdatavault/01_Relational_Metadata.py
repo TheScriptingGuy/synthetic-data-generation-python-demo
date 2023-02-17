@@ -169,53 +169,6 @@ metadata.get_table_meta('user')
 metadata
 
 
-# ### Add a table specifying field properties
-# 
-# There are situations where the `Metadata` analysis is not able to figure
-# out some data types or subtypes, or to deduce some properties of the
-# field such as the datetime format.
-# 
-# In these situations, you can pass a dictionary with the exact metadata
-# of those fields, which will overwrite the deductions from the analysis
-# process.
-# 
-# In this next example, you will be adding a `transactions` table, which
-# is related to the previous `sessions` table, and contains a `datetime`
-# field which needs to have the datetime format specified.
-
-# In[10]:
-
-
-transactions_fields = {
-    'timestamp': {
-        'type': 'datetime',
-        'format': '%Y-%m-%d'
-    }
-}
-
-metadata.add_table(
-    name='transactions',
-    data=tables['transactions'],
-    fields_metadata=transactions_fields,
-    primary_key='transaction_id',
-    parent='sessions'
-)
-
-
-# Let\'s see what our Metadata looks like right now:
-
-# In[11]:
-
-
-metadata
-metadata.to_dict()
-
-
-# In[12]:
-
-
-metadata.visualize()
-
 
 # Metadata JSON format
 # --------------------
@@ -229,8 +182,10 @@ metadata.visualize()
 
 # In[13]:
 
+from pathlib import Path
 
-metadata.to_json('demo_metadata.json')
+Path('/data/datafiles/out/sdv/sdv_metadata.json').touch()
+metadata.to_json('/data/datafiles/out/sdv/sdv_metadata.json')
 
 
 # You can see that the contents of the created file are very similar to
@@ -239,7 +194,7 @@ metadata.to_json('demo_metadata.json')
 # In[14]:
 
 
-with open('demo_metadata.json') as meta_file:
+with open('/data/out/sdv/sdv_metadata.json') as meta_file:
     print(meta_file.read())
 
 
@@ -249,6 +204,217 @@ with open('demo_metadata.json') as meta_file:
 # In[15]:
 
 
-loaded = Metadata('demo_metadata.json')
+loaded = Metadata('/data/out/sdv/sdv_metadata.json')
 loaded
+# For more details about how to build the `Metadata` for your own dataset,
+# please refer to the [relational_metadata](relational_metadata.ipynb)
+# Guide.
+# 
+# 2.  A dictionary containing three `pandas.DataFrames` with the tables
+#     described in the metadata object.
 
+# %%
+
+from sdv.utils import display_tables
+
+display_tables(tables)
+
+# %%
+
+for name, table in tables.items():
+    print(name, table.shape)
+
+# Let us now use the `HMA1` class to learn this data to be ready to sample
+# synthetic data about new users. In order to do this you will need to:
+# 
+# -   Import the `sdv.relational.HMA1` class and create an instance of it
+#     passing the `metadata` that we just loaded.
+# -   Call its `fit` method passing the `tables` dict.
+
+# %%
+
+
+from sdv.relational import HMA1
+
+model = HMA1(metadata)
+model.fit(tables)
+
+
+# <div class="alert alert-info">
+# 
+# **Note**
+# 
+# During the previous steps SDV walked through all the tables in the
+# dataset following the relationships specified by the metadata, learned
+# each table using a [gaussian_copula](gaussian_copula.ipynb) and
+# then augmented the parent tables using the copula parameters before
+# learning them. By doing this, each copula model was able to learn how
+# the child table rows were related to their parent tables.
+# 
+# </div>
+# 
+# ### Generate synthetic data from the model
+# 
+# Once the training process has finished you are ready to generate new
+# synthetic data by calling the `sample` method from your model.
+
+# In[7]:
+
+
+new_data = model.sample()
+
+
+# This will return a dictionary of tables identical to the one which the
+# model was fitted on, but filled with new data which resembles the
+# original one.
+
+# In[8]:
+
+
+display_tables(new_data)
+
+
+# In[9]:
+
+
+for name, table in new_data.items():
+    print(name, table.shape)
+
+
+# ### Save and Load the model
+# 
+# In many scenarios it will be convenient to generate synthetic versions
+# of your data directly in systems that do not have access to the original
+# data source. For example, if you may want to generate testing data on
+# the fly inside a testing environment that does not have access to your
+# production database. In these scenarios, fitting the model with real
+# data every time that you need to generate new data is feasible, so you
+# will need to fit a model in your production environment, save the fitted
+# model into a file, send this file to the testing environment and then
+# load it there to be able to `sample` from it.
+# 
+# Let's see how this process works.
+# 
+# #### Save and share the model
+# 
+# Once you have fitted the model, all you need to do is call its `save`
+# method passing the name of the file in which you want to save the model.
+# Note that the extension of the filename is not relevant, but we will be
+# using the `.pkl` extension to highlight that the serialization protocol
+# used is [cloudpickle](https://github.com/cloudpipe/cloudpickle).
+
+# In[10]:
+
+
+model.save('my_model.pkl')
+
+
+# This will have created a file called `my_model.pkl` in the same
+# directory in which you are running SDV.
+# 
+# <div class="alert alert-info">
+# 
+# **Important**
+# 
+# If you inspect the generated file you will notice that its size is much
+# smaller than the size of the data that you used to generate it. This is
+# because the serialized model contains **no information about the
+# original data**, other than the parameters it needs to generate
+# synthetic versions of it. This means that you can safely share this
+# `my_model.pkl` file without the risk of disclosing any of your real
+# data!
+# 
+# </div>
+# 
+# #### Load the model and generate new data
+# 
+# The file you just generated can be sent over to the system where the
+# synthetic data will be generated. Once it is there, you can load it
+# using the `HMA1.load` method, and then you are ready to sample new data
+# from the loaded instance:
+
+# In[11]:
+
+
+loaded = HMA1.load('my_model.pkl')
+new_data = loaded.sample()
+new_data.keys()
+
+
+# <div class="alert alert-warning">
+# 
+# **Warning**
+# 
+# Notice that the system where the model is loaded needs to also have
+# `sdv` installed, otherwise it will not be able to load the model and use
+# it.
+# 
+# </div>
+# 
+# ### How to control the number of rows?
+# 
+# In the steps above we did not tell the model at any moment how many rows
+# we wanted to sample, so it produced as many rows as there were in the
+# original dataset.
+# 
+# If you want to produce a different number of rows you can pass it as the
+# `num_rows` argument and it will produce the indicated number of rows:
+
+# In[12]:
+
+
+model.sample(num_rows=5)
+
+
+# <div class="alert alert-info">
+# 
+# **Note**
+# 
+# Notice that the root table `users` has the indicated number of rows but
+# some of the other tables do not. This is because the number of rows from
+# the child tables is sampled based on the values form the parent table,
+# which means that only the root table of the dataset is affected by the
+# passed `num_rows` argument.
+# 
+# </div>
+# 
+# ### Can I sample a subset of the tables?
+# 
+# In some occasions you will not be interested in generating rows for the
+# entire dataset and would rather generate data for only one table and its
+# children.
+# 
+# To do this you can simply pass the name of the table that you want to
+# sample.
+# 
+# For example, pass the name `sessions` to the `sample` method, the model
+# will only generate data for the `sessions` table and its child table,
+# `transactions`.
+
+# In[13]:
+
+
+model.sample('sessions', num_rows=5)
+
+
+# If you want to further restrict the sampling process to only one table
+# and also skip its child tables, you can add the argument
+# `sample_children=False`.
+# 
+# For example, you can sample data from the table `users` only without
+# producing any rows for the tables `sessions` and `transactions`.
+
+# In[14]:
+
+
+model.sample('review', num_rows=5, sample_children=False)
+
+
+# <div class="alert alert-info">
+# 
+# **Note**
+# 
+# In this case, since we are only producing a single table, the output is
+# given directly as a `pandas.DataFrame` instead of a dictionary.
+# 
+# </div>
