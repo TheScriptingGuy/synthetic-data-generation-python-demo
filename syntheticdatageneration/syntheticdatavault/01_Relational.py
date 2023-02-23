@@ -148,7 +148,7 @@ metadata
 # In[6]:
 
 
-metadata.visualize()
+#metadata.visualize()
 
 
 # Or you can obtain this information in a machine-readable format by
@@ -157,7 +157,7 @@ metadata.visualize()
 # In[7]:
 
 
-metadata.get_table_meta('user')
+metadata.get_table_meta('business')
 
 
 
@@ -194,7 +194,7 @@ metadata.to_json('/data/datafiles/out/sdv/sdv_metadata.json')
 # In[14]:
 
 
-with open('/data/out/sdv/sdv_metadata.json') as meta_file:
+with open('/data/datafiles/out/sdv/sdv_metadata.json') as meta_file:
     print(meta_file.read())
 
 
@@ -204,8 +204,8 @@ with open('/data/out/sdv/sdv_metadata.json') as meta_file:
 # In[15]:
 
 
-loaded = Metadata('/data/out/sdv/sdv_metadata.json')
-loaded
+metadata = Metadata('/data/datafiles/out/sdv/sdv_metadata_2.json')
+metadata
 # For more details about how to build the `Metadata` for your own dataset,
 # please refer to the [relational_metadata](relational_metadata.ipynb)
 # Guide.
@@ -233,10 +233,11 @@ for name, table in tables.items():
 
 # %%
 
-
 from sdv.relational import HMA1
 
 model = HMA1(metadata)
+
+#model = HMA1(metadata)
 model.fit(tables)
 
 
@@ -252,33 +253,6 @@ model.fit(tables)
 # the child table rows were related to their parent tables.
 # 
 # </div>
-# 
-# ### Generate synthetic data from the model
-# 
-# Once the training process has finished you are ready to generate new
-# synthetic data by calling the `sample` method from your model.
-
-# In[7]:
-
-
-new_data = model.sample()
-
-
-# This will return a dictionary of tables identical to the one which the
-# model was fitted on, but filled with new data which resembles the
-# original one.
-
-# In[8]:
-
-
-display_tables(new_data)
-
-
-# In[9]:
-
-
-for name, table in new_data.items():
-    print(name, table.shape)
 
 
 # ### Save and Load the model
@@ -394,7 +368,7 @@ model.sample(num_rows=5)
 # In[13]:
 
 
-model.sample('sessions', num_rows=5)
+model.sample('review', num_rows=1000)
 
 
 # If you want to further restrict the sampling process to only one table
@@ -407,14 +381,11 @@ model.sample('sessions', num_rows=5)
 # In[14]:
 
 
-model.sample('review', num_rows=5, sample_children=False)
+model.sample('business', num_rows=1000, sample_children=False).to_csv(input_data_files[0]['output_file_path'],index=False)
 
+# %%
 
-# <div class="alert alert-info">
-# 
-# **Note**
-# 
-# In this case, since we are only producing a single table, the output is
-# given directly as a `pandas.DataFrame` instead of a dictionary.
-# 
-# </div>
+print(input_data_files[1]['output_file_path'])
+
+# %%
+model.sample('review', num_rows=1000, sample_children=False).to_csv(input_data_files[1]['output_file_path'],index=False)
