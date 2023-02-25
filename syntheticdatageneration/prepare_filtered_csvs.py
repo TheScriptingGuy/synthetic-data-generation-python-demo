@@ -25,7 +25,7 @@ input_data_files = json.load(f)
 f.close()
 # A filter of number of Rows, use this when you want to filter a number of rows 
 # in a big dataset in order to use the Data Synthesizer Frontend. Use 0 if you want to retrieve all rows
-numberOfRowsFilter = 20000
+numberOfRowsFilter = 1000
 
 # location of two output files
 mode = 'independent_attribute_mode'
@@ -77,7 +77,7 @@ def get_input_df(input_data_file) -> DataFrame:
                                                 ,sep=";"
                                                 , chunksize=10000):
                 if 'inputDf' in locals():           
-                    inputDf = pd.concat([inputDf,chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]])
+                    inputDf = pd.concat([inputDf,chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]]).head(numberOfRowsFilter)
                 else:
                     inputDf = chunk[chunk[foreignKey['foreign_key']].isin(foreign_key_df_list)]
 
