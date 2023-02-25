@@ -200,17 +200,6 @@ from pathlib import Path
 Path('/data/datafiles/out/sdv/sdv_metadata.json').touch()
 metadata.to_json('/data/datafiles/out/sdv/sdv_metadata.json')
 
-
-# You can see that the contents of the created file are very similar to
-# the `dict` representation of the metadata:
-
-# In[14]:
-
-
-with open('/data/datafiles/out/sdv/sdv_metadata.json') as meta_file:
-    print(meta_file.read())
-
-
 # After creating the JSON file, loading it back as a `metadata` object is
 # as simple as passing it to the `Metadata` constructor:
 
@@ -250,7 +239,6 @@ from sdv.relational import HMA1
 
 model = HMA1(metadata)
 
-#model = HMA1(metadata)
 model.fit(tables)
 
 
