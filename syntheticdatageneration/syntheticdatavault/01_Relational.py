@@ -337,55 +337,7 @@ new_data.keys()
 # In[12]:
 
 
-model.sample(num_rows=5)
+dictData = model.sample(num_rows=1000)
 
-
-# <div class="alert alert-info">
-# 
-# **Note**
-# 
-# Notice that the root table `users` has the indicated number of rows but
-# some of the other tables do not. This is because the number of rows from
-# the child tables is sampled based on the values form the parent table,
-# which means that only the root table of the dataset is affected by the
-# passed `num_rows` argument.
-# 
-# </div>
-# 
-# ### Can I sample a subset of the tables?
-# 
-# In some occasions you will not be interested in generating rows for the
-# entire dataset and would rather generate data for only one table and its
-# children.
-# 
-# To do this you can simply pass the name of the table that you want to
-# sample.
-# 
-# For example, pass the name `sessions` to the `sample` method, the model
-# will only generate data for the `sessions` table and its child table,
-# `transactions`.
-
-# In[13]:
-
-
-model.sample('review', num_rows=1000)
-
-
-# If you want to further restrict the sampling process to only one table
-# and also skip its child tables, you can add the argument
-# `sample_children=False`.
-# 
-# For example, you can sample data from the table `users` only without
-# producing any rows for the tables `sessions` and `transactions`.
-
-# In[14]:
-
-
-model.sample('business', num_rows=1000, sample_children=False).to_csv(input_data_files[0]['output_file_path'],index=False)
-
-# %%
-
-print(input_data_files[1]['output_file_path'])
-
-# %%
-model.sample('review', num_rows=1000, sample_children=False).to_csv(input_data_files[1]['output_file_path'],index=False)
+for input_data_file in input_data_files:
+    dictData[input_data_file['name']].to_csv(input_data_file['output_file_path'],index=False)

@@ -19,6 +19,20 @@
         ,"reference_table_name":"business"
         ,"reference_file": "/data/datafiles/yelp_academic_dataset_business_transformed_filtered.CSV"
         ,"reference_key": "business_id"
-    }]
+    },
+    {
+        "foreign_key": "user_id"
+        ,"reference_file": "/data/datafiles/yelp_academic_dataset_review_transformed_filtered.CSV"
+        ,"reference_key": "user_id"
+    }
+    
+    ]
     ,"drop_columns": ["text"]
+},
+{
+    "input_file_path":"/data/datafiles/yelp_academic_dataset_user_transformed_filtered.csv"
+    ,"output_file_path":"/data/datafiles/out/sdv/yelp_academic_dataset_user_transformed_synthentic.csv"
+    ,"candidate_keys": ["user_id"]
+    ,"foreign_keys": []
+    ,"drop_columns": ["useful","funny","cool","elite","friends","fans","average_stars","compliment_hot","compliment_more","compliment_profile","compliment_cute","compliment_list","compliment_note","compliment_plain","compliment_cool","compliment_funny","compliment_writer","compliment_photos"]
 }]
