@@ -12,3 +12,4 @@ streamlit
 holoviews
 distributed
 hvplot
+sdv=0.18.0

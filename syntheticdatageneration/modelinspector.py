@@ -1,4 +1,4 @@
-from dataset_compare import ModelInspector, read_json_file
+
 import dask.dataframe as dd
 
 from DataSynthesizer.lib.utils import pairwise_attributes_mutual_information
@@ -127,7 +127,7 @@ def processCSVFiles(input_data_file):
       col2.write(hv.render(heatmap_synth, backend='bokeh'))
 
 
-option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania','faker'])
+option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania','faker','syntheticdatavault'])
 json_path = f"/data/datafiles/{option}.json"
 
 

@@ -1,0 +1,110 @@
+{
+    "tables": {
+        "business": {
+            "fields": {
+                "business_id": {
+                    "type": "id",
+                    "subtype": "string"
+                },
+                "name": {
+                    "type": "categorical"
+                },
+                "city": {
+                    "type": "categorical"
+                },
+                "stars": {
+                    "type": "numerical",
+                    "subtype": "float"
+                },
+                "review_count": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "is_open": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "categories0": {
+                    "type": "categorical"
+                },
+                "categories1": {
+                    "type": "categorical"
+                },
+                "categories2": {
+                    "type": "categorical"
+                },
+                "categories3": {
+                    "type": "categorical"
+                },
+                "categories4": {
+                    "type": "categorical"
+                }
+            },
+            "primary_key": "business_id"
+        },
+        "user": {
+            "fields": {
+                "user_id": {
+                    "type": "id",
+                    "subtype": "string"
+                },
+                "name": {
+                    "type": "categorical"
+                },
+                "review_count": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "yelping_since": {
+                    "type": "categorical"
+                }
+            },
+            "primary_key": "user_id"
+        },
+        "review": {
+            "fields": {
+                "review_id": {
+                    "type": "id",
+                    "subtype": "string"
+                },
+                "user_id": {
+                    "type": "id",
+                    "subtype": "string",
+                    "ref": {
+                        "table": "user",
+                        "field": "user_id"
+                    }
+                },
+                "business_id": {
+                    "type": "id",
+                    "subtype": "string",
+                    "ref": {
+                        "table": "business",
+                        "field": "business_id"
+                    }
+                },
+                "stars": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "useful": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "funny": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "cool": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                },
+                "date": {
+                    "type": "numerical",
+                    "subtype": "integer"
+                }
+            },
+            "primary_key": "review_id"
+        }
+    }
+}

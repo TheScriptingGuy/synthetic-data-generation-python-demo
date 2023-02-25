@@ -9,7 +9,10 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # Turns off buffering for easier container logging
 ENV PYTHONUNBUFFERED=1 
 
-RUN apt-get update && apt-get install git-all -y
+#apt update, install git and install graphviz for visualization
+RUN apt-get update && apt-get install git-all -y && apt-get install graphviz
+
+
 
 WORKDIR /app
 # Install pip requirements
