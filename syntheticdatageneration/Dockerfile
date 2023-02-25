@@ -16,6 +16,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
 
+# Install Trumania
+RUN git clone https://github.com/RealImpactAnalytics/trumania.git /trumania
+RUN python -m pip install -e /trumania
+
 COPY / /app
 
 RUN git clone https://github.com/DataResponsibly/dataResponsiblyUI.git
