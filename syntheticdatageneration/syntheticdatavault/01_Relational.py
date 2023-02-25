@@ -81,15 +81,28 @@ def add_sdv_metadata(input_data_file):
 
 
     else:
-        metadata.add_table(
+        i:int = 1
+        for foreign_key in input_data_file['foreign_keys']:
+            if i == 1:
+                metadata.add_table(
 
-            name=input_data_file['name'],
-            data=tables[input_data_file['name']],
-            primary_key=input_data_file['candidate_keys'][0],
-            parent=input_data_file['foreign_keys'][0]['reference_table_name'],
-            foreign_key=input_data_file['foreign_keys'][0]['foreign_key']
+                    name=input_data_file['name'],
+                    data=tables[input_data_file['name']],
+                    primary_key=input_data_file['candidate_keys'][0],
+                    parent=foreign_key['reference_table_name'],
+                    foreign_key=foreign_key['foreign_key']
 
-        )
+                )
+            if i > 1:
+                metadata.add_relationship(
+                    parent=foreign_key['reference_table_name'],
+                    child=input_data_file['name'],
+                    foreign_key=foreign_key['foreign_key']
+                )
+            i = i + 1
+        
+
+        
 
 
 
@@ -204,7 +217,7 @@ with open('/data/datafiles/out/sdv/sdv_metadata.json') as meta_file:
 # In[15]:
 
 
-metadata = Metadata('/data/datafiles/out/sdv/sdv_metadata_2.json')
+metadata = Metadata('/data/datafiles/out/sdv/sdv_metadata_persisted.json')
 metadata
 # For more details about how to build the `Metadata` for your own dataset,
 # please refer to the [relational_metadata](relational_metadata.ipynb)
@@ -310,9 +323,7 @@ model.save('my_model.pkl')
 # In[11]:
 
 
-loaded = HMA1.load('my_model.pkl')
-new_data = loaded.sample()
-new_data.keys()
+model = HMA1.load('my_model.pkl')
 
 
 # <div class="alert alert-warning">
