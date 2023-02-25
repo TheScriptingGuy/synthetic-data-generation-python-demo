@@ -1,1001 +1,1001 @@
 business_id,name,city,stars,review_count,is_open,categories0,categories1,categories2,categories3,categories4
-sr,Plume Salon,Bala Cynwyd,3.3,100,1,Chicken Wings, Bakeries, Eyewear & Opticians, Books, Automotive
-ss,365 Caffe Italiano,Indianapolis,4.6,5,1,Restaurants, Police Departments, Apartments, Event Planning & Services, Pubs
-st,The Pet Trailer Mobile Grooming,St. Louis,4.1,5,1,Bars, Specialty Food, Italian, Landscaping, Bars
-su,Elegance African Hair Braiding,West Chester,1.8,5,1,Nightlife, Cocktail Bars, Fashion,,
-sv,Sparkle Cupcake Company,Reno,2.9,5,1,Airport Shuttles, Beauty & Spas, Bars, Local Services, Eyelash Service
-sw,Momo's Ouzaria Taverna,Springfield,3.9,215,1,Bridal, Automotive, Food, Bubble Tea,
-sx,Best Tours,Tampa,3.1,80,1,Public Services & Government, Chicken Wings, Apartments, Restaurants,
-sy,Bear's Skin Art Studio,Reno,3.5,5,1,Event Planning & Services, Police Departments, Food,, Restaurants
-sz,Chipotle Mexican Grill,Clearwater,4.5,120,1,Barbers, Burgers, Fast Food,, Local Services
-sA,Stylist Inside,Madeira Beach,3.6,15,1,Breakfast & Brunch, Local Services, Nightlife, Shopping, Bars
-sB,SmartStyle,Reno,2.1,145,1,Barbeque, Mediterranean, Food Trucks, Arts & Entertainment, Food
-sC,Painturo's,Tampa,3.9,5,1,Festivals, Arts & Entertainment, Local Services,, Food
-sD,Plume Salon,Reno,4.0,8,0,Makeup Artists, Medical Spas,,,
-sE,Frady's One Stop Food Store,Haddonfield,3.9,122,1,Restaurants, Coffee & Tea,,, Coffee & Tea
-sF,Addendum,Terra Ceia,2.9,74,1,Bridal, Police Departments, Real Estate, Used, Vintage & Consignment
-sG,Isla Vista Community Bike Center,Clearwater,4.0,5,0,Parks, Auto Parts & Supplies, Sushi Bars, Food Trucks,
-sH,Gallagher's Pub,Buckingham,3.3,175,1,Pizza, Pets, Local Flavor, Food Delivery Services, Shopping
-sI,St Christopher Pediatric Urgent Care,Tampa,3.6,5,0,Bridal, Food, Breakfast & Brunch, Skin Care, Food
-sJ,Mai Thai Restaurant,Lionville,3.9,84,1,Men's Hair Salons, Police Departments, Shopping, Hotels & Travel,
-sK,Center City Emergency Dentist,Norristown,5.0,110,0,Fashion, Restaurants, Burgers, Restaurants,
-sL,Clear View Glass And Tint,Reno,3.6,167,1,Chinese, Beauty & Spas, American (Traditional), Oil Change Stations, Food
-sM,Nails & Beauty Lounge,St. Petersburg,3.7,21,1,Performing Arts, Coffee & Tea,,, Shopping
-sN,China Dragon Restaurant,White House,1.5,110,1,Plumbing, Tours, American (Traditional),,
-sO,Mr Wizard Worcester Car Wash,Carmel,3.0,160,1,Local Services, Furniture Stores, Bars, Burgers,
-sP,DSW Designer Shoe Warehouse,Nashville,4.1,5,1,Chinese, Hotels & Travel, Home Services,, American (Traditional)
-sQ,Jiffy Lube,Lionville,3.5,5,1,Burgers, Police Departments,, Bars, Restaurants
-sR,Tin Drum Asia Cafe,Edmonton,3.6,5,0,Burgers, Restaurants, Farms, Children's Clothing, Engraving
-sS,Baum's Dancewear,Reno,3.3,21,1,Parks, Fitness & Instruction, Hair Salons, Event Planning & Services, Restaurants
-sT,Spring Hollow Golf Club,Boise,2.0,88,1,Hotels, Restaurants, Building Supplies, Walking Tours,
-sU,Manor Riverwalk Luxury Apartments by TRG Management Company,Tucson,3.1,68,1,Festivals, Breakfast & Brunch, American (Traditional), Criminal Defense Law,
-sV,Chrysalis,Edmonton,3.1,5,1,Pets, Auto Repair, Eyelash Service, Used, Automotive
-sW,Des-Carr Doors,Glenolden,2.7,221,1,Electronics, General Dentistry, Appliances, Coffee & Tea,
-sX,CD Roma Restaurant,Tampa,4.2,5,0,American (Traditional), Restaurants,,,
-sY,The Hip Hop Sandwich Shop,New Orleans,4.2,5,1,Desserts, Fast Food, Pizza, Cosmetic Dentists, Automotive
-sZ,McDonald's,Oro Valley,2.7,176,1,Restaurants, Specialty Food, Venues & Event Spaces, Cosmetic Dentists, Restaurants
-ta,Cole Brothers,Reno,5.0,127,1,Auto Repair, Fast Food,,,
-tb,Acadia,Edmonton,3.8,55,1,Active Life, Pubs,,,
-tc,Sidekicks Pizza,Indianapolis,2.7,30,1,Coffee & Tea, Italian, Hair Salons, Ice Cream & Frozen Yogurt,
-td,Golden River Restaurant,Franklin,5.0,173,1,Flooring, Health & Medical, Eyebrow Services, Barre Classes, Venues & Event Spaces
-te,PDQ Temple Terrace,Brownsburg,4.2,137,0,Nightlife, Optometrists, Eyelash Service,, Restaurants
-tf,Denny's,New Orleans,2.9,5,0,Event Planning & Services, Professional Services,, Shopping,
-tg,McDonald's,Edmonton,4.2,364,0,Historical Tours, Restaurants, Hotels & Travel, Italian,
-th,Toys R Us,Boise,5.0,5,1,Arts & Entertainment, Real Estate, Health & Medical, Music & Video,
-ti,Fetch Academy & Dog Resort,Haddon Township,4.4,17,0,Restaurants, Parks, Nightlife, Food,
-tj,Audi Boise,Saint Louis,1.5,47,0,Flowers & Gifts, Hardware Stores, Shopping, Restaurants,
-tk,Just Churros,Saint Louis,5.0,48,1,Automotive, Bars, Sandwiches,,
-tl,KFC,Saint Louis,3.2,35,1,Home & Garden, Gluten-Free, Food Delivery Services, Mailbox Centers, Painters
-tm,Cornerstone Physical Therapy Associates,Wesley Chapel,5.0,257,1,Chicken Wings, Hotels & Travel, Pizza,,
-tn,Tony's Restaurant & 3rd Street Cafe,Brandon,3.9,49,0,Restaurants, Health & Medical, Automotive, Real Estate, Doctors
-to,De Ville Coffee House & Creperie,Nashville,3.4,17,1,Carpeting, Hair Removal, Hair Salons,,
-tp,La Bella China Restaurant,Nashville,3.4,52,0,Antiques, Fast Food,,,
-tq,Mr. B's Bistro,Cherry Hill,4.8,5,1,Nail Salons, Bars,,, Food
-tr,Quiznos,Boise,4.2,165,1,Burgers, Chinese, Hotels & Travel, Fashion,
-ts,Pita Pit,Ballwin,2.2,5,0,Swimming Lessons/Schools, Real Estate,,, Adult
-tt,Bodyworks Salon & Day Spa,Edmonton,3.1,15,1,Sandwiches, Libraries, Auto Repair,,
-tu,Starbucks,Tampa,4.4,221,0,Banks & Credit Unions, Restaurants, Hair Salons, Appraisal Services,
-tv,Misto Diner,Paoli,3.0,149,0,Barbers, Restaurants, Beauty & Spas, Bars,
-tw,KFC,Reno,2.7,138,1,Musicians, Restaurants,, Food,
-tx,Mattress Firm West End Avenue,Clearwater,4.3,81,1,Local Flavor, Urgent Care, Eyelash Service, Osteopathic Physicians, Wine Bars
-ty,The Delaware Contemporary,Nashville,3.5,5,0,Bars, Jewelry, Office Cleaning, Hotels & Travel, Vintage & Consignment
-tz,The Home Depot,Wayne,4.7,5,1,Couriers & Delivery Services, Music Venues,,,
-tA,G & L Import Export,Edmonton,3.4,5,1,Hotels, Home Services, Local Services, Bars, Health & Medical
-tB,Boise Therapeutic Massage Center,Norristown,3.9,126,1,Event Planning & Services, Financial Services, Auto Repair,, Jewelry
-tC,Papa Murphy's,Tucson,4.8,123,1,Wildlife Control, Books, Nightlife,, Breakfast & Brunch
-tD,Domino's Pizza,Philadelphia,3.6,5,1,Burgers, Grocery,,,
-tE,The Corner Cafe and Deli,Tucson,2.1,77,1,Sandwiches, Restaurants, Pets, Food Trucks,
-tF,Washington Memorial Chapel,St. Petersburg,4.7,197,1,Active Life, Preschools,,, Child Care & Day Care
-tG,Bourgoyne Guest House,St. Petersburg,3.6,23,1,Pet Sitting, Shopping, Restaurants, Nightlife,
-tH,Deadline Escape Rooms,Willow Grove,3.6,112,1,Salad, Oil Change Stations, Local Services,, Restaurants
-tI,Half Price Books,Florence Township,3.5,70,0,Fashion, Auto Repair,,,
-tJ,Appliance Center,Tucson,3.4,5,0,Home Decor, Active Life, Oil Change Stations, Bagels,
-tK,Fat Jakks,Philadelphia,2.9,161,1,Restaurants, Donuts, Tires, Fashion,
-tL,Tinkle Belle Diaper Service,Philadelphia,3.5,5,1,Local Flavor, Restaurants, Fast Food, Nightlife,
-tM,The Corner Cafe and Deli,Indianapolis,4.1,195,1,Desserts, Restaurants,, Home Services,
-tN,Easy Rider Repair,Philadelphia,2.3,23,1,Pizza, Barbeque, Seafood, Health & Medical,
-tO,Sweet Things Chocolates,Tampa,4.3,120,0,Shopping, Fast Food, Internet Service Providers,,
-tP,McDonald's,New Orleans,4.0,177,0,Food, Caterers, Food, Shopping, Fashion
-tQ,Plume Salon,Saint Louis,3.2,5,1,Active Life, Playgrounds, Restaurants, Gutter Services, Restaurants
-tR,Weddings in Santa Barbara,Nashville,3.5,138,0,Coffee & Tea, Apartments, Fashion, Hotels & Travel,
-tS,Bucks-Mont Environmental,Tampa,2.6,5,1,Nightlife, Police Departments, Home Services, Restaurants,
-tT,Monogram Express,Tucson,4.2,75,1,Hotels, Pets, Hair Stylists, Breweries,
-tU,Blue Sage Vegetarian Grille,Tampa,3.1,134,1,Dog Parks, University Housing, Japanese, Local Services,
-tV,Addendum,Medford,2.4,5,1,Auto Repair, Hair Salons, Car Wash, Used, Shopping
-tW,Edible Arrangements,West Chester,1.4,76,0,Active Life, Italian, Restaurants,,
-tX,Diagnostic Imaging Services,Edmonton,3.3,5,0,Donuts, Restaurants, Nightlife, Restaurants,
-tY,Rituals Aveda Salon,Saint Louis,3.0,12,1,Sandwiches, Caribbean,,,
-tZ,J C Automotive Service,Clearwater,4.6,363,1,Sporting Goods, Breweries,,,
-ua,Plume Salon,Tampa,4.7,144,0,Grocery, Police Departments, Food, Lounges, Shopping
-ub,McDonald's,Nashville,4.0,5,1,Burgers, American (New),,,
-uc,Blue Wren Studio,Reno,2.8,357,1,Home & Garden, Event Planning & Services,, Hotels & Travel,
-ud,Salon 139,Saint Louis,4.3,5,1,Venues & Event Spaces, Nail Salons,, Local Services,
-ue,Sonic Drive-In,Bensalem,4.6,5,1,Restaurants, Pizza, Building Supplies, Ethnic Food,
-uf,Journeys Shoes,Warrington,5.0,123,1,Automotive, Restaurants, Food Trucks, Restaurants,
-ug,Westchase Compounding Pharmacy,Fishers,5.0,79,1,Flooring, Wine & Spirits, Auto Repair, Preschools, Wholesalers
-uh,Paris Parker Salon & Spa,Boise,2.3,5,1,Bridal, Fitness & Instruction, Restaurants, Automotive,
-ui,Plume Salon,Metairie,4.0,451,1,Bridal, Professional Services, Nail Salons, Used, Vintage & Consignment
-uj,Fusion Pizza & Grill,Edmonton,4.2,99,1,Ice Cream & Frozen Yogurt, Kebab, Building Supplies, Music & Video, Cafes
-uk,Weddings in Santa Barbara,Boise,4.5,73,0,Restaurants, American (New), Automotive, Arts & Entertainment, Restaurants
-ul,HouseMaster Home Inspections,Exton,1.0,168,1,Couriers & Delivery Services, Women's Clothing, Salad, Local Services, Bars
-um,La Cucina Italian Eatery,Wilmington,4.4,5,1,Flowers & Gifts, Bars,, Beer Bar,
-un,The Bearded Lady Barbershop,Philadelphia,2.0,5,0,Beauty & Spas, Hair Stylists,,,
-uo,South Cleaner & Tailor,Tucson,2.8,13,1,Restaurants, Food, Nightlife, Food,
-up,Cold Stone Creamery,Tampa,2.6,220,1,Coffee & Tea, Home Services, Eyelash Service, Vitamins & Supplements,
-uq,Ulta Beauty,Lionville,3.1,145,1,Italian, Nightlife, Sandwiches, Mexican, Oil Change Stations
-ur,McDonald's,Philadelphia,3.6,118,1,Baby Gear & Furniture, Local Services,, Fashion, Barbeque
-us,Appliance Center,Boise,3.1,5,1,Waxing, Roofing, Beauty & Spas, Education, Fashion
-ut,Siam Elephant,Bala Cynwyd,4.6,269,1,Auto Detailing, Electronics, Burgers, Shopping, Shopping
-uu,1-275 Rest Area Manatee County Mile 7,Edmonton,2.6,70,1,Italian, Urgent Care, Nail Salons, Dentists,
-uv,HutchPro Carpet Cleaning Plus,Saint Louis,3.7,5,0,Chinese, Burgers, Fast Food,,
-uw,Appreciate You Hair And Nails,Tampa,4.2,449,1,Machine Shops, Restaurants, Hair Salons, Furniture Stores, American (Traditional)
-ux,Gaylord Opryland Resort & Convention Center,Metairie,3.9,77,0,Restaurants, Local Services,,,
-uy,August Pearl Salon,Reno,4.6,163,0,Health & Medical, Specialty Food, Nightlife, Doctors, Hotels & Travel
-uz,Denny's,Havertown,2.9,5,0,Active Life, Food,,,
-uA,FedEx Office Print & Ship Center,West Chester,4.2,5,0,Signmaking, Breakfast & Brunch,,,
-uB,Plume Salon,Santa Barbara,3.8,5,1,Day Spas, Sushi Bars,, Auto Repair,
-uC,Ann Becnel Companion Dogs,Boise,4.8,236,1,Car Dealers, Gluten-Free, Children's Clothing, Bridal, Imported Food
-uD,Subway,Madison,1.7,119,1,Home & Garden, Restaurants,,,
-uE,Bronze Lady Home Furnishings,Tampa,4.6,60,1,Japanese, Sandwiches, Restaurants, Automotive,
-uF,High Ridge Family Diner,Edmonton,1.8,5,1,Bars, Hair Removal, Airport Shuttles, Cosmetic Dentists,
-uG,Summer Palace Chinese Restaurant,Oro Valley,4.2,195,1,Food Trucks, Local Services, Coffee & Tea, Bars,
-uH,Clear View Glass And Tint,Saint Louis,3.1,88,1,Bars, Italian, Event Planning & Services,,
-uI,BODHI : Craft Bar + Thai Bistro,Brandon,3.5,5,1,Grocery, Hair Salons, Fashion,,
-uJ,Reinette Café & Patisserie,Nashville,5.0,14,1,Airport Shuttles, Shopping, Pets, Gutter Services, Food
-uK,Oscar's Cafe,Lutz,4.1,5,0,Pets, Health & Medical, Education, General Dentistry,
-uL,Plume Salon,Lionville,3.0,264,1,Local Flavor, Shopping, Venues & Event Spaces,,
-uM,Core Property Services,Norristown,4.0,174,1,Seafood Markets, Specialty Food, Bars,,
-uN,Rippy's Central Pike Collision Repair,Indianapolis,3.1,5,1,Sandwiches, Furniture Stores, Restaurants,,
-uO,Fresh Fruits & Salads,St Albert,2.7,75,1,Coffee & Tea, Pet Adoption, Hair Extensions, Education,
-uP,Disc Replay,Glenolden,5.0,80,1,Day Spas, Food, Oil Change Stations,,
-uQ,Foot Massage Reflexology,Nashville,4.2,5,1,Professional Services, Grocery,,,
-uR,Saks Fifth Avenue,Clearwater,4.0,9,0,Specialty Food, Sandwiches, Auto Customization, Beauty & Spas,
-uS,El Sabor Boricua,Santa Barbara,1.9,49,1,Coffee & Tea, Local Services, Wholesale Stores, Oil Change Stations,
-uT,State Street Kitchen,Wilmington,3.5,258,1,Shopping, Auto Parts & Supplies, Hair Salons,,
-uU,Days Inn by Wyndham Reno South,Edmonton,4.2,107,1,Event Planning & Services, Police Departments,, General Dentistry,
-uV,Chipotle Mexican Grill,New Orleans,3.1,5,1,Bridal, Shopping, Hotels & Travel, Seafood, Nightlife
-uW,Advance Financial,Blue Bell,2.3,137,0,Home Services, Makeup Artists, Cosmetics & Beauty Supply, Used, Vintage & Consignment
-uX,Dekalb Produce,Nashville,3.7,5,1,Restaurants, Automotive, Shopping,,
-uY,Tucson Iron & Metal,Saint Louis,4.6,5,0,Local Services, Music Venues,,,
-uZ,El Con Health & Wellness Center,Indianapolis,2.3,174,0,Home & Garden, Venues & Event Spaces, Bars, Food,
-va,Cherry Blow Dry Bar,New Orleans,3.6,19,0,Bridal, Italian, Education, Used, Specialty Schools
-vb,Jackson's Bar & Bistro - Nashville,Reno,3.1,427,0,Hair Salons, Wine & Spirits, Bars, Bars,
-vc,Its Sold Here,Odessa,2.3,20,1,Breakfast & Brunch, Veterinarians,,,
-vd,Hand Grenades To Go,Indianapolis,2.7,5,0,Day Spas, Fashion, Weight Loss Centers, Bakeries,
-ve,China Pearl,Saint Louis,2.7,5,1,Italian, Coffee & Tea, Automotive, Home Services,
-vf,Board & Brush Greenwood,Wesley Chapel,5.0,5,1,Event Planning & Services, Restaurants, Shopping,,
-vg,Sushi Wasabi,Largo,4.0,178,0,Beauty & Spas, Food, Event Planning & Services, Skin Care, Bars
-vh,Brandon Burgers,Wilmington,1.0,5,0,Pretzels, Automotive, Home Services,,
-vi,Brown Sugar Bakery & Cafe,Edmonton,4.6,46,1,Title Loans, Italian, Cabinetry, Salad, Vintage & Consignment
-vj,Ann Bradford PhotoDesign,Clearwater,4.6,21,1,Towing, Delis,,,
-vk,Jong Ka Jib,Indianapolis,3.8,207,1,Health & Medical, Health & Medical, Hair Salons,,
-vl,Ottewell Animal Clinic,Plymouth Meeting,2.8,5,1,Grocery, American (Traditional), Eyelash Service, American (Traditional), Nail Salons
-vm,Mattress Firm West End Avenue,Philadelphia,3.9,91,1,Barbers, Coffee & Tea,,, Food
-vn,Brewster's Pub,Indianapolis,1.4,5,0,Restaurants, Local Services, Beauty & Spas, Seafood,
-vo,Sweetwater Wetlands,Philadelphia,2.4,129,0,Sandwiches, Hair Salons, Nightlife, Parks, Restaurants
-vp,LA Fitness,King of Prussia,4.4,240,1,Breakfast & Brunch, Police Departments,, Auto Repair,
-vq,Endless Summer Tans,Philadelphia,3.0,5,1,Makeup Artists, Music Venues, Japanese, Restaurants, Event Planning & Services
-vr,Joe's Pizza,Indianapolis,3.4,5,1,Auto Repair, Restaurants,,,
-vs,Isla Vista Community Bike Center,Clearwater,3.2,154,1,Chicken Wings, Mexican, Medical Centers, Nightlife,
-vt,Womens Health Partners,Boise,1.8,5,1,Flowers & Gifts, Wine & Spirits, Breakfast & Brunch,,
-vu,Union on Fletcher,Clearwater,4.1,42,1,American (New), Hair Salons, Skin Care,,
-vv,Wildout Animal & Pest Removal Tampa,Indianapolis,1.7,5,1,Shaved Ice, Cafes, Health & Medical,, Local Services
-vw,China Dragon Restaurant,Reno,2.2,114,1,Session Photography, Heating & Air Conditioning/HVAC, Urgent Care, American (Traditional),
-vx,Plume Salon,St Louis,4.7,70,1,Beauty & Spas, Health & Medical, Food,,
-vy,ZigZag Scallop,Morrisville,3.8,8,0,Local Services, Eyelash Service, Body Shops, Health & Medical,
-vz,Cornerstone Physical Therapy Associates,Isla Vista,2.9,54,1,Beer, Tree Services, Skin Care, Event Planning & Services,
-vA,Dot's Dairy Bar,Boise,3.4,56,1,Nightlife, Sports Wear, Office Cleaning, Auto Repair,
-vB,Bear's Skin Art Studio,Tampa Bay,2.7,5,1,Property Management, Coffee & Tea, Shopping, Bars, Cocktail Bars
-vC,All In Shipping,Saint Louis,3.1,5,0,Restaurants, Police Departments, Cafes, Gyms, Cosmetics & Beauty Supply
-vD,Plume Salon,Santa Barbara,4.9,133,1,Auto Repair, Beer, Active Life,,
-vE,Bub's Cafe,Indianapolis,3.0,352,1,Mexican, Hair Removal,, Auto Repair,
-vF,Foolish Pride Tattoo Company,Montgomeryville,2.2,5,1,Apartments, Chinese, Campgrounds, Fashion,
-vG,Smoothie King,Tucson,1.8,44,1,Hotels & Travel, Delis, Health & Medical, Swimming Pools, Basketball Courts
-vH,Gotham Escape Room,Clearwater,3.1,5,1,Food, Grocery, Home Services,,
-vI,Gandolfo's New York Deli,New Orleans,4.5,40,1,Carpet Cleaning, Shopping, Restaurants,,
-vJ,Fine Wine & Good Spirits,Santa Barbara,4.8,178,1,Active Life, Libraries, Children's Clothing, Asian Fusion, American (Traditional)
-vK,Locust Lane Craft Brewery,West Chester,4.1,150,0,Hair Salons, Bars, Dentists, Sandwiches, Automotive
-vL,Renee Hair Salon,St. Louis,4.2,5,1,Barbers, Pizza, Italian, Shaved Ice, Eyelash Service
-vM,Fishers Freedom Festival,Norristown,4.4,5,1,Ice Cream & Frozen Yogurt, Hair Removal, Food, Thai, Venues & Event Spaces
-vN,805 Ink,Edmonton,3.4,5,0,Hair Salons, Automotive, Pizza, Shopping,
-vO,Domino's Pizza,Santa Barbara,4.0,36,0,Sandwiches, Delis, Pizza, Shopping, Sandwiches
-vP,Mai Thai Restaurant,Boise,3.6,5,1,Body Shops, Home Services,,,
-vQ,Kuzina By Sofia,Boise,4.2,5,1,Landscaping, Grocery, Delis, Motorcycle Rental, Food
-vR,Pima County Fair,Santa Barbara,3.3,5,1,Japanese, Gluten-Free, Automotive, Food,
-vS,D's Toys,Franklin,4.3,192,0,Bridal, Restaurants, Beauty & Spas, Used, Vietnamese
-vT,"A Jackson Ecker, Inc",Meridian,4.6,51,1,Food, Hotels, Nail Salons, Pizza,
-vU,Cyclone Car Care,Lionville,3.0,9,1,Local Services, American (New), Local Services, Restaurants,
-vV,Coliseum Ballroom,Edmonton,5.0,88,1,Sandwiches, Fast Food, Food,,
-vW,Pasquales,Indianapolis,3.3,5,1,Flooring, Auto Repair,, Food, Desserts
-vX,Deadline Escape Rooms,Metairie,4.3,5,1,Hot Dogs, University Housing, Steakhouses, Active Life, Active Life
-vY,Roast Coffeehouse and Wine Bar,Franklin,2.5,186,1,Carpenters, Shopping, Beauty & Spas,,
-vZ,Chase JP Morgan Bank Credit Card Services,Edmonton,4.3,5,1,Bars, Police Departments,,,
-wa,Saks Fifth Avenue,New Orleans,4.7,84,0,Breakfast & Brunch, American (New), American (New), Education, Vintage & Consignment
-wb,Adventure Coast Fun Park,Clearwater,4.3,5,1,Auto Repair, Veterinarians, Food Trucks, Event Planning & Services, Beauty & Spas
-wc,SmartStyle,New Hope,4.9,260,1,Parks, Restaurants,,,
-wd,4th Street Nails,Tampa,5.0,143,1,Automotive, Caribbean, Fast Food, American (Traditional), American (Traditional)
-we,Lee House,West Chester,4.4,54,1,Doctors, Home & Garden, Food,,
-wf,Pep Boys,Sparks,3.0,101,1,Contractors, Breweries, Auto Detailing, Shopping,
-wg,Saint Marys Medical Group,Langhorne,3.9,28,1,Flooring, Automotive, Men's Clothing, Nightlife,
-wh,Northeast Auto Service,TAMPA,3.2,229,0,Sports Bars, Police Departments, Eyelash Service, Sandwiches,
-wi,Robbi's Custom Leather Goods,Langhorne,4.5,5,1,Coffee & Tea, Nail Salons, Home Services,, Food
-wj,Gaylord Opryland Resort & Convention Center,Tucson,4.7,208,1,Carpet Cleaning, Auto Repair, Children's Clothing, Mortgage Brokers,
-wk,DOSC,Meridian,3.5,5,1,Active Life, Pubs, Eyelash Service, Nightlife,
-wl,Go! Gyro! Go!,Affton,4.1,129,0,Health & Medical, Automotive,,,
-wm,Candida's Pizza,Carmel,2.7,122,0,Delis, Landscape Architects, Health & Medical, Printing Services,
-wn,El Con Health & Wellness Center,Saint Louis,5.0,5,1,Sandwiches, Italian, Antiques,,
-wo,Professional Healthcare of Pinellas,Saint Louis,2.2,170,1,Food, Hair Salons, Restaurants, Seafood, Vintage & Consignment
-wp,Collective Concept,Tampa,1.7,191,1,Home Services, Home Services, Local Services,, Coffee & Tea
-wq,P's & Q's - Premium Quality,Pinellas Park,4.5,5,1,Irish Pub, Delis, Food, Mexican,
-wr,The Moose Music Row,Saint Louis,1.3,134,1,Automotive, Books,, Shopping,
-ws,Checkers,Saint Louis,4.9,65,0,Hotels & Travel, Active Life, Beauty & Spas, Health Markets,
-wt,Reinette Café & Patisserie,Boise,2.7,5,1,Local Services, Home Services, Automotive, Arts & Entertainment, Breakfast & Brunch
-wu,Plume Salon,Reno,4.8,5,0,Home & Garden, Local Services, Body Shops, Pet Services,
-wv,Studio 240,Carmel,3.9,5,1,Automotive, Police Departments, Pizza,,
-ww,Noble Crust,Boise,4.1,5,0,Orthodontists, Restaurants,,,
-wx,Plume Salon,Philadelphia,2.7,5,1,Car Wash, Pet Groomers, Home & Garden, Bowling,
-wy,V Sandwiches,Edmonton,4.4,218,1,American (Traditional), Bakeries, Caterers, Used, Shopping
-wz,Sherbrooke Liquor Store,Reno,4.1,230,1,Grocery, Delis, Home Services, Tires,
-wA,Family Air,Madeira Beach,3.5,163,0,Restaurants, Hair Removal, Italian,,
-wB,McDonald's,Santa Barbara,2.6,122,1,Photography Stores & Services, Mexican, Fashion, Coffee & Tea, Jewelry
-wC,La Cucina Italian Eatery,Philadelphia,3.1,81,0,Health & Medical, Coffee & Tea, Restaurants,,
-wD,Advance Financial,Nashville,3.0,5,1,Hotels, Italian, Local Services, Thai, Cafes
-wE,Half Price Books,New Orleans,1.5,298,0,Masonry/Concrete, Nail Salons, Burgers, Cafes, Arts & Entertainment
-wF,Jaguar Nashville,Santa Barbara,4.0,5,1,Teeth Whitening, Restaurants, Restaurants, Fashion,
-wG,Exterior Building Solutions,Nashville,5.0,5,0,Sporting Goods, Barbeque,,,
-wH,Salon 139,Edmonton,3.8,5,1,Hair Salons, Cafes, Shopping, Shopping, Restaurants
-wI,Pita Pit,Fairview Heights,4.4,5,1,Convenience Stores, Restaurants, Automotive, Nightlife,
-wJ,Taqueria Feliz,Reno,2.8,187,1,Museums, Automotive, Makeup Artists, Women's Clothing,
-wK,McDonald's,Indianapolis,4.6,102,1,Pawn Shops, Refinishing Services, Desserts, Shopping,
-wL,Painting with a Twist,Santa Barbara,3.2,5,1,Sandwiches, Hair Salons,,,
-wM,Carmine's Steakhouse,Boise,4.2,5,1,Salad, Bakeries, Fashion, Beer Bar, Food
-wN,Craft Hall,Saint Petersburg,4.6,246,1,Nightlife, Traditional Chinese Medicine, Oil Change Stations, Parks, Window Washing
-wO,Super Sushi Kyo Hin,Wayne,3.0,5,1,Car Dealers, Restaurants, Shopping,, Restaurants
-wP,Holiday Nail Salon,Bala Cynwyd,1.0,90,1,Home Services, Sushi Bars, Eyelash Service, Used, Vintage & Consignment
-wQ,Taste of Nawlins,Lionville,3.5,208,1,Restaurants, Oil Change Stations,, Italian, Coffee & Tea
-wR,Parasailing The Pass,Huntingdon Valley,4.6,5,0,Shopping, Police Departments, Home & Garden, Used, Restaurants
-wS,Sunset 44 Bistro,Nashville,4.3,28,1,Steakhouses, Local Services, Restaurants, Local Services,
-wT,Plume Salon,Bala Cynwyd,3.0,41,1,Grocery, Physical Therapy, Health & Medical,,
-wU,Yerli's Alterations & Tailoring,Medford,3.0,5,1,Japanese, Chinese, Lawyers, Barre Classes, Professional Services
-wV,Majestic Towing,Kenner,3.9,5,1,Massage, Automotive, Security Systems, Restaurants, Food
-wW,Its Sold Here,Edmonton,3.8,164,1,Hotels, American (Traditional),, Home Services, American (Traditional)
-wX,Diamond Hair Company,Philadelphia,3.1,69,0,Barbers, Cajun/Creole, Education,, Elementary Schools
-wY,Plume Salon,Metairie,3.8,5,1,Latin American, Gardeners, Junk Removal & Hauling, Nightlife,
-wZ,Dead Ringer Analog Bar,King of Prussia,3.9,93,1,Restaurants, Education,,,
-xa,Jim's Auto Detailing,Boise,3.8,378,1,Keys & Locksmiths, Shopping,,, Coffee & Tea
-xb,Cornerstone Physical Therapy Associates,New Orleans,2.1,5,1,Local Services, Chinese, Sporting Goods, Local Services, Bars
-xc,The Silo Eatery Coffee Bakery,Santa Barbara,1.9,5,0,Bridal, Local Services, Home Services,,
-xd,Blackrock Brewers,Lionville,4.4,5,0,Home Decor, Barbers, Bars,,
-xe,Sam's Plaza Shoe Repair,Reno,2.8,145,1,American (New), Local Services,,,
-xf,McDonald's,Tucson,4.7,177,0,Real Estate, Beauty & Spas, Auto Repair, Food Delivery Services,
-xg,Pretty In Paint,Fairview Heights,2.8,251,1,Car Dealers, Restaurants,,,
-xh,Reno Bighorns,Kenner,3.8,104,1,Event Planning & Services, Local Services,,,
-xi,Ricardo's Italian Cafe,Franklin,3.4,5,1,Orthodontists, Auto Parts & Supplies, Breakfast & Brunch, Printing Services, Vintage & Consignment
-xj,Tuna Bar,Lionville,4.4,5,1,Community Service/Non-Profit, Chicken Wings, Hair Salons,,
-xk,Meineke Car Care Center,Philadelphia,4.9,5,0,Skin Care, Bakeries, Home & Garden, Home Services, Automotive
-xl,Angelica Beauty and Waxing,Sherwood Park,3.5,162,1,Auto Repair, Hair Stylists, Jazz & Blues, Auto Repair,
-xm,McDonald's,Reno,3.7,222,0,Hair Salons, Restaurants, Restaurants, Juice Bars & Smoothies,
-xn,Bagelicious and More,Nashville,3.4,5,1,Arts & Entertainment, Professional Services,,,
-xo,McDonald's,Tucson,2.8,193,1,Tires, Pubs, Beauty & Spas, Seafood,
-xp,G Peppers Grill & Tavern,Norristown,2.5,190,0,Restaurants, Food, Mags, Breakfast & Brunch, Restaurants
-xq,Los Padres National Forest,Santa Barbara,4.2,110,0,Food, Lounges, Beauty & Spas,,
-xr,Harpeth Cleaners,Tucson,3.9,80,1,Cupcakes, Hotels & Travel, Urgent Care,,
-xs,Phone Repair Philly - Center City,Sherwood Park,3.3,166,1,Italian, Restaurants, Event Planning & Services,,
-xt,530 Pub & Grill,Philadelphia,4.4,107,1,Child Care & Day Care, Automotive, Health & Medical,,
-xu,Big Mike's BBQ,Meridian,3.4,46,0,Sporting Goods, Real Estate, Eyelash Service, Diners, Vintage & Consignment
-xv,Desert Design Center,Carmel,4.2,23,1,Beauty & Spas, Urgent Care, Children's Clothing, Restaurants, Bikes
-xw,The Cider Factory,Meridian,2.5,169,1,Gelato, Arts & Entertainment, Fashion, Hair Salons, Sandwiches
-xx,ALDI,Santa Barbara,4.1,85,1,Restaurants, Dentists, Desserts, Wine & Spirits, Salad
-xy,Marino's Auto Repair,Reno,2.1,187,1,Health & Medical, Restaurants, Stadiums & Arenas, Women's Clothing, Vintage & Consignment
-xz,McMahan Hair Salon,Paoli,3.8,5,1,Bars, Coffee Roasteries, Salad, Local Services, Coffee & Tea
-xA,DOSC,Indianapolis,4.0,49,1,Local Services, American (Traditional), Bars,, Restaurants
-xB,Thoroughbred Nissan,Indianapolis,2.8,5,1,Shopping, Nutritionists, Hair Salons,,
-xC,Reid Park Mico's Corner Playground,Indianapolis,4.5,5,0,Bridal, American (Traditional), Hair Salons, Home Services,
-xD,Shanghai Station,Philadelphia,4.8,66,1,Restaurants, Photographers, Home Services, Nightlife,
-xE,Womens Health Partners,Tucson,1.7,136,1,Bridal, Active Life, Event Planning & Services, Used, Hot Dogs
-xF,Brandon Burgers,New Orleans,5.0,5,1,Home & Garden, Convenience Stores, Eyelash Service, Cafes, Sports Wear
-xG,New Orleans Spirit Tours,Boise,1.5,5,0,American (New), Veterinarians,,,
-xH,Merendero La Catrachitas,Philadelphia,4.8,258,1,Home Services, Chicken Wings, Hotels & Travel, Auto Repair, Candy Stores
-xI,Barista Cafe,Jenkintown,5.0,64,1,Home Services, Home Services, American (Traditional),,
-xJ,Sonny's Phat Smoke,Santa Barbara,2.6,5,1,Car Wash, Gyms,,,
-xK,State Street Kitchen,Clearwater,5.0,5,1,Painters, Bakeries, Eyelash Service, Transportation, Home & Garden
-xL,Kelly's Taproom,Saint Louis,3.6,5,1,Department Stores, Nightlife, Windshield Installation & Repair, Restaurants,
-xM,Absolutely Perfect Inc,Langhorne,5.0,25,0,Beer, Pizza, Food, Beer Bar,
-xN,Plume Salon,Lionville,5.0,121,1,Arts & Entertainment, Urgent Care, Shopping, Nightlife, Beauty & Spas
-xO,AM&PM Locksmith,Saint Louis,4.2,55,1,Auto Parts & Supplies, Home & Garden,,,
-xP,McDonald's,Edmonton,3.4,23,0,Active Life, Auto Parts & Supplies, Auto Detailing, Property Management, Vintage & Consignment
-xQ,Its Sold Here,Nashville,2.0,212,1,Pets, Restaurants, Pets, Italian,
-xR,Affordable Lock & Security Solutions - Tampa,Kennett Square,4.0,5,1,Sandwiches, Sports Wear, Restaurants,,
-xS,L'Occitane en Provence,Nashville,2.5,98,1,Food, Local Services, Local Services,,
-xT,Franklin Juice Co,Tampa,1.6,38,1,Hair Salons, Music & DVDs, Building Supplies, Tires, Vintage & Consignment
-xU,Petco,Goodlettsville,4.9,352,1,Teeth Whitening, Car Window Tinting, Burgers, Food, Professional Services
-xV,Kuzina By Sofia,Philadelphia,3.1,108,1,Bagels, Automotive, Automotive, Coffee & Tea,
-xW,Reeder's Auto Tint & Ceramic Coatings,Edmonton,4.6,115,1,Hotels, Home Services,,,
-xX,Washington Memorial Chapel,Santa Barbara,5.0,125,1,Nightlife, American (New), Wine & Spirits,,
-xY,Kroger,Philadelphia,1.8,138,1,Banks & Credit Unions, Police Departments, Italian, Food, Sandwiches
-xZ,Casita Taqueria,Indianapolis,3.6,6,1,Flowers & Gifts, Restaurants, Pizza,,
-ya,McDonald's,Lionville,4.0,206,1,Real Estate, Restaurants, Beauty & Spas,,
-yb,Taqueria Feliz,Philadelphia,5.0,66,1,Car Rental, Shopping, Pets,,
-yc,Creve Coeur Golf Course,Philadelphia,4.7,5,0,DUI Law, Sushi Bars, Food, Local Services,
-yd,Nipper's Pub,Philadelphia,1.0,124,1,Karaoke, Food, Automotive,,
-ye,Contempo Hair Salon,Brandon,4.8,277,1,Event Planning & Services, Urgent Care, Coffee & Tea, Food, Pubs
-yf,Garage Pizza,Boise,4.8,5,1,Fitness & Instruction, Health & Medical, Hair Salons,,
-yg,Pep Boys,Indianapolis,4.1,5,0,Building Supplies, Home Services, Pakistani, Hair Removal, Food
-yh,Diana Michaels Jewelers,Brownsburg,2.5,143,1,Steakhouses, Fast Food, Hotels & Travel,,
-yi,Massage Heights,Boise,2.8,5,1,American (New), Chinese, Automotive, Mexican,
-yj,Little Golden Goose,Lionville,3.4,77,1,Tex-Mex, Specialty Food, Car Wash, Restaurants,
-yk,Tire Choice Auto Service Centers,Tucson,2.4,19,1,Auto Repair, Indian,,,
-yl,Plume Salon,Lionville,4.0,184,0,Fashion, Bespoke Clothing, Health & Medical, Hotels & Travel, Sandwiches
-ym,Metro Diner,Isla Vista,3.6,165,1,Tours, Chinese,, Restaurants,
-yn,Plume Salon,Lionville,3.9,212,1,Apartments, Restaurants, Dentists, Automotive,
-yo,Digestive Diseases Associates of Tampa Bay,Florence Township,2.4,166,1,Bars, Delis, Cocktail Bars, Hair Salons, Vintage & Consignment
-yp,Piccadilly,Brentwood,4.3,140,1,Bridal, Fast Food, Massage Therapy, Food,
-yq,Think Box Photography,Philadelphia,2.4,5,1,Desserts, Chinese, Wine Bars, Hair Salons, Local Flavor
-yr,The Boiling House,Indianapolis,4.7,5,1,Auto Detailing, Beauty & Spas, Pubs, Bike Repair/Maintenance, Hair Stylists
-ys,Mumbai Bistro,Boise,5.0,32,1,Arts & Crafts, Haunted Houses, Restaurants, Challenge Courses, Vintage & Consignment
-yt,The Hip Hop Sandwich Shop,Indianapolis,4.1,5,1,Fitness & Instruction, Caribbean, Event Planning & Services,,
-yu,Weddings in Santa Barbara,Lionville,3.5,5,1,Specialty Food, Real Estate, Junk Removal & Hauling, Bars,
-yv,Sherbrooke Liquor Store,Voorhees,4.9,140,1,Pizza, Mexican, Seafood, Burgers,
-yw,The Mad Griddle ,Lionville,1.8,171,0,Restaurants, Asian Fusion,, Music & Video,
-yx,Fat Jakks,Franklin,3.4,240,1,Waxing, Veterinarians, Nightlife, Food Trucks,
-yy,Barista Cafe,Tampa,3.2,254,1,Desserts, Transportation, Sports Bars, Coffee & Tea, Vintage & Consignment
-yz,Family Carpets,Maplewood,2.8,158,1,Oil Change Stations, Restaurants,,,
-yA,Global Appliance Parts,Saint Louis,4.2,220,1,Orthodontists, Delis, Pizza, American (Traditional),
-yB,Plume Salon,Brentwood,3.6,5,1,Bridal, Men's Clothing, Beauty & Spas, Sandwiches,
-yC,Renee Hair Salon,Reno,4.7,95,1,Automotive, Donuts,, Home Services,
-yD,Plume Salon,Terra Ceia,3.4,31,0,Fashion, Jewelry, Burgers,,
-yE,Salon Mosaic,Saint Louis,2.6,92,1,American (Traditional), Do-It-Yourself Food, Health & Medical, Arts & Entertainment,
-yF,McDonald's,New Hope,2.5,179,1,Desserts, Beauty & Spas,, Bars,
-yG,Jim's Appliance & Furniture,Philadelphia,5.0,58,1,Barbers, Japanese,,,
-yH,Blow Bar Express Styling Salon,New Hope,3.3,92,0,Car Wash, Arts & Entertainment,, Bars,
-yI,Hand Grenades To Go,Boise,4.3,78,1,Orthodontists, Bars, Local Services,,
-yJ,Premier Mortgage Resources,Mt. Juliet,4.2,289,1,Home Services, Hotels & Travel, American (Traditional),,
-yK,Weddings in Santa Barbara,Lionville,2.5,59,0,Active Life, Pizza,, Bars,
-yL,WobbeMassage,Wesley Chapel,4.0,208,1,Event Planning & Services, Pet Adoption, Performing Arts,,
-yM,El Con Health & Wellness Center,Largo,5.0,5,1,Home Services, Apartments, Hotels & Travel, Tires, Active Life
-yN,Dwight's Auto Glass & Tint,New Orleans,4.4,303,1,Hair Salons, Lounges,, Hair Removal,
-yO,New Orleans Spirit Tours,Hernando Beach,3.1,35,1,Auto Repair, Shopping, Home Decor,,
-yP,Wesley Chapel Florist,Edmonton,3.3,5,0,Health & Medical, General Dentistry, Japanese, Nightlife, Italian
-yQ,Gallagher's Pub,Buckingham,3.3,5,0,Home & Garden, Burgers, Specialty Food, Restaurants,
-yR,Yerli's Alterations & Tailoring,Edmonton,4.3,232,0,Food, Car Dealers, Health & Medical, Arts & Entertainment, Home Services
-yS,Reeder's Auto Tint & Ceramic Coatings,St. Louis,4.1,78,0,Fashion, Pizza, Italian, Auto Repair,
-yT,Arizona Tile,Tucson,3.3,87,1,Walking Tours, Restaurants, Eyelash Service, Parks, Seafood
-yU,The Coventry Deli,Lionville,4.9,5,1,Towing, Police Departments, Sandwiches, Specialty Food, American (Traditional)
-yV,Hardee's,Madeira Beach,3.5,52,1,Grocery, Soup, Home Services, Bars, Food
-yW,Reeder's Auto Tint & Ceramic Coatings,Cherry Hill,5.0,35,0,Hair Salons, Breweries, Hiking, Fashion, American (Traditional)
-yX,Creve Coeur Golf Course,Brandon,2.4,209,1,Home & Garden, Venues & Event Spaces, Restaurants, Arts & Crafts, Coffee & Tea
-yY,Plume Salon,New Orleans,4.3,215,1,Shopping, Grocery, Diners,, Home & Garden
-yZ,Parasailing The Pass,Indianapolis,3.9,5,1,Burgers, Veterinarians, Shopping,,
-za,Fine Wine & Good Spirits,Franklin,3.3,132,1,Home Decor, Arts & Entertainment,, Landscape Architects, Fitness & Instruction
-zb,McDonald's,Edmonton,5.0,5,1,Health & Medical, Automotive,,,
-zc,Incrediplex,Wilmington,3.9,63,1,Hotels & Travel, Bars, Grocery, Personal Injury Law,
-zd,Sher-e-Punjab,Lionville,1.1,5,0,Shopping, Restaurants, Health & Medical,, Sandwiches
-ze,Angelica Beauty and Waxing,New Orleans,2.1,118,1,Masonry/Concrete, Fast Food, Fashion,,
-zf,Checkers,Tucson,3.3,120,1,Delis, Home & Garden,, Restaurants,
-zg,The Home Depot,Lebanon,1.9,5,1,Active Life, Restaurants,,,
-zh,Nails & Beauty Lounge,Cherry Hill,2.8,5,1,Eyewear & Opticians, Restaurants,, Nightlife,
-zi,Edgehill Cafe,Santa Barbara,4.7,52,0,Pizza, Delis, Eyelash Service, Formal Wear, Restaurants
-zj,Giant Food Store,St. Petersburg,4.0,93,1,Carpet Cleaning, Bars,,,
-zk,La Bella China Restaurant,Santa Barbara,4.4,5,1,Walking Tours, Chinese, Eyelash Service, Wine & Spirits, Active Life
-zl,Jim's Auto Detailing,Saint Petersburg,4.0,110,1,Home Decor, Auto Parts & Supplies, Bars, Pizza, Event Planning & Services
-zm,Bistro St. Tropez,West Chester,4.7,31,1,Apartments, Restaurants, Sandwiches, Sandwiches,
-zn,Thoroughbred Nissan,Edmonton,5.0,14,1,Parenting Classes, Restaurants, Restaurants, Hotels & Travel,
-zo,Ardmore Pizza,Glenolden,5.0,5,1,Department Stores, Restaurants, Restaurants, Nightlife, Coffee & Tea
-zp,J Sushi,Boise,2.3,59,1,Restaurants, Breakfast & Brunch,, Coffee & Tea,
-zq,West Coast Awnings,Brandon,5.0,89,1,Home & Garden, Thrift Stores, Sandwiches, Active Life, Flowers & Gifts
-zr,Cafe Victoria's,Havertown,2.5,103,0,Restaurants, Mexican, Restaurants,,
-zs,St Christopher Pediatric Urgent Care,Edmonton,3.5,5,1,Barbers, Specialty Food, Beauty & Spas, Nightlife,
-zt,Lafitte's Landing Seafood House,Philadelphia,2.3,111,1,Bars, Local Services, Donation Center, Adult Education, Mags
-zu,Edwardsville Children's Museum,Reno,1.9,27,1,Playgrounds, Home & Garden, Desserts, Used, Pubs
-zv,Painturo's,Clearwater,2.2,156,1,Restaurants, Home & Garden,, Fashion,
-zw,McDonald's,Indianapolis,4.3,5,1,Bars, Food, Shopping,,
-zx,Pieology Pizzeria,Glassboro,2.0,238,1,Oil Change Stations, Pediatricians, Arts & Entertainment, Diners, Fruits & Veggies
-zy,Cyclone Car Care,Edmonton,1.8,155,1,Eyewear & Opticians, Food, Summer Camps, Sandwiches,
-zz,Firestone Complete Auto Care,Warrington,3.8,17,1,Shopping, Police Departments, Japanese,, Fast Food
-zA,Shanghai Express,Saint Louis,4.1,5,0,Eyewear & Opticians, Music Venues, Eyelash Service, Accessories, Cocktail Bars
-zB,Nitpicking in NOLA,Alton,2.8,63,0,Apartments, Police Departments, Shopping,,
-zC,TD Bank Havertown,Reno,3.6,5,0,Bars, Pizza, Education, Oil Change Stations, Home & Garden
-zD,Summer Palace Chinese Restaurant,Valley Forge,4.9,5,1,Bridal, Bars,,,
-zE,Indianapolis Army Navy,Lionville,2.4,5,1,Restaurants, Seafood, Bars, Challenge Courses, Food
-zF,McDonald's,Lionville,3.1,5,1,Art Classes, Hotels & Travel, Hotels, Food Delivery Services,
-zG,Blarney Stone General Contracting,Brandon,3.5,251,1,Bars, Health & Medical, American (Traditional), Shopping,
-zH,Eddie's Southtown Donuts,Indianapolis,2.8,5,0,Coffee & Tea, Breweries, Sandwiches,,
-zI,Breadland Organic Whole Grain Bakery,Warminster,3.1,199,1,Restaurants, Event Planning & Services, Sandwiches, Men's Clothing,
-zJ,Jong Ka Jib,Riverside,3.4,5,1,Bridal, Home Decor, Tires,, Food
-zK,Gary's World of Wellness,Santa Barbara,2.9,82,1,Pet Services, Music Venues, Indian, American (New), Local Services
-zL,The Corner Cafe and Deli,Langhorne,1.3,5,1,Plumbing, Pet Adoption,, Skin Care,
-zM,McMahan Hair Salon,Tampa,1.9,35,0,Mexican, Automotive, Bars, Pizza,
-zN,Alex Smith Hardwood Flooring,St. Petersburg,3.8,106,1,Real Estate, Fitness & Instruction, American (Traditional), Event Planning & Services,
-zO,Holly Nails & Spa,Boise,3.8,104,1,Restaurants, Bakeries, Seafood, Bars,
-zP,Nutrishop,Saint Charles,3.2,93,0,Restaurants, Pizza, Shopping, Home Decor, Beauty & Spas
-zQ,Valley Cleaners,Tucson,4.3,147,1,Buses, Hotels, Food, Day Spas, Elementary Schools
-zR,McDonald's,Delran,4.5,136,1,Italian, Contractors, Arts & Entertainment, Coffee & Tea,
-zS,Anytime Fitness,Saint Louis,4.2,101,0,Pizza, Beauty & Spas, Doctors, Drugstores, Jewelry
-zT,"Daniel Colombo , MD",Indianapolis,2.5,216,1,Event Planning & Services, Keys & Locksmiths, Food, Seafood,
-zU,Snacks By The Pound,Kenner,3.2,5,1,Barbers, Shopping, Food Trucks, Restaurants, Jewelry
-zV,Glow by Natalia Barlow,Sparks,3.8,124,1,Delis, University Housing, Gluten-Free, Noodles, Waxing
-zW,McDonald's,Franklin,3.8,5,0,Custom Cakes, Beauty & Spas, Financial Services, Skin Care,
-zX,Kal Tire,Nashville,3.9,5,0,Chicken Wings, Juice Bars & Smoothies, Breakfast & Brunch, Automotive,
-zY,Babies R US the Baby Superstore,Carmel,3.1,41,1,Fashion, Arts & Entertainment, Bars,,
-zZ,Appreciate You Hair And Nails,New Orleans,4.3,5,1,Fashion, Furniture Stores, Italian, Burgers,
-Aa,Roast Coffeehouse and Wine Bar,Reno,4.2,69,1,Arts & Entertainment, Active Life,, Automotive,
-Ab,Goin' Postal Westhaven,Saint Louis,3.0,149,1,Bars, American (New), Food,, Shopping
-Ac,McDonald's,Conshohocken,3.0,27,1,Doctors, Shopping,, Food,
-Ad,Cocco's Gelateria,Alton,3.0,72,1,Car Stereo Installation, Bakeries, Shipping Centers,, Bars
-Ae,Enterprise Rent-A-Car,Nashville,3.8,316,0,Home & Garden, Hair Salons,,,
-Af,Master Bait and Fishing Supplies,Indianapolis,4.7,61,1,Restaurants, Auto Repair, Coffee & Tea,,
-Ag,Fisherman's Cove Seafood,Tucson,4.0,74,0,Restaurants, Bakeries, Nightlife,,
-Ah,Jim's Appliance & Furniture,Nashville,4.4,58,1,Seafood, Baby Gear & Furniture,,,
-Ai,Main Exchange Barber Shop,Langhorne,2.3,18,1,Restaurants, Beauty & Spas, Fruits & Veggies, Mortgage Brokers, Bars
-Aj,Kaiserman JCC,Indianapolis,3.7,5,1,Beauty & Spas, Arts & Entertainment, Eyelash Service, Nightlife, Local Services
-Ak,Its Sold Here,Warminster,4.2,8,1,Bridal, Massage, Nightlife,,
-Al,McDonald's,Tampa,3.3,136,1,Bridal, Sewing & Alterations, Fast Food, Party & Event Planning, Sandwiches
-Am,Studio 240,Tampa,4.6,32,1,Breakfast & Brunch, Food, Restaurants,, Massage
-An,Another Broken Egg Cafe,Indianapolis,4.1,130,0,Burgers, Restaurants, Hotels & Travel, Nightlife,
-Ao,Willie's Shoe Repair,Chalfont,4.8,5,0,Breakfast & Brunch, American (Traditional), Food, Coffee & Tea, Skin Care
-Ap,Aj's Bikes and Boards,Philadelphia,5.0,5,1,Car Wash, Playgrounds, Automotive, Restaurants,
-Aq,PolyEsther's Costume Boutique,Greenwood,4.3,5,1,Shopping, Party Bus Rentals, Nightlife,,
-Ar,Parlor Suburban Square,Saint Petersburg,3.1,146,1,Arts & Entertainment,, Fast Food, Italian, Fast Food
-As,Ernie's Tours,St. Louis,1.0,5,1,Health & Medical, Fast Food, Hair Salons,,
-At,Thach Used Tires,Saint Louis,3.9,5,1,Discount Store, Chicken Shop, Local Services, Shopping,
-Au,CedarBrook Deli,Brandon,4.6,30,0,Doctors, Chinese,, Nightlife,
-Av,McDonald's,Indianapolis,3.5,5,1,Massage, Hair Salons, Day Spas, Contractors, Nightlife
-Aw,HutchPro Carpet Cleaning Plus,Springfield,3.0,5,0,Historical Tours, Sports Bars, Hair Removal, Music & Video, Pubs
-Ax,Wendy Warner- Medicine In Balance,Tucson,4.0,63,0,Bars, Hair Salons,, Food,
-Ay,Recreational Integrative Wellness Center,Lionville,3.4,5,1,Hotels, Fashion, Event Planning & Services, Restaurants,
-Az,John's Pass Waverunners,Ashland City,4.0,5,1,Restaurants, Bakeries, Event Planning & Services,,
-AA,Rogers & Hollands® Jewelers,Philadelphia,4.0,5,0,Real Estate, Pharmacy, Food Trucks, Child Care & Day Care,
-AB,Brilliant Nail Spa,Nashville,3.5,18,1,Sporting Goods, Coffee & Tea, Music & Video, Patisserie/Cake Shop, Arts & Entertainment
-AC,Sweetwater Wetlands,Cherry Hill,5.0,8,1,Home & Garden, Handyman, Bakeries, Jewelry Repair, Shopping
-AD,Nutrishop,Nashville,4.6,5,0,American (New), Arts & Entertainment,,,
-AE,New Orleans Jazz Market,Oro Valley,2.9,294,0,Beauty & Spas, Local Services, Beauty & Spas, Coffee & Tea,
-AF,Plume Salon,Tucson,4.4,193,1,American (New), Apartments, Diagnostic Services,,
-AG,barre3 Nashville - The Gulch,Philadelphia,4.0,5,1,Sporting Goods, Fast Food, Real Estate, Sandwiches,
-AH,Visionworks,New Orleans,3.2,147,1,Shopping, Pubs, Local Services, Coffee & Tea,
-AI,Chase JP Morgan Bank Credit Card Services,Philadelphia,4.3,19,1,Italian, Nightlife, Pizza, Local Services, Restaurants
-AJ,Plume Salon,New Orleans,1.9,354,1,Flowers & Gifts, Pubs, Auto Repair, Local Services, Arts & Entertainment
-AK,HomeGoods,Philadelphia,3.1,135,1,American (Traditional), Bakeries, Active Life, Bars, Venues & Event Spaces
-AL,Timber Creek Park,Philadelphia,3.5,304,1,Sandwiches, Mexican, Local Services, Restaurants, Nightlife
-AM,Taqueria Feliz,Saint Petersburg,5.0,365,1,Car Wash, Caterers, Local Services,,
-AN,McDonald's,Edmonton,4.1,143,1,Mexican, Local Services, Burgers,, Shopping
-AO,Mazzoni Center,Glassboro,3.1,5,1,Beauty & Spas, Chinese, Home Services,,
-AP,Lee Read Diamonds,Reno,2.9,459,1,Restaurants, Party & Event Planning, Fast Food, Hotels & Travel, Hair Removal
-AQ,Lubrication Corner,New Port Richey,2.4,5,0,Local Services, Hotels, Health & Medical,,
-AR,Tienda Ho,Saint Louis,4.7,5,0,Pets, Fitness & Instruction, Venues & Event Spaces, Sandwiches, American (Traditional)
-AS,Yellow Garage Antiques,Tucson,4.6,5,0,Beauty & Spas, Beauty & Spas,,,
-AT,Optilife Chiropractic,North Wales,2.6,139,0,Breakfast & Brunch, Professional Services, Restaurants, Nightlife,
-AU,ImmediaDent - Urgent Dental Care,Sparks,3.7,5,1,Beauty & Spas, Desserts, Eyelash Service, Landscape Architects, Hotels & Travel
-AV,Muse Entertainment,Edmonton,2.9,82,1,Fast Food, Pet Adoption, Hair Salons,, Bars
-AW,Baxter's Saloon & Grill,New Hope,5.0,5,1,Steakhouses, Desserts,, Event Planning & Services,
-AX,Katie's Pizza & Pasta Osteria,Tucson,3.2,63,1,Flowers & Gifts, Seafood,, Shopping,
-AY,Enterprise Rent-A-Car,Doylestown,5.0,292,1,Vietnamese, Dentists, Shopping, Pet Groomers, Vintage & Consignment
-AZ,Stylist Inside,St. Petersburg,3.6,86,1,Active Life, Hotels & Travel, Hotels & Travel,,
-Ba,Nitpicking in NOLA,Brownsburg,3.8,47,1,General Dentistry, Event Planning & Services,, Bike Rentals,
-Bb,Chester County Dentistry for Children - Exton/Lionville,Indianapolis,4.3,238,1,Books, Real Estate,, Beauty & Spas,
-Bc,Main Exchange Barber Shop,Philadelphia,5.0,5,0,Restaurants, American (Traditional),,,
-Bd,Manor Riverwalk Luxury Apartments by TRG Management Company,Indianapolis,4.6,5,1,Coffee & Tea, Beer Bar, Pizza,,
-Be,US Storage Centers,Reno,1.5,5,1,Japanese, Art Galleries, Hotels & Travel, Cafes,
-Bf,Super Sushi Kyo Hin,Reno,2.7,5,1,Flowers & Gifts, Auto Parts & Supplies, Fashion,, Dentists
-Bg,Wentworth At West Clay,Edmonton,4.9,54,1,Automotive, Home Services,,,
-Bh,Plume Salon,Reno,3.5,287,0,Nightlife, Shopping, Cinema, Coffee & Tea,
-Bi,Villas at San Dorado,Saint Louis,4.1,30,1,Restaurants, Carpet Cleaning, Optometrists,,
-Bj,Wink Lash Studio + Bath Bar,Lionville,1.5,5,1,Fashion, Pizza, Health & Medical, Beauty & Spas, Restaurants
-Bk,Indigo Point,Indianapolis,3.5,251,0,Mediterranean, Auto Repair, Real Estate, Fast Food, Food
-Bl,IU Health Urgent Care - Broadripple,Newtown,3.9,5,0,American (Traditional), Obstetricians & Gynecologists, Eyelash Service, Body Shops, Vintage & Consignment
-Bm,Jersey Mike's Subs,Saint Louis,3.7,5,1,Bridal, American (New), Fashion, Local Services, Dentists
-Bn,A-1 Expert Cleaning Services,Brandon,4.0,204,1,Event Planning & Services, Oil Change Stations, Transportation, Ice Cream & Frozen Yogurt, Waxing
-Bo,Dead Ringer Analog Bar,New Orleans,3.2,111,1,Event Planning & Services, Appliances & Repair, Sushi Bars, Food Trucks, Nightlife
-Bp,L'Occitane en Provence,Reno,3.5,105,1,Local Services, Indian,,,
-Bq,Cole Brothers,St Louis,3.9,96,1,Bridal, Nail Salons, Food,, Food
-Br,Barista Cafe,Carmel,4.6,49,1,Women's Clothing, Caribbean, Hair Extensions,,
-Bs,McDonald's,Tucson,4.5,185,1,Body Shops, Active Life, Nail Salons, Restaurants, Active Life
-Bt,Jamba Juice,Clearwater,3.3,227,1,Gastropubs, Oil Change Stations, Home Services,, Nightlife
-Bu,State Street Kitchen,Lionville,5.0,5,1,Bridal, Seafood, Shopping, Thai,
-Bv,The Twisted Tail,Brandon,3.5,35,1,Bars, Local Services, Pakistani,,
-Bw,KFC,Lionville,1.3,69,1,Nail Salons, Oil Change Stations,,,
-Bx,Union Teller Delicatessen,Philadelphia,3.3,256,1,Tires, Restaurants, Home Services,,
-By,Whole Foods Market,Lutz,3.3,5,0,Shopping, Arts & Entertainment, Turkish,,
-Bz,Reno Bighorns,New Orleans,3.7,61,0,Beauty & Spas, Wine & Spirits, Restaurants,,
-BA,Paige Simmons Salon,New Orleans,3.4,5,1,Hotels & Travel, Specialty Food, Beauty & Spas,,
-BB,Reno Bighorns,New Orleans,3.8,5,0,Local Flavor, Local Services, Shopping, Bars,
-BC,Sonny's Phat Smoke,Oro Valley,2.3,41,1,Bars, Pet Adoption, Health & Medical,, Pubs
-BD,Once Upon A Child - Reno,Tampa,3.0,127,1,Food, Barbeque, Oil Change Stations,,
-BE,Reno Downtown Joint,Haddonfield,2.8,261,0,Automotive, Local Services, Nightlife, Hotels & Travel,
-BF,Plume Salon,Indianapolis,5.0,71,0,Pet Services, Veterinarians, Salad, Event Planning & Services,
-BG,Champion Chevrolet - Service Department,Huntingdon Valley,3.0,134,0,Real Estate, Real Estate, Burgers, Thai, Home & Garden
-BH,Philly Homebrew Outlet East,New Orleans,4.9,5,1,Active Life, Burgers, Eyebrow Services,,
-BI,Dress Up,Indianapolis,3.1,311,1,Active Life, Men's Hair Salons, Fashion, Used,
-BJ,La Cucina Italian Eatery,Saint Louis,3.5,101,1,Shopping, Health & Medical, Venues & Event Spaces, Cosmetic Dentists, Restaurants
-BK,Quality Inn & Suites,Nashville,3.6,5,0,Doctors, Home Services, Eyelash Service, Restaurants, Bars
-BL,Something Special,Nashville,3.2,5,1,Delis, Shopping, Music Venues,, American (Traditional)
-BM,Center City Emergency Dentist,Indianapolis,2.9,216,1,Restaurants, Chicken Wings, Breakfast & Brunch, Bars, Restaurants
-BN,A Family Dental Care Center,Saint Louis,3.9,99,1,Nightlife, Wine & Spirits, Burgers, Arts & Entertainment,
-BO,Mazzoni Center,New Hope,2.8,5,1,American (Traditional), Sushi Bars, Hair Salons, Nightlife,
-BP,Smoothie King,Plainfield,2.8,5,1,Home Services, Hair Extensions, Fast Food, Tires,
-BQ,McDonald's,Carpinteria,4.4,5,0,Day Spas, Restaurants,,,
-BR,Advance Financial,Sparks,3.0,5,0,Day Camps, Restaurants, Restaurants, Local Services, Food
-BS,Foot Massage Reflexology,Edmonton,5.0,19,1,Car Dealers, Dentists, Dance Clubs, Books, Salad
-BT,Marino's Auto Repair,Largo,2.6,5,1,Sporting Goods, Police Departments, Fashion,,
-BU,McDonald's,Philadelphia,5.0,223,0,Eyebrow Services, Arts & Entertainment, Event Planning & Services, Event Planning & Services,
-BV,Plume Salon,Philadelphia,3.6,5,0,Sporting Goods, Local Services,,,
-BW,Skippack Sweet Spot,Aston,4.4,5,0,Nightlife, Home Services, Auto Glass Services, Taxidermy, Restaurants
-BX,Panera Bread,Willow Grove,3.4,240,1,Local Flavor, Jewelry, Seafood, American (Traditional),
-BY,"Daniel Colombo , MD",New Orleans,3.1,12,1,Hotels & Travel, Men's Clothing, Property Management, Shaved Ice, Dermatologists
-BZ,Kal Tire,Tucson,3.6,116,1,American (Traditional), Desserts, Fashion, Shopping,
-Ca,Window World of Philadelphia,Maplewood,4.2,193,1,Restaurants, Professional Services, Car Wash, Automotive, Furniture Reupholstery
-Cb,Hibiscus Spa,Metairie,5.0,173,1,Arts & Entertainment, Skin Care, Laundry Services, Restaurants, Sandwiches
-Cc,CVS Optical,Conshohocken,3.5,5,1,Musicians, Sandwiches, Nightlife, Food, Automotive
-Cd,Rusty's Pizza Parlor,Plainfield,3.9,5,1,Bridal, Bars, Office Cleaning, Mexican, Arts & Entertainment
-Ce,Kristi's Pet Grooming,Pinellas Park,5.0,5,1,Pretzels, Beauty & Spas, Skin Care,,
-Cf,Comfort Inn Marrero - New Orleans West,Saint Louis,2.8,5,1,Body Shops, Local Services, Mexican, Furniture Stores, Electronics
-Cg,Addendum,Santa Barbara,4.7,5,1,Bridal, Restaurants, Desserts, Shopping,
-Ch,The Pet Trailer Mobile Grooming,Norristown,1.4,28,1,Women's Clothing, Shopping,,,
-Ci,Half Price Books,Edmonton,5.0,150,1,Juice Bars & Smoothies, Auto Repair, Eyelash Service, Used Car Dealers,
-Cj,Kathy's Airport Limousine Service,Chalfont,5.0,115,1,Beauty & Spas, Home Services, Restaurants, Restaurants, Food
-Ck,Stokehold Restaurant,St. Louis,2.7,194,1,Rehabilitation Center, Seafood, Pets,,
-Cl,McDonald's,Camden,4.1,5,1,Hotels & Travel, Shopping,,,
-Cm,Largo Police Department,Nashville,3.9,306,1,American (New), Chinese, Burgers, Cocktail Bars, Food
-Cn,McDonald's,Goleta,3.3,19,0,Food, Burgers,,,
-Co,Jong Ka Jib,Tucson,3.5,80,1,Chinese, Optometrists,, Burgers,
-Cp,Century Auto Body,Havertown,3.4,96,1,Chinese, Health & Medical, Restaurants, Bars,
-Cq,Rathbone Mansions,Tampa,1.8,82,1,Delis, Active Life,,,
-Cr,Mattress Factory,Philadelphia,4.9,55,1,Walking Tours, Grocery, Shipping Centers, Shopping, Italian
-Cs,Hand Grenades To Go,Reno,3.9,60,1,Health & Medical, Desserts, Education, Nightlife, Nightlife
-Ct,Tienda Ho,Santa Barbara,2.2,23,0,Desserts, Beauty & Spas, Desserts, Home Services, Health & Medical
-Cu,Prop and Decor Outlet: The Tent Merchant Inc.,Reno,4.0,5,1,Delis, Carpet Cleaning, Hotels, Restaurants,
-Cv,McDonald's,Franklin,4.0,5,1,American (Traditional), Restaurants,,,
-Cw,Olivier's Creole Restaurant,King of Prussia,4.4,8,0,Restaurants, Burgers,,,
-Cx,O'Briens Irish Pub,Edmonton,1.9,5,1,Restaurants, Barbeque, Auto Repair,, Doctors
-Cy,Philadelphia Skating Club and Humane Society,Brandon,4.6,111,1,Grocery, French, Pizza, Event Planning & Services,
-Cz,ALDI,Lionville,3.9,5,1,Keys & Locksmiths, Health & Medical,, Restaurants, Restaurants
-CA,A-1 Expert Cleaning Services,Reno,2.2,201,0,Health & Medical, Local Services, Burgers,,
-CB,Ballistic Fabrication,Indianapolis,3.2,114,0,Car Wash, Arts & Entertainment, Hair Salons, Hair Salons, Local Services
-CC,Renee Hair Salon,Brentwood,2.6,5,1,Flowers & Gifts, Police Departments, Local Services, Food,
-CD,McCaffrey's Supermarket,Santa Barbara,3.3,5,1,Japanese, Furniture Stores, Automotive, Shopping,
-CE,Robbi's Custom Leather Goods,Ashland City,4.0,29,1,Breakfast & Brunch, Pet Groomers, Pizza, Comic Books, Elementary Schools
-CF,The Green Pheasant,Boise,3.5,5,0,Hotels & Travel, Auto Repair, Local Services,,
-CG,Fleet Feet Sports,Indianapolis,5.0,208,1,Sewing & Alterations, Hotels & Travel, Financial Services, RV Repair, Home & Garden
-CH,Carsmetics,Saint Louis,3.9,5,1,Makeup Artists, Fast Food, Family Practice, Antiques, Ice Cream & Frozen Yogurt
-CI,Fleet Feet Sports,Saint Louis,3.3,144,1,Pizza, Pediatricians, Bakeries,, Food
-CJ,Weinhardt Party Rentals,Reno,2.8,146,1,Women's Clothing, American (New), Day Spas, Automotive,
-CK,PolyEsther's Costume Boutique,Bala Cynwyd,2.4,255,0,Nightlife, Hair Stylists, Oil Change Stations,, Shopping
-CL,Casita Taqueria,West Chester,2.3,5,1,Furniture Stores, Italian, Local Services, Oil Change Stations,
-CM,Iguana's Mexican Restaurant,New Orleans,3.6,131,1,Automotive, Endodontists, Auto Repair, Seafood,
-CN,Roll A Guard,Ambler,4.4,5,1,Jewelry Repair, Apartments,,,
-CO,Go! Gyro! Go!,Jenkintown,4.1,254,0,Body Shops, Shopping, Eyelash Service, Swimming Pools, Elementary Schools
-CP,emPIEnada,St. Petersburg,2.1,5,1,Coffee & Tea, Organic Stores, Beauty & Spas,,
-CQ,Crowne Plaza Philadelphia - King of Prussia,New Orleans,2.9,106,1,Hot Dogs, Musical Instruments & Teachers, Pubs, Restaurants, American (Traditional)
-CR,Plume Salon,Philadelphia,5.0,272,1,Pubs, Doctors,,,
-CS,McDonald's,Tucson,2.9,97,1,Restaurants, Restaurants,,,
-CT,Kristi's Pet Grooming,Philadelphia,3.3,155,0,Barbers, Police Departments, Specialty Food, Health & Medical,
-CU,Edgehill Cafe,Indianapolis,3.3,99,0,Bridal, Chicken Wings, Bars, Local Services, Makeup Artists
-CV,Petite 4,Paoli,3.7,5,1,Hotels & Travel, Automotive,,,
-CW,City Center Park,Exton,4.0,49,1,Gas Stations, Restaurants, Food,,
-CX,Nudy's Cafe - Chadds Ford,Philadelphia,3.9,346,0,Restaurants, Hotels & Travel, Specialty Food, Nightlife,
-CY,Plume Salon,Saint Petersburg,5.0,76,1,Massage, Beauty & Spas, Restaurants, Restaurants,
-CZ,McDonald's,Wesley Chapel,5.0,241,1,Event Planning & Services, Fitness & Instruction, Coffee & Tea, Automotive,
-Da,Home Plate Sports Pub,Nashville,3.4,162,0,Nightlife, American (Traditional), Italian, Shopping,
-Db,Appreciate You Hair And Nails,Boise,3.1,5,1,Art Classes, Auto Parts & Supplies, Eyelash Service, Used, Golf Lessons
-Dc,Seven Qi Spa,Boise,4.7,5,1,Coffee & Tea, Nightlife, Pubs, Skin Care, Restaurants
-Dd,Hand Grenades To Go,Yardley,3.2,56,1,Apartments, Shopping, Food,, Shopping
-De,Lip Collision,Belleville,5.0,5,1,Car Dealers, Breakfast & Brunch, Restaurants,, Fast Food
-Df,Thai Tanic,Wesley Chapel,1.9,105,1,Restaurants, Bars,, Event Planning & Services,
-Dg,Persis Biryani Indian Grill,New Orleans,2.9,5,1,Gutter Services, Telecommunications, Event Planning & Services,,
-Dh,Budweiser Brewery Experience,Philadelphia,5.0,5,0,Nightlife, Juice Bars & Smoothies, Men's Clothing, Arts & Entertainment, Restaurants
-Di,The Coventry Deli,Indianapolis,2.7,5,1,Real Estate Agents, Shoe Stores, Apartments, Furniture Stores,
-Dj,Kristi's Pet Grooming,Saint Louis,3.3,5,1,Pets, Urgent Care, Health & Medical,,
-Dk,Chrysalis,Tucson,4.4,111,1,Massage, Cupcakes,, Hair Removal,
-Dl,Pima County Fair,Philadelphia,2.0,5,1,Festivals, Basketball Courts, Hotels & Travel, Contractors,
-Dm,McDonald's,Brandon,2.9,5,0,Automotive, Men's Hair Salons, Auto Repair, Landscape Architects,
-Dn,Dermatology Associates of Indiana,Indianapolis,1.5,5,0,Veterinarians, Restaurants, Oil Change Stations, Breakfast & Brunch,
-Do,Legacy Coins,Madison,5.0,131,1,Arts & Crafts, Massage, Specialty Food, Books,
-Dp,Richard Kenneth Jewelers,Reno,3.2,176,1,Health & Medical, Auto Repair,, Hotels,
-Dq,River 127,Jenkintown,2.9,152,1,Restaurants, American (New), Dance Studios, Seafood,
-Dr,Skippack Sweet Spot,Nashville,2.5,227,1,Arts & Entertainment, Fashion, Event Planning & Services, Restaurants,
-Ds,Morales Landscapers,Cherry Hill,3.0,236,0,Italian, Coffee & Tea, Sandwiches,,
-Dt,Reno Downtown Joint,Philadelphia,3.6,194,1,Beauty & Spas, Bikes, Security Systems, Real Estate,
-Du,Cerveza Jack's,Bellmawr,2.8,204,1,Auto Repair, Police Departments, Eyelash Service, Food, Vintage & Consignment
-Dv,Crown Fried Chicken,Nashville,2.3,98,1,Bridal, Donuts, Shopping, Automotive,
-Dw,Smoke & Thyme,Clearwater,3.9,5,0,Real Estate Agents, Hair Removal, Accessories,,
-Dx,Lubrication Corner,Santa Barbara,4.5,117,1,Beauty & Spas, Financial Services,, Hair Removal,
-Dy,The Galman Group,Metairie,3.3,5,0,Towing, Auto Glass Services, Kids Activities, Hair Removal, Restaurants
-Dz,High Ridge Family Diner,Plainfield,2.7,5,1,Hair Salons, Piercing,,,
-DA,1-Hour Auto Glass,Nashville,2.8,5,0,Car Dealers, Grocery, Event Planning & Services, Home & Garden, Bikes
-DB,Hand Grenades To Go,Lionville,3.2,138,1,Italian, Sports Bars, Junk Removal & Hauling, Used, Basketball Courts
-DC,Walmart Vision & Glasses,Doylestown,3.3,150,1,Appliances, Breakfast & Brunch, Food, Shopping,
-DD,Best Western Cedar Park Inn,Tampa,3.0,5,0,Restaurants, Beer, Hair Salons,,
-DE,Tomo Japanese Steakhouse and Sushi Bar,Brookhaven,4.7,28,1,Home Cleaning, Apartments, Restaurants,,
-DF,Freedom Smoke USA,Carmel,4.0,5,1,Ice Cream & Frozen Yogurt, Restaurants, Shopping,,
-DG,Accurate Window & Screen,Tucson,3.7,131,1,Car Stereo Installation, Food,,,
-DH,Groove Room Studios,Boise,5.0,5,1,Desserts, Notaries, Fashion, Hotels & Travel,
-DI,Sher-e-Punjab,Philadelphia,2.9,5,1,Orthodontists, Oil Change Stations, Event Planning & Services, Used, Hair Removal
-DJ,McMahan Hair Salon,New Orleans,3.1,13,0,Auto Repair, Bars, Salad, Active Life,
-DK,Creve Coeur Golf Course,Glenolden,3.7,5,1,Hotels & Travel, Restaurants, Hair Salons,,
-DL,Tienda Ho,Lutz,3.1,178,1,Local Services, Restaurants, Restaurants, Home Services,
-DM,Wink Lash Studio + Bath Bar,Carmel,5.0,133,0,Apartments, Bars, Oil Change Stations, Skin Care, Event Planning & Services
-DN,NY Bagel Cafe & Deli,Saint Petersburg,4.5,5,1,Tabletop Games, Restaurants, Mags, Fast Food, Soul Food
-DO,Amber Indian Restaurant,Sherwood Park,5.0,5,1,Seafood Markets, Veterinarians, Party Equipment Rentals, Nightlife, Bars
-DP,Look Hair Care Studio,Pottstown,2.8,61,1,Local Flavor, Fast Food, Bakeries, Donuts, Brewing Supplies
-DQ,Collective Concept,Edmonton,2.8,515,1,Italian, Printing Services, Breakfast & Brunch,, Ice Cream & Frozen Yogurt
-DR,Medford Village Car Care,Affton,2.1,5,1,Pizza, Car Window Tinting, Tires, Home Services,
-DS,Pasquales,Philadelphia,3.4,90,1,Carpeting, Automotive, Life Coach, Used, Social Clubs
-DT,Advanced Towing & Recovery,White House,4.0,5,1,Fast Food, Apartments, Pet Training, Vegetarian,
-DU,Tony's Restaurant & 3rd Street Cafe,Indianapolis,3.4,5,1,Flowers & Gifts, Chicken Wings, Japanese, Greek, Sandwiches
-DV,Tucson Iron & Metal,Camden,3.4,5,1,Barbers, American (Traditional),,,
-DW,Sonny's BBQ,Chalfont,4.2,44,1,Donuts, Acai Bowls, Health & Medical, Restaurants, Restaurants
-DX,Four Green Fields,Sparks,3.4,164,1,Restaurants, Local Services, Restaurants,,
-DY,The Bearded Lady Barbershop,Philadelphia,2.8,92,1,Cupcakes, Pet Adoption,,,
-DZ,MedExpress Urgent Care,Santa Barbara,3.1,131,1,Car Dealers, Tattoo, Sushi Bars, Used, Adult
-Ea,Big Mike's BBQ,Reno,4.7,289,1,Italian, Veterinarians, Fashion, Appliances & Repair,
-Eb,Marty's Pizza,Tucson,4.5,279,1,Bridal, Automotive, Venues & Event Spaces, Restaurants, Food
-Ec,Bob Kramer’s Marionnettes,Kenner,2.8,199,1,Bridal, Bars, Dance Clubs, Automotive,
-Ed,Brew Brothers,Glenolden,3.5,5,0,Bridal, Bars, Event Planning & Services, Home Decor, Family Practice
-Ee,Cerveza Jack's,New Orleans,1.6,5,1,Apartments, Arts & Entertainment, Men's Clothing, Breakfast & Brunch,
-Ef,De Ville Coffee House & Creperie,Edmonton,5.0,271,1,Delis, Nail Salons, Event Planning & Services,,
-Eg,Marty's Pizza,New Orleans,4.4,159,1,Golf, Breakfast & Brunch, Accessories, Truck Rental, Vintage & Consignment
-Eh,Plume Salon,Philadelphia,4.8,32,1,Restaurants, Breakfast & Brunch, Salad,,
-Ei,Ballistic Fabrication,Reno,2.6,5,0,Auto Repair, Men's Hair Salons, Education, Used, Rugs
-Ej,Tat Starz,Tucson,4.4,5,1,Guns & Ammo, Convenience Stores, Caribbean, Florists, Sports Bars
-Ek,Twin Peaks,Doylestown,5.0,113,1,Health & Medical, Restaurants, Eyelash Service, Cosmetology Schools,
-El,Restoration Hardware,Edmonton,3.2,368,1,Restaurants, Medical Spas, Restaurants, Coffee & Tea,
-Em,Idaho Center For Reproductive Medicine,St. Louis,3.8,159,1,Nail Salons, Indian, Restaurants,,
-En,Poppy's Ice Cream,Philadelphia,3.6,124,1,Coffee & Tea, Doctors, Event Planning & Services, Restaurants,
-Eo,Dead Ringer Analog Bar,Lionville,2.3,5,1,Nightlife, Italian,,,
-Ep,McDonald's,Sparks,1.6,78,1,Uniforms, Auction Houses, Restaurants,,
-Eq,Tile Source,Clearwater,3.7,20,1,Carpet Cleaning, Venues & Event Spaces, Burgers, American (New),
-Er,The Cobblestone Eatery and Drinkery,Lutz,5.0,5,1,Grocery, Doctors,, Drugstores,
-Es,Ann Bradford PhotoDesign,Saint Louis,4.3,170,1,Health & Medical, Wheel & Rim Repair, Towing, Auto Repair, Oil Change Stations
-Et,Cal Taco,Tucson,4.5,169,1,Health & Medical, Sandwiches, Restaurants, Restaurants,
-Eu,SmartStyle,Havertown,3.3,5,0,American (New), Dentists, Optometrists, Restaurants,
-Ev,Joe's Pizza,Brentwood,5.0,57,1,Eyewear & Opticians, Sports Wear, Skin Care, Local Services,
-Ew,Casita Taqueria,Carmel,3.0,306,1,Shoe Stores, Restaurants, Doctors, Hair Extensions,
-Ex,Lip Collision,New Orleans,2.9,81,1,Cocktail Bars, Hotels & Travel, Day Spas,,
-Ey,HutchPro Carpet Cleaning Plus,Philadelphia,4.1,5,0,Bridal, Breakfast & Brunch, Home Services, Pet Services, Ice Cream & Frozen Yogurt
-Ez,Reeder's Auto Tint & Ceramic Coatings,Clearwater,4.2,61,1,Grocery, Beer Bar, Local Services, Auto Repair,
-EA,David Thomas Trailways,Franklin,3.1,81,1,Grocery, American (New), Gift Shops, Local Services, Restaurants
-EB,Sidekicks Pizza,Downingtown,3.4,205,0,Diners, Restaurants, Oil Change Stations, Fashion,
-EC,Marino's Auto Repair,Philadelphia,3.0,119,1,Real Estate, Breweries, Hotels & Travel,,
-ED,Ulta Beauty,New Orleans,3.1,201,1,Veterinarians, Local Services, Local Flavor, Bars,
-EE,Tat Starz,Tucson,4.1,99,0,Real Estate Agents, Restaurants, Salad, Sandwiches,
-EF,Appliance Center,Boise,2.3,5,1,Coffee & Tea, Pubs, Food, Restaurants,
-EG,Cole Brothers,Philadelphia,4.5,5,0,Towing, DJs, Ice Cream & Frozen Yogurt, Used, Hair Removal
-EH,Saks Fifth Avenue,Saint Louis,2.8,5,1,Bridal, Local Services, Electronics, Restaurants,
-EI,Key One,New Orleans,2.8,44,1,Local Services, DJs, Mags, Mobile Phone Accessories, Dentists
-EJ,Metro Diner,Land O' Lakes,2.9,238,1,Event Photography, Home Services, Fashion, Cafes,
-EK,The Royal Indian Cuisine,Cinnaminson,4.2,5,1,Beauty & Spas, Food, Restaurants,, Burgers
-EL,Boogyz Donuts,Horsham,3.4,5,1,Pet Sitting, Restaurants,,,
-EM,Quality Inn Nashville Downtown - Stadium,Clearwater,3.9,142,1,Restaurants, Religious Organizations, Food Trucks,, Local Services
-EN,Kim Kelly & Co Clinical Skin Care,Edmonton,3.2,5,1,Burgers, Event Planning & Services, Doctors, Used, Food
-EO,Roll A Guard,Reno,2.8,5,1,Masonry/Concrete, Food, Steakhouses, Nightlife,
-EP,Bub's Cafe,Carmel,4.2,34,1,Restaurants, Specialty Food,,,
-EQ,Angelica Beauty and Waxing,Indianapolis,2.2,76,1,Waxing, Health & Medical, Food Trucks, Beer Bar,
-ER,Northeast Auto Service,Carmel,4.2,5,1,Makeup Artists, Pet Stores, Health & Medical, Child Care & Day Care,
-ES,Amber Indian Restaurant,Marana,3.3,5,1,Sandwiches, Home Services, Burgers, Men's Clothing, Restaurants
-ET,TD Bank Havertown,Goleta,3.5,16,1,Pizza, Police Departments, American (New),,
-EU,Popeyes Louisiana Kitchen,Santa Barbara,4.4,266,1,Sandwiches, Apartments,, Coffee & Tea, Food
-EV,McDonald's,Saint Louis,5.0,113,0,Burgers, Professional Services, Children's Clothing, Food Trucks, Nightlife
-EW,Reeder's Auto Tint & Ceramic Coatings,Medford,3.4,203,1,Arts & Entertainment, American (New), Shopping, Food,
-EX,Glow by Natalia Barlow,Downingtown,4.7,5,1,Professional Services, Police Departments, Massage Therapy, Pets, Vietnamese
-EY,Man of the Soil Landscape Builder,Indianapolis,4.2,5,1,Fast Food, Arts & Entertainment,,,
-EZ,NY Bagel & Deli Shop,Indianapolis,5.0,201,1,Beauty & Spas, Shopping, Shopping,,
-Fa,Contempo Hair Salon,Indianapolis,3.7,153,1,Restaurants, Salad, Eyelash Service, Health & Medical,
-Fb,Elysian Fields Animal Clinic,Lionville,4.2,5,1,Hotels, Pets, Italian, Home Services, Restaurants
-Fc,Challenge Asphalt Paving,Tampa,4.3,5,0,Hair Salons, Coffee Roasteries, Fast Food, Local Services,
-Fd,Villas at San Dorado,Bala Cynwyd,3.3,184,0,American (New), Italian, Hair Salons, Home Services,
-Fe,Mattress Firm West End Avenue,Bensalem,4.7,218,1,General Dentistry, Police Departments,,,
-Ff,Papa Murphy's,Reno,3.7,177,0,Restaurants, Fast Food, Cabinetry,, Cajun/Creole
-Fg,YOUnion @ Reno,Indianapolis,3.7,5,1,Coffee & Tea, Glass & Mirrors, Jazz & Blues, American (New),
-Fh,Master Bait and Fishing Supplies,New Orleans,3.3,62,1,Financial Services, Pet Stores, Breakfast & Brunch, Restaurants,
-Fi,Arcadia Landscape,Santa Barbara,3.1,5,1,Street Vendors, Pharmacy, Shopping, Drugstores, Venues & Event Spaces
-Fj,Angelica Beauty and Waxing,Exton,4.4,148,1,Restaurants, Venues & Event Spaces, Burgers, Restaurants, Coffee & Tea
-Fk,Paddy Whacks Irish Sports Pub - South Street,Tampa,3.1,55,0,Cupcakes, Food,,, Ice Cream & Frozen Yogurt
-Fl,Joe’s Pizza and Pasta,Plymouth Meeting,2.8,189,1,Sandwiches, Men's Hair Salons, Rugs, Local Services, Nightlife
-Fm,Taste of Nawlins,Lionville,2.7,162,1,Shopping, Event Planning & Services, Junk Removal & Hauling, Arts & Entertainment,
-Fn,University Crossings,Malvern,5.0,5,1,Cocktail Bars, Gluten-Free, Hair Salons, Arts & Entertainment, Nightlife
-Fo,Window World of Philadelphia,Lionville,3.7,304,1,Vape Shops, Restaurants,, Shopping, Restaurants
-Fp,Reinette Café & Patisserie,West Chester,3.4,106,1,Italian, Middle Eastern, Burgers,, Food
-Fq,Creative Beginnings Pre-School & Kindergarten,Lionville,2.7,5,1,Barbeque, Bars,, Hair Salons,
-Fr,John's Pass Waverunners,Edmonton,5.0,67,0,Self Storage, Preschools, Eyelash Service, Szechuan, Hair Stylists
-Fs,Temple University Hospital ,Philadelphia,3.5,208,0,Restaurants, Wine & Spirits,,,
-Ft,The Boiling House,TAMPA,4.5,5,1,Fashion, Gardeners, Arts & Entertainment,,
-Fu,Majestic Towing,Bala Cynwyd,3.7,5,1,Preschools, Home Services, Waxing,,
-Fv,Brilliant Nail Spa,Doylestown,2.7,5,1,Hotels, Professional Services, Tires,,
-Fw,Nevada Towing,Nashville,4.0,5,1,Hotels & Travel, Home & Garden, Grocery, Pets, Vintage & Consignment
-Fx,24,St. Louis,3.0,29,1,Sporting Goods, Police Departments, Home & Garden, Home Services,
-Fy,Century Auto Body,New Orleans,3.3,138,0,General Dentistry, Gyms, Barbeque, Waxing, Elementary Schools
-Fz,Swat Pest Control,Exton,3.0,5,1,Shopping, Apartments, Beer Bar,,
-FA,Pacifico Hyundai,Tampa,2.3,383,1,Trinidadian, Home Services, Event Planning & Services,,
-FB,P's & Q's - Premium Quality,Camden,1.6,21,0,Salad, Auto Repair, Steakhouses, Party Supplies, Jewelry
-FC,James Dant,Saint Louis,4.9,5,1,Nail Salons, Home Services, Eyelash Service, Men's Clothing, Vintage & Consignment
-FD,Westchase Compounding Pharmacy,Edmonton,2.6,188,1,American (Traditional), Breweries, Apartments, Restaurants,
-FE,Kinjo's Japanese Restaurant,Tampa,2.9,9,1,Banks & Credit Unions, Urgent Care, Venues & Event Spaces, Barbers, Sandwiches
-FF,All In Shipping,St. Charles,3.5,152,0,Flowers & Gifts, Restaurants,,,
-FG,39 North Taproom & Grill,Philadelphia,4.3,5,1,Shoe Stores, Pubs, Local Flavor, Convenience Stores, Automotive
-FH,Pathmark,Boise,3.7,278,0,Auto Repair, Fast Food, Food, Flooring, Active Life
-FI,Auntie Anne's,New Orleans,3.9,5,1,Food, Art Galleries, Restaurants, Home Services,
-FJ,Octopus Car Wash,Philadelphia,3.9,295,1,Car Dealers, Specialty Food, Italian, Automotive, Vintage & Consignment
-FK,Barista Cafe,Edwardsville,4.9,68,0,Barbeque, Beauty & Spas, Bars, Fashion, Mags
-FL,Home Plate Sports Pub,Philadelphia,3.3,232,1,Restaurants, Automotive, Caterers, Hair Salons,
-FM,Recreational Integrative Wellness Center,Brownsburg,5.0,152,1,Diners, Local Services, Beauty & Spas,,
-FN,Zesty Tsunami,Tucson,4.0,205,1,Coffee & Tea, Notaries,,,
-FO,Adventure Coast Fun Park,New Orleans,2.4,5,1,Hair Salons, Playgrounds, Mexican, Hair Salons, Shopping
-FP,Candlewood Suites Tucson,Spring Hill,5.0,15,1,Cupcakes, American (New), Burgers, Diners, Arts & Crafts
-FQ,Fisherman's Cove Seafood,Lionville,3.6,5,1,Beauty & Spas, Adult Entertainment, Shopping,, Local Services
-FR,McDonald's,Philadelphia,2.9,39,0,Fast Food, Shopping, Appliances, Used,
-FS,Douglass Golf Course,Santa Barbara,3.5,5,1,Vietnamese, Auto Repair, Medical Spas, Breakfast & Brunch,
-FT,Boise 4x4,Carmel,2.9,218,0,Italian, Rest Stops, Japanese, Hair Removal, Beauty & Spas
-FU,Yi Fa Hair Salon,Lionville,2.4,196,1,Home & Garden, Women's Clothing,, Restaurants,
-FV,Plume Salon,Edmonton,3.9,5,1,Hair Salons, Bars, Burgers,,
-FW,WMGK 102.9 FM,Brandon,3.4,140,1,Ice Cream & Frozen Yogurt, Police Departments, Specialty Food, Arts & Entertainment,
-FX,Fox & Hounds Tavern,Tampa,3.5,5,0,Automotive, Local Services, Restaurants,,
-FY,Family Carpets,Philadelphia,3.4,27,1,Car Wash, Food, Event Planning & Services,,
-FZ,Tienda Ho,Reno,3.0,31,1,Automotive, Breweries, Waxing, Burgers, Wine Bars
-Ga,McDonald's,Doylestown,2.5,200,1,Nail Salons, Furniture Stores, Restaurants,,
-Gb,Nifty Car Rental,Lionville,1.4,5,1,Arts & Crafts, Pubs, Flooring, Sewing & Alterations,
-Gc,La Cucina Italian Eatery,Saint Petersburg,5.0,5,1,Contractors, Fast Food, Local Flavor,,
-Gd,Elysian Fields Animal Clinic,White House,4.7,5,1,Shopping, Specialty Food, Grocery, Wine & Spirits, Nightlife
-Ge,King Ribs Bar-B-Q,Philadelphia,4.5,133,0,Hotels & Travel, Discount Store, Wine Bars, Beer Bar, Vintage & Consignment
-Gf,West Coast Roofing,Warminster,4.5,197,1,Restaurants, Hair Stylists, American (Traditional), Health & Medical, Pets
-Gg,Porpoise Pub,Wilmington,4.0,5,1,Hair Salons, Grocery, Eyelash Service,,
-Gh,Future Fitness,West Chester,4.3,164,0,Food, Barbeque, Chinese, Party Supplies, Cosmetics & Beauty Supply
-Gi,Misto Diner,Saint Petersburg,5.0,116,1,Event Planning & Services, Food, Restaurants,,
-Gj,Plume Salon,Boise,4.2,94,1,Active Life, Donuts, Event Planning & Services, Fashion, Vintage & Consignment
-Gk,Porpoise Pub,Carmel,3.3,161,1,Beauty & Spas, Nail Salons, Tires,,
-Gl,Window World of Philadelphia,Edmonton,4.2,156,1,Auto Repair, Local Flavor, Burgers, Auto Repair,
-Gm,Mattress Firm West End Avenue,Tucson,2.1,83,1,Women's Clothing, Restaurants, Local Services,,
-Gn,JoJo's Hot Dogs and BBQ,Clearwater,2.2,5,0,Restaurants, Hotels & Travel, Restaurants,,
-Go,Plume Salon,Affton,5.0,5,1,Coffee & Tea, Police Departments, Active Life,,
-Gp,Paige Simmons Salon,Nashville,5.0,5,1,Veterinarians, Cafes,,,
-Gq,Digestive Diseases Associates of Tampa Bay,Tampa,4.0,232,1,Hair Salons, Department Stores, Shopping,,
-Gr,U-Haul of Somerdale,Wesley Chapel,4.9,5,1,Self Storage, Pet Sitting, Fashion,,
-Gs,24,Lambertville,3.4,211,1,Restaurants, Sandwiches, Home Services, Event Planning & Services,
-Gt,Muse Entertainment,Saint Louis,4.5,5,0,Beauty & Spas, Police Departments, Chinese,,
-Gu,Trader Joe's,Boise,4.0,242,1,Automotive, Burgers,,,
-Gv,Phone Repair Philly - Center City,O Fallon,4.0,30,1,Carpeting, American (New), Accessories, Mobile Phone Accessories, Nail Salons
-Gw,Hibiscus Spa,Tucson,5.0,5,1,Food, Auto Repair,,,
-Gx,Petite 4,Boise,2.4,5,1,Auto Repair, Music Venues, Event Planning & Services,,
-Gy,Parlor Suburban Square,Philadelphia,2.0,5,0,Sporting Goods, Home Services, Health & Medical,,
-Gz,Sam's Plaza Shoe Repair,Reno,3.4,198,0,Pizza, Mexican, Sandwiches, Waxing, Food
-GA,James Brown Hair,Bala Cynwyd,4.9,66,1,Hotels & Travel, Automotive,,, Nightlife
-GB,Fisherman's Cove Seafood,Boise,3.6,98,0,Beauty & Spas, Bakeries, Fast Food,,
-GC,The Silo Eatery Coffee Bakery,Cherry Hill,3.3,133,1,Nightlife, Hair Salons, Office Cleaning,, Italian
-GD,Lens Crafters,Nashville,3.4,151,0,Barbers, Specialty Food, Automotive,,
-GE,Aj's Bikes and Boards,West Chester,4.7,234,1,Home Services, Shopping Centers, Gift Shops, Seafood,
-GF,McDonald's,Meridian,4.1,81,1,Bars, Pediatricians, Diners, Fashion,
-GG,Brewster's Pub,Bellair,1.5,20,1,Shopping, Mags,, Restaurants, Wine Bars
-GH,Kim Kelly & Co Clinical Skin Care,Edmonton,3.3,5,0,Restaurants, Nail Salons, Food,,
-GI,El Rancho Nuevo,Philadelphia,2.7,5,1,Bridal, Breakfast & Brunch,, Food,
-GJ,805 Ink,Philadelphia,3.8,417,0,Bars, Restaurants, Oil Change Stations,, Coffee & Tea
-GK,Stylist Inside,Tampa,4.4,280,1,Festivals, Auto Repair, Hair Stylists, Shopping, Restaurants
-GL,Courtyard by Marriott Nashville Downtown,Ardmore,2.1,406,1,Tobacco Shops, Beer,,, Restaurants
-GM,V Sandwiches,King of Prussia,3.0,262,1,Auto Repair, Police Departments, Vegan, Child Care & Day Care, Vintage & Consignment
-GN,Absolute Luxury,Indianapolis,4.7,97,1,Food, Home Decor, Restaurants, Home & Garden,
-GO,Sonny's Phat Smoke,Tucson,3.4,147,1,Active Life, Coffee & Tea, Hair Extensions, Arts & Entertainment,
-GP,Rite Aid,Santa Barbara,3.7,220,1,Local Services, Nightlife,, Cafes, Cocktail Bars
-GQ,Collision XS,Nashville,3.0,5,1,Shopping, Pizza, Bars,,
-GR,Heitz Optical,Saint Louis,5.0,140,1,Pain Management, Pet Adoption, Door Sales/Installation, Real Estate, Local Services
-GS,Pita Kebob,New Orleans,2.8,5,1,Pets, Donuts, Cafes, Tires,
-GT,Taco Truck Stl,Brandon,5.0,79,1,Seafood, Delis, Transportation,,
-GU,Nailtek,Boise,3.5,107,1,Restaurants, Barbeque,,,
-GV,La Bella China Restaurant,Brandon,4.7,211,1,Ice Cream & Frozen Yogurt, Restaurants, Coffee & Tea,, Waxing
-GW,Cyclone Car Care,Saint Louis,2.5,59,1,Fashion, Shopping, Eyelash Service, Used, Health & Medical
-GX,Las Margaritas,Clearwater,3.3,189,1,Chicken Wings, Active Life, Shopping, Food Trucks,
-GY,Temple University Hospital ,New Orleans,4.1,86,0,Local Services, Wheel & Rim Repair, Fashion,,
-GZ,The Corner Cafe and Deli,Saint Louis,3.8,59,1,Barbers, Police Departments, Nightlife, Skin Care, Wine Bars
-Ha,Fusion Pizza & Grill,Sparks,3.9,5,0,Food, Health & Medical,,,
-Hb,Restoration Hardware,Nashville,5.0,104,1,Appliances & Repair, Bars, Vinyl Records, Auto Parts & Supplies,
-Hc,El Sabor Boricua,Tucson,4.2,50,1,Beauty & Spas, Local Services, Education,,
-Hd,Philadelphia Room Escape,Philadelphia,3.6,302,0,Italian, Hotels & Travel, Grocery, Tires, Tattoo
-He,MedExpress Urgent Care,Exton,3.9,5,1,Auto Parts & Supplies, Hotels & Travel, Shopping, Dentists,
-Hf,University Crossings,Ardmore,3.9,50,0,Car Dealers, Auto Repair, Coffee & Tea, Bridal, Arts & Entertainment
-Hg,Hibachi Express,Indianapolis,3.4,20,0,Beauty & Spas, Hotels,,,
-Hh,Sal DeForte's Ristorante,Philadelphia,3.2,382,0,Automotive, Sewing & Alterations, Eyelash Service, Children's Clothing,
-Hi,Robbi's Custom Leather Goods,Largo,2.7,8,0,Auto Parts & Supplies, American (Traditional), Sandwiches, Restaurants,
-Hj,Marcie Blaine,Santa Barbara,4.6,5,1,Hotels & Travel, Restaurants, Shopping, Arts & Entertainment,
-Hk,Hibiscus Spa,Tucson,5.0,241,1,Shopping, Breweries, Bars,, Trainers
-Hl,Wink Lash Studio + Bath Bar,New Orleans,3.8,147,1,Automotive, Grocery, American (Traditional), Restaurants, Burgers
-Hm,Rituals Aveda Salon,Mount Juliet,4.2,5,1,Fashion, Bars, Shopping, Restaurants,
-Hn,Reno Collective Coworking,Metairie,5.0,247,1,Apartments, Sports Bars, Doctors, Used, Hotels
-Ho,Gasparilla Pirate Festival,Wilmington,3.2,106,1,Local Services, Restaurants, Nightlife, Restaurants,
-Hp,BurgerWorks,Tucson,5.0,223,1,Uniforms, Restaurants, Active Life, Printing Services, Vintage & Consignment
-Hq,Ardmore Pizza,Tampa Bay,4.3,205,1,Flowers & Gifts, Doctors, Restaurants,,
-Hr,Arhaus,Goleta,3.6,37,1,Burgers, Local Services, Specialty Food, Food Delivery Services, Restaurants
-Hs,McDonald's,Tampa,5.0,112,1,Self Storage, Home & Garden, American (Traditional), Bakeries,
-Ht,ReAnimator Coffee,Indianapolis,4.7,202,1,Bridal, Gas Stations, Sports Bars, Automotive, Women's Clothing
-Hu,V Sandwiches,Nashville,4.8,5,1,Shopping, Sushi Bars, Pizza, Real Estate, Mags
-Hv,The Pepper Pott,Tucson,3.6,235,1,Burgers, Asian Fusion, Restaurants, Shopping,
-Hw,Fairfield Inn & Suites,Tampa,3.0,32,1,Real Estate, Cocktail Bars, Oral Surgeons, Used, American (Traditional)
-Hx,The Irish Times,New Orleans,4.3,142,1,Local Services, Automotive, Naturopathic/Holistic, Team Building Activities, Food
-Hy,MedExpress Urgent Care,Doylestown,1.8,5,0,Signmaking, Restaurants, Fashion,,
-Hz,"Abby Rappoport, LAC, CMQ",Tampa,2.8,30,1,Beauty & Spas, Sports Wear, Insurance, Restaurants,
-HA,The Home Depot,Philadelphia,2.9,164,1,Real Estate Agents, Restaurants,, Bike Repair/Maintenance, Skin Care
-HB,Nutrishop,Largo,4.3,142,1,Salad, Religious Organizations, Eyelash Service, Used, Toy Stores
-HC,Chicago Music Store,Wesley Chapel,3.1,5,1,Japanese, Restaurants, Pets, Italian, Restaurants
-HD,Foolish Pride Tattoo Company,Pinellas Park,3.4,146,1,Arts & Crafts, American (New), Pet Training,,
-HE,James L Frank Door Service,New Orleans,3.6,102,1,Arts & Entertainment, Police Departments,,, Pizza
-HF,Boogyz Donuts,St. Petersburg,2.7,5,0,Eatertainment, Lounges, Makeup Artists, Ice Cream & Frozen Yogurt, Breakfast & Brunch
-HG,Mighty Dustless,Cherry Hill,3.6,5,0,Sporting Goods, Education,,,
-HH,Nudy's Cafe - Chadds Ford,Edmonton,2.3,5,1,Gelato, American (Traditional), Steakhouses, Appliances & Repair,
-HI,BayLife Physical Therapy and Rehabilitation- St. Petersburg,Brookhaven,4.1,63,0,Local Services, Car Dealers, Beauty & Spas,,
-HJ,Plume Salon,Saint Petersburg,3.4,5,0,Yoga, Bed & Breakfast, Grocery, Gift Shops,
-HK,Sake House,St. Louis,3.1,194,1,Restaurants, Nail Salons, Tires, Home Services, Vintage & Consignment
-HL,Starbucks,Reno,2.7,256,1,Home & Garden, Home Services, Hair Salons, Used, Venues & Event Spaces
-HM,Damaso Painting,Lutz,5.0,5,1,Arts & Entertainment, Asian Fusion, Bikes, Convenience Stores,
-HN,Pita Pit,Franklin,2.7,169,1,Steakhouses, Shopping, Food, Event Planning & Services, Cocktail Bars
-HO,Hibiscus Spa,Horsham,2.8,74,1,Auto Repair, Auto Parts & Supplies, Restaurants, Nightlife,
-HP,Functional Life,Philadelphia,5.0,291,1,Event Planning & Services, Bakeries, Vegan, Food, Accessories
-HQ,Fox & Hounds Tavern,Tampa,5.0,5,1,Home Decor, Nail Salons, Shopping, Health & Medical,
-HR,7-Eleven,Saint Louis,4.4,84,1,Bars, Event Planning & Services, Local Flavor, Breakfast & Brunch,
-HS,Legacy Coins,Odessa,4.9,164,1,Coffee & Tea, Asian Fusion, Gas Stations,, Food
-HT,The Juice Pod,Clearwater,1.1,47,1,Animal Shelters, Oil Change Stations, Apartments, Arts & Entertainment,
-HU,The Silo Eatery Coffee Bakery,Tucson,2.2,141,1,Grocery, Automotive, Men's Clothing, Historical Tours,
-HV,Gary's World of Wellness,Philadelphia,3.9,316,1,Hotels, American (New), Specialty Food, Italian, Fast Food
-HW,Sears Auto Center,Norristown,1.6,33,1,Home Decor, Automotive,,,
-HX,West Coast Awnings,Philadelphia,4.5,205,1,Bridal, Event Planning & Services, Cocktail Bars,, Event Planning & Services
-HY,Weinhardt Party Rentals,Philadelphia,3.1,26,1,Kebab, Shopping, Shopping, Health & Medical,
-HZ,Womens Health Partners,Philadelphia,4.1,5,1,Auto Parts & Supplies, Chinese, Local Services, Pizza,
-Ia,Papa John's Pizza,Philadelphia,3.2,94,1,Towing, Shopping, Ice Cream & Frozen Yogurt, Japanese, Pets
-Ib,"Daniel Colombo , MD",Edmonton,5.0,34,1,Bridal, Bakeries, Refinishing Services, Used, Vintage & Consignment
-Ic,ReAnimator Coffee,Nashville,4.6,5,1,Hotels, Shopping,,, Restaurants
-Id,Absolute Luxury,Reno,3.4,5,1,Pets, Hotels, Nightlife, Vitamins & Supplements, Nightlife
-Ie,Best Western Cedar Park Inn,Boise,2.5,60,1,Masonry/Concrete, Real Estate, Bars, Active Life,
-If,Reinette Café & Patisserie,Reno,4.2,225,1,Ice Cream & Frozen Yogurt, Hotels, Fashion, Health & Medical, Burgers
-Ig,Indigo Point,Tucson,3.7,312,1,Desserts, Tours, Tires, Printing Services,
-Ih,Franklin Juice Co,Lionville,4.8,68,1,Restaurants, Wheel & Rim Repair, Home Services,,
-Ii,Indy Fuel,Edmonton,4.2,5,1,Burgers, Furniture Stores, Eyelash Service, Auto Repair,
-Ij,Plume Salon,Meridian,3.4,23,1,American (Traditional), Police Departments, Home Services, Gyms,
-Ik,Lama Dog Tap Room,Philadelphia,3.2,211,0,Beauty & Spas, Auto Parts & Supplies, Medical Centers, Bars, Food
-Il,Fairfield Inn & Suites,Indianapolis,4.2,179,1,Restaurants, Mexican, Home Services, Restaurants, Event Planning & Services
-Im,Jersey Mike's Subs,Philadelphia,5.0,5,1,Bridal, Preschools, Building Supplies, General Dentistry,
-In,"American Freight Furniture, Mattress, Appliance",Lutz,4.3,236,0,Restaurants, Jewelry, Seafood, Health Markets, Vegetarian
-Io,Norma's Sweets Bakery,Lionville,5.0,5,1,Coffee & Tea, Home & Garden, Costumes, Gyms, Nail Salons
-Ip,Alic Motors,Oro Valley,3.1,132,0,Desserts, Burgers, Empanadas, Beer, Cocktail Bars
-Iq,Arizona Truck Outfitters,Edmonton,4.1,126,1,Nightlife, Mexican, Fast Food, Shopping, Walking Tours
-Ir,Tolsdorf Oil Lube Express,Philadelphia,3.2,5,0,Men's Hair Salons, Musical Instruments & Teachers, Sushi Bars, Car Dealers, Wine Bars
-Is,Oscar's Cafe,Tampa,3.2,5,1,Bagels, Automotive, Pets,,
-It,Secrets,Tucson,3.7,195,0,Real Estate Agents, Chicken Wings, Towing,,
-Iu,Saltwater Grill,St. Louis,3.1,5,0,Bridal, Bars, Restaurants,,
-Iv,Incrediplex,Philadelphia,4.8,117,1,Italian, Specialty Food, Parks, Cafes,
-Iw,Plume Salon,New Orleans,2.1,295,1,Beauty & Spas, Auto Detailing, Food Trucks,,
-Ix,Kaiserman JCC,Lionville,2.9,142,1,Restaurants, Food,,,
-Iy,RECON Auto Detailing,New Orleans,3.0,335,1,Restaurants, Breakfast & Brunch, Food, Acupuncture, Fast Food
-Iz,More Than Old,Indianapolis,4.2,232,0,Breakfast & Brunch, Tours, Shopping,, Shopping
-IA,Tsevi's Pub And Grill,Boise,4.6,5,0,Food Trucks, Coffee & Tea, Bars, Sandwiches,
-IB,Ardmore Pizza,New Orleans,3.1,225,0,Beauty & Spas, Automotive, Food, Pet Groomers,
-IC,Sears Auto Center,Edmonton,4.3,247,1,Art Classes, Tree Services, Pets, Used, Local Services
-ID,Wesley Chapel Florist,Nashville,3.2,114,1,Chinese, Coffee & Tea, Bars, Chocolatiers & Shops,
-IE,Surreal Virtual Reality Studio,St. Petersburg,4.6,119,1,Eyewear & Opticians, Hardware Stores, Eyelash Service, Pet Services, Automotive
-IF,Marcie Blaine,Tucson,2.7,343,0,Shopping, Restaurants, American (Traditional), Bars,
-IG,Jong Ka Jib,New Orleans,3.7,298,0,Real Estate Agents, Restaurants, Restaurants, Restaurants, Automotive
-IH,Absolutely Perfect Inc,Philadelphia,2.4,74,1,Fashion, Wine & Spirits, Auto Repair,,
-II,Colonial Frontiers,Lionville,5.0,5,1,Shanghainese, Furniture Stores, Shopping, Active Life,
-IJ,McDonald's,St. Petersburg,4.3,127,1,Food, Restaurants, Oil Change Stations,,
-IK,Toys R Us,Pennsville,4.4,5,1,Automotive, Hair Salons,, Arts & Crafts, American (Traditional)
-IL,Santa Barbara Athletic Club,Indianapolis,3.3,160,0,Donuts, Fitness & Instruction, Bakeries, Fashion,
-IM,Willard Park,Oro Valley,4.8,5,0,Building Supplies, Shopping,,,
-IN,Collective Concept,Plymouth Meeting,4.2,5,1,Coffee & Tea, Wine Bars, Ramen,,
-IO,"American Freight Furniture, Mattress, Appliance",Saint Petersburg,2.9,5,0,Italian, Police Departments, Used Car Dealers,,
-IP,Plume Salon,Spring Hill,4.1,5,1,Beauty & Spas, Convenience Stores, Bars, Shopping,
-IQ,Brilliant Nail Spa,New Orleans,5.0,120,1,Discount Store, Veterinarians, Nightlife, Restaurants,
-IR,US Storage Centers,Jenkintown,2.9,191,1,Electronics, General Dentistry, Salad,,
-IS,Plume Salon,Edmonton,3.5,65,1,Flooring, Fast Food, Burgers,,
-IT,Studio 240,Edmonton,3.4,56,1,Beauty & Spas, Nail Salons, Coffee & Tea,, Food
-IU,Beauty Nails,Santa Barbara,3.7,5,1,Property Management, Breweries, Sandwiches,,
-IV,McMahan Hair Salon,New Orleans,4.8,54,1,Auto Repair, Piercing, Eyelash Service, Bubble Tea, Cocktail Bars
-IW,Mumbai Bistro,New Orleans,2.3,20,1,Italian, Tours, Local Services, Restaurants,
-IX,The Mad Griddle ,Philadelphia,4.7,57,1,Fashion, Chinese, Restaurants, Nightlife,
-IY,The Moose Music Row,Green Valley,2.9,190,0,Nightlife, Automotive, Shopping, Beauty & Spas,
-IZ,Plume Salon,Wesley Chapel,3.0,84,0,Florists, Chocolatiers & Shops, Doctors, Salad,
-Ja,Comfort Inn Marrero - New Orleans West,Saint Louis,3.5,84,1,Hair Salons, Restaurants, Fashion,,
-Jb,Think Box Photography,Clearwater,3.4,5,1,Ice Cream & Frozen Yogurt, Delis,, Shopping,
-Jc,Wyoming Barber Shop,Edmonton,5.0,5,0,Arts & Entertainment, Breweries, Hotels & Travel, Shopping, Eyelash Service
-Jd,The Hideout Coffee House,Fishers,1.8,163,1,Sports Bars, Caribbean, Shopping, Health Markets,
-Je,McDonald's,Cherry Hill,3.5,5,1,Cocktail Bars, Hotels & Travel,, Arts & Entertainment,
-Jf,Plume Salon,Philadelphia,3.1,153,0,Car Dealers, Vacation Rentals, Salad,,
-Jg,Cal Taco,Sparks,3.4,5,1,Financial Services, Automotive, Oil Change Stations, Beauty & Spas,
-Jh,Lee Roy Selmon's,Philadelphia,3.6,295,1,Plumbing, Chinese, Shopping,,
-Ji,Carpet One Floor & Home,Warminster,4.3,5,1,Baby Gear & Furniture, Shopping Centers, Steakhouses,,
-Jj,Man of the Soil Landscape Builder,Metairie,4.2,253,0,Active Life, Seafood, Home Services, Food, Burgers
-Jk,Freddy's Frozen Custard & Steakburgers,Sherwood Park,4.3,9,1,Furniture Stores, Food, Food, Restaurants, Windows Installation
-Jl,China City Restaurant,Tampa Bay,3.3,14,1,Sandwiches, Sports Wear, Breakfast & Brunch,, Restaurants
-Jm,Rita's Italian Ice,Largo,2.3,20,1,Parks, Police Departments, Health & Medical, Health Markets,
-Jn,Jaramillo Hair salon,Indianapolis,3.4,323,1,Bridal, Arts & Entertainment,, Arts & Entertainment,
-Jo,Fleet Feet Sports,Nashville,4.9,5,1,Health & Medical, University Housing, Beauty & Spas,,
-Jp,Tuffy Tire & Auto Service Center,St. Louis,3.7,79,1,Restaurants, Police Departments, Salad,,
-Jq,KFC,Sicklerville,1.8,103,1,Active Life, Apartments, Burgers,,
-Jr,McDonald's,Ardmore,4.0,159,1,American (New), Beauty & Spas,,,
-Js,Plume Salon,Pottstown,3.7,219,1,Airport Shuttles, Fast Food, Local Flavor, Arts & Entertainment,
-Jt,Bronze Lady Home Furnishings,Reno,3.1,92,1,Event Planning & Services, Nightlife, Nail Salons,,
-Ju,Womens Health Partners,New Orleans,5.0,57,1,Bridal, Car Dealers, Hotels & Travel, Restaurants,
-Jv,Tinkle Belle Diaper Service,Reno,2.7,5,0,Italian, Shoe Repair, Nightlife,,
-Jw,The Cider Factory,Tucson,3.2,5,1,Fertility, Sandwiches, Eyelash Service, Bars, Oil Change Stations
-Jx,Holly Nails & Spa,Nashville,4.2,5,1,Towing, American (Traditional), Food, Restaurants, Breakfast & Brunch
-Jy,Norma's Sweets Bakery,Saint Louis,4.1,147,1,Parks, Chinese, Real Estate Agents, Chinese, Hair Removal
-Jz,McDonald's,Tampa,4.3,5,1,Keys & Locksmiths, Arts & Entertainment, Sporting Goods, Coffee & Tea, Hair Removal
-JA,Jim's Auto Detailing,Saint Louis,1.0,5,0,Automotive, Hair Salons,,,
-JB,Treehouse Yoga for Children,Philadelphia,4.1,5,1,Coffee & Tea, American (Traditional), Auto Detailing, Contractors,
-JC,Nesbit's Magazine Street Market,Tucson,3.2,198,1,Barbers, Home Services, Sandwiches,,
-JD,Chick-fil-A,Wesley Chapel,2.3,6,1,Delis, Restaurants, Home Services,,
-JE,Bulk Barn,Wesley Chapel,3.3,5,1,Pizza, Wine & Spirits, Shopping, Auto Repair,
-JF,The Collins Apartments,Tampa,4.0,72,1,Nail Salons, Chicken Wings, Specialty Food, Hair Salons,
-JG,McDonald's,Pinellas Park,3.3,114,1,Home & Garden, Desserts, Watch Repair,,
-JH,Lee Roy Selmon's,Philadelphia,2.8,159,0,Auto Repair, Fast Food,, Skin Care,
-JI,Kuzina By Sofia,Saint Louis,3.0,19,1,Eyewear & Opticians, Caterers,,,
-JJ,Stokehold Restaurant,Lionville,2.7,5,1,Steakhouses, Food,, Restaurants, Event Planning & Services
-JK,Barista Cafe,Franklin,3.8,159,1,Food Trucks, Sandwiches, Health & Medical,,
-JL,Eddie's Southtown Donuts,Reno,3.6,5,1,Local Services, Hotels, Day Spas, Waxing, Breakfast & Brunch
-JM,Des-Carr Doors,Boise,4.4,68,1,Health & Medical, DJs, Sandwiches,, Candy Stores
-JN,McDonald's,Reno,1.8,5,1,Beauty & Spas, Donuts, Financial Services,,
-JO,NY Bagel & Deli Shop,Temple Terrace,3.9,63,1,Fashion, Caterers, Party Equipment Rentals, Noodles, Fast Food
-JP,Draino,Cherry Hill,3.6,226,1,Restaurants, Massage, Fashion, Tires,
-JQ,Sparkle Cupcake Company,Reno,2.5,5,0,Shopping, Musical Instruments & Teachers, Salad,,
-JR,Pima County Fair,Santa Barbara,4.1,5,1,Flowers & Gifts, Auto Repair,, Coffee & Tea,
-JS,Noble Crust,Reno,1.5,5,1,Doctors, Nightlife, Education, Food,
-JT,The Juice Pod,Kingston Springs,5.0,5,1,Car Stereo Installation, Italian, Building Supplies, Skin Care,
-JU,Think Box Photography,Valley Forge,3.7,5,1,Event Planning & Services, Gluten-Free, Arts & Entertainment, Auto Repair, Beauty & Spas
-JV,Plume Salon,Saint Louis,2.7,5,0,Restaurants, Tours, Medical Centers, Mountain Biking, Bars
-JW,Straight Edge Barber Shop,Edmonton,3.0,149,0,Auto Repair, Hotels & Travel, Hair Salons,, Shopping
-JX,Bus Depot Discount VW Parts,Plymouth Meeting,3.4,5,1,Fertility, Coffee & Tea, Dance Clubs, Fast Food, Oil Change Stations
-JY,Northeast Auto Service,Nashville,2.8,97,0,Shopping, Local Services, Coffee & Tea, Thai,
-JZ,Sidekicks Pizza,Saint Louis,3.5,5,1,Fashion, Restaurants, Restaurants, Nightlife,
-Ka,McDonald's,Tampa,3.2,5,1,Restaurants, Shopping, Food,,
-Kb,Stitchers' Dream,Indianapolis,5.0,39,1,Automotive, Beauty & Spas, Rugs, Bars, Bars
-Kc,Chick-fil-A,West Chester,1.9,315,1,Grocery, Bars, Day Spas, Wine & Spirits,
-Kd,Medford Village Car Care,Saint Louis,3.6,151,0,Food, Restaurants,,,
-Ke,Watson Adventures Scavenger Hunts,Lionville,3.1,82,1,Japanese, American (New), Beauty & Spas, Italian,
-Kf,Crush Gourmet Raspados,Lionville,4.2,64,0,American (New), Burgers,, Restaurants,
-Kg,KFC,Edmonton,4.1,253,1,Bridal, Hotels & Travel, Hotels & Travel, Books,
-Kh,Plume Salon,Meridian,2.3,165,0,Car Dealers, Event Planning & Services, Fast Food, Adult Education, Beer
-Ki,Family Carpets,Oro Valley,4.4,5,0,Breakfast & Brunch, Caterers, Home & Garden, Skin Care,
-Kj,Tat Starz,Saint Louis,2.4,5,1,Restaurants, Auto Repair,,,
-Kk,Sweetwater Wetlands,Tampa,5.0,5,1,Bagels, Active Life, Breakfast & Brunch,,
-Kl,"C R Bhatia, DVM - Animal Clinic of Warrington",Saint Louis,3.5,28,0,Korean, Bakeries, Beauty & Spas, Event Planning & Services, Shopping
-Km,Fine Wine & Good Spirits,Tampa,3.1,5,1,Delis, Seafood, Home Services, Home Services,
-Kn,Biryani Hut,Eagle,4.3,150,1,Home Services, Restaurants, Auto Detailing, Skin Care, Beer
-Ko,Camden Bay Apartments,Edmonton,2.9,199,1,Food, Local Services, Beauty & Spas,, Food
-Kp,Foolish Pride Tattoo Company,Nashville,5.0,195,1,American (New), American (Traditional), Event Planning & Services, Arts & Crafts, Burgers
-Kq,Jennie Deckert,Norristown,4.1,5,1,Burgers, Shopping, Fashion, Hair Extensions,
-Kr,Sparkle Cupcake Company,Edmonton,4.5,109,1,Barbeque, Hair Stylists,, General Dentistry, American (Traditional)
-Ks,McDonald's,Lionville,2.3,20,0,Bars, Hair Salons, Fast Food, Restaurants,
-Kt,Cole Brothers,Harvey,3.5,67,1,Landscaping, Active Life, Food,,
-Ku,Saltwater Grill,New Orleans,3.0,5,1,Bars, Hotels, Financial Services,,
-Kv,Kal Tire,Brookhaven,3.0,70,1,Restaurants, Food, Pets, Wine & Spirits, Food
-Kw,Dental Care at Quail Hollow,Nashville,4.7,130,1,Delis, Hair Salons, Home Services, Doctors,
-Kx,Dwight's Auto Glass & Tint,Tucson,4.7,24,1,Nail Salons, Restaurants, Bars,,
-Ky,The Collins Apartments,Nashville,3.8,126,1,Desserts, Art Galleries, Event Planning & Services, Bars,
-Kz,Accurate Window & Screen,Isla Vista,4.9,14,1,Mexican, Shopping,,, American (Traditional)
-KA,Edible Arrangements,Wyncote,3.6,99,1,Car Rental, Nightlife, Restaurants, Restaurants,
-KB,Tattoos by Taz,Saint Petersburg,3.5,107,0,Health & Medical, Police Departments, Urgent Care, Asian Fusion, Vehicle Wraps
-KC,Clear View Glass And Tint,Boise,3.0,5,1,Shaved Ice, Home & Garden, Fashion, Sports Bars, Mags
-KD,Villas at San Dorado,New Orleans,3.1,281,1,Arts & Entertainment, Mexican, Restaurants, Restaurants, Active Life
-KE,Union Teller Delicatessen,New Orleans,3.4,5,0,Ice Cream & Frozen Yogurt, Gas Stations, Italian, Bars,
-KF,Accurate Window & Screen,Sherwood Park,3.2,5,0,Active Life, Lounges, Urgent Care, Gift Shops,
-KG,A Family Dental Care Center,St. Louis,3.9,109,1,Desserts, Burgers, Food,,
-KH,Scout's Treat Truck,Boise,4.1,34,0,Home Services, Wine & Spirits, Food Trucks, Ethnic Food, Vintage & Consignment
-KI,James Dant,Saint Louis,1.0,29,0,Restaurants, Hair Salons, Food,,
-KJ,Ristenpart Law,Reno,2.8,5,0,Shopping, Auto Detailing,,, Nail Salons
-KK,El Sabor Boricua,New Orleans,3.6,130,1,Burgers, Shopping, Hotels, Oral Surgeons, Fashion
-KL,Dr.Green,St. Petersburg,3.0,5,0,Home Services, Home Services, Food,,
-KM,Restoration Hardware,Bala Cynwyd,2.8,61,1,Car Dealers, Food, Restaurants,,
-KN,Apple Barn Cider Bar and General Store,Santa Barbara,4.0,131,1,Hair Salons, Burgers,, Pet Groomers,
-KO,HouseMaster Home Inspections,Nashville,3.4,19,0,Arts & Crafts, Sandwiches, Burgers,,
-KP,Ron & Jo's Firearms & Sporting Supplies,Skippack,5.0,5,1,Bridal, Eyebrow Services, Food, Tires,
-KQ,Baxter's Saloon & Grill,Tucson,5.0,191,0,Auto Repair, Health & Medical, Fast Food, Specialty Food, Jewelry
-KR,Dwight's Auto Glass & Tint,Madeira Beach,4.1,92,0,Bars, Tours, Food, Restaurants, Food
-KS,Perkiomen Valley Brewery,Philadelphia,3.3,151,1,Restaurants, Hair Salons,,,
-KT,Master Bait and Fishing Supplies,Indianapolis,5.0,62,1,Event Planning & Services, Fitness & Instruction, Education, Shopping,
-KU,"Bottom Zupp ""Floor Removal Experts""",Goleta,2.4,5,1,Restaurants, Sports Bars, Eyelash Service, Oil Change Stations, Bars
-KV,Caring Hands Veterinary Clinic,Lutz,2.7,5,1,Shopping, Music & DVDs, Cosmetics & Beauty Supply, Food,
-KW,Granite City Food & Brewery,Indianapolis,5.0,145,1,Mexican, Pediatricians, Restaurants, Dentists,
-KX,HouseMaster Home Inspections,Nashville,4.2,200,1,Discount Store, Food, Home Window Tinting, Specialty Food, Bikes
-KY,Plume Salon,Isla Vista,4.8,5,1,Event Planning & Services, Sporting Goods,,,
-KZ,Plume Salon,Philadelphia,1.0,39,1,Restaurants, Donuts, Home Services, Auto Repair,
-La,Granite City Food & Brewery,Glenside,1.4,65,0,Health & Medical, Piercing,,, Restaurants
-Lb,Licata's Italian Deli,Edmonton,3.5,5,1,Auto Repair, Cafes, Pubs, Restaurants,
-Lc,Jos A Bank,Saint Louis,2.9,79,1,Bars, Wheel & Rim Repair, Waxing, American (Traditional),
-Ld,New India's Kitchen,Upper Darby,2.8,104,1,Home & Garden, Kids Activities, Sushi Bars, Cosmetology Schools, Vintage & Consignment
-Le,Bub's Cafe,University City,3.4,5,1,Home Services, Home & Garden, Pizza, Breweries, Breakfast & Brunch
-Lf,Womens Health Partners,Cherry Hill,4.4,193,0,Breakfast & Brunch, Vietnamese, Hotels & Travel, Nightlife, Shopping
-Lg,Valley Cleaners,Glassboro,5.0,309,1,Wildlife Control, Health & Medical, Sports Bars, Burgers, American (Traditional)
-Lh,Window World of Philadelphia,Saint Louis,4.5,35,0,Restaurants, Beauty & Spas,, Nightlife,
-Li,Legacy Coins,Brandon,2.7,5,0,Masonry/Concrete, Garage Door Services, Sandwiches, Bagels,
-Lj,Nipper's Pub,Reno,3.0,57,1,Auto Repair, Women's Clothing,,,
-Lk,Professional Healthcare of Pinellas,Philadelphia,3.6,100,1,American (Traditional), American (Traditional),,, Restaurants
-Ll,Bourgoyne Guest House,Indianapolis,2.4,5,0,Desserts, Fast Food, Piercing, American (Traditional), Shopping
-Lm,Addendum,Doylestown,2.5,120,0,Beauty & Spas, Massage,,,
-Ln,Rosemont Plaza,Franklin,3.1,117,1,Nail Salons, Sports Wear, Sushi Bars, Restaurants,
-Lo,Smoke & Thyme,Indianapolis,2.9,5,0,Mexican, Eyelash Service, Arts & Entertainment, Food,
-Lp,Reno Tahoe Shuttle,Tucson,5.0,171,1,Beer, Delis,, Restaurants,
-Lq,McDonald's,Saint Louis,3.0,5,0,Barbers, Restaurants, Nightlife,,
-Lr,St. Louis Artists' Guild,Saint Petersburg,4.1,21,1,Hotels, Sewing & Alterations, Outdoor Gear, Gardeners, Oil Change Stations
-Ls,Chipotle Mexican Grill,Edmonton,4.7,36,1,Seafood, Specialty Food, Italian, Auto Repair, Oil Change Stations
-Lt,Affordable Lock & Security Solutions - Tampa,Franklin,3.1,235,1,Barbeque, Health & Medical, Cajun/Creole, Ice Cream & Frozen Yogurt,
-Lu,Plume Salon,Largo,3.3,138,1,Fashion, Beauty & Spas,,,
-Lv,"Daniel Colombo , MD",Saint Louis,2.6,140,1,Sandwiches, Hair Salons, Seafood,,
-Lw,"Abby Rappoport, LAC, CMQ",Reno,4.7,261,1,Restaurants, Cafes, Eyelash Service, Seafood, Restaurants
-Lx,The Pepper Pott,Fishers,3.9,5,1,Home Services, Furniture Stores, Restaurants, Restaurants,
-Ly,Arizona Stagecoach,Alton,4.3,119,1,Restaurants, Movers, Makeup Artists,,
-Lz,Barker Diamond Company,Chadds Ford,4.6,58,1,Barbers, Food, Towing,,
-LA,Plaza Bowling,Saint Louis,1.8,40,1,Nail Salons, Oil Change Stations, Transmission Repair, Used,
-LB,KELP Sushi Joint,Nashville,2.2,5,0,Self Storage, Juice Bars & Smoothies, Eyelash Service, Local Services, Restaurants
-LC,Hibiscus Spa,Saint Louis,2.2,5,1,Weight Loss Centers, Veterinarians, Bars, Shopping,
+a,JoJo's Hot Dogs and BBQ,Tampa,4.8,188,1,Automotive, Local Services, Italian,,
+b,Famous Footwear,Edmonton,2.9,229,1,Local Services, Restaurants, Car Wash, Wholesale Stores, Coffee & Tea
+c,Lott's Service,Tucson,3.5,5,0,Day Spas, Hotels & Travel, Eyelash Service, Gutter Services, Vintage & Consignment
+d,Philly Homebrew Outlet East,New Orleans,3.6,5,0,Active Life, Nail Salons, Tires,,
+e,Gaylord Opryland Resort & Convention Center,Chester,1.2,21,0,Grocery, Coffee & Tea,, Health & Medical,
+f,emPIEnada,Sherwood Park,3.2,229,1,Delis, Real Estate, Wine Bars, Fast Food,
+g,PalmerCash,Edmonton,3.7,41,1,Chicken Wings, Automotive,, Mexican, Eyelash Service
+h,Blue Wren Studio,Springfield,3.4,174,1,Pets, Event Planning & Services, Dry Cleaning & Laundry,,
+i,Rathbone Mansions,Santa Barbara,3.5,5,1,Shopping, Keys & Locksmiths, Auto Detailing,, Active Life
+j,Kroger,St Louis,3.0,5,1,Beauty & Spas, Doctors, Restaurants, General Dentistry,
+k,Brew Brothers,Carmel,3.0,5,0,Pest Control, Shopping, Shopping, Bars, Mags
+l,McDonald's,Santa Barbara,1.3,5,1,Flooring, Shopping, Local Services, Hair Removal, Bars
+m,McDonald's,Tampa,4.0,5,1,Buses, Sports Bars, Home Services, Hair Removal, Restaurants
+n,Crowne Plaza Philadelphia - King of Prussia,Lionville,3.2,5,1,Mexican, Police Departments, Nightlife, Juice Bars & Smoothies,
+o,Morales Landscapers,Tucson,2.2,69,0,American (New), Professional Services, Hotels & Travel,,
+p,Arhaus,Saint Louis,2.7,15,0,Fashion, Arts & Crafts, Restaurants, Restaurants,
+q,The Hideout Coffee House,Philadelphia,2.4,182,0,Hotels, Home Services, Burgers, Hair Salons,
+r,Italian Style! Italian Restaurant,West Chester,2.9,88,1,Food, Coffee & Tea,,,
+s,Babies R US the Baby Superstore,Malvern,3.8,5,0,Cocktail Bars, Urgent Care, Specialty Food, Juice Bars & Smoothies,
+t,Plume Salon,Saint Petersburg,2.8,5,0,Makeup Artists, Dentists, Transmission Repair, Books,
+u,The Boiling House,Santa Barbara,2.8,40,1,Automotive, Mexican, Eyelash Service, Contractors,
+v,Majestic Towing,Sparks,3.8,124,1,Barbers, Real Estate Agents, Food Stands, Used, Florists
+w,McDonald's,Reno,1.9,88,0,Plumbing, Eyelash Service, American (New),,
+x,Mai Thai Restaurant,Brandon,3.2,174,1,Home Services, Barbeque, Shopping,,
+y,Dierbergs Markets,Santa Barbara,3.4,92,1,Live/Raw Food, Food, Health & Medical, Hotels & Travel,
+z,Del Taco,Tampa,2.9,5,1,Japanese, Vape Shops, Life Coach, Nightlife,
+A,Richard Kenneth Jewelers,Levittown,3.5,288,1,Nightlife, Coffee & Tea, Tires,,
+B,Kathy's Airport Limousine Service,Boise,2.6,49,1,Burgers, Skate Parks, Automotive,,
+C,Yogurt Court,King of Prussia,4.7,123,1,Health & Medical, Coffee Roasteries, Grocery, Pizza,
+D,World of Beer,Ardmore,3.2,25,0,Doctors, Eyelash Service, Nightlife, Condominiums, Used Car Dealers
+E,Barnes & Noble Booksellers,Nashville,2.7,251,1,Women's Clothing, Restaurants, Automotive,,
+F,James Brown Hair,Philadelphia,3.4,5,1,Fitness & Instruction, Nightlife,, Sandwiches, Restaurants
+G,Best Western Cedar Park Inn,Sherwood Park,2.4,146,0,Eyewear & Opticians, Pubs, Restaurants,,
+H,The Moose Music Row,Reno,3.1,206,1,Seafood, American (New), Beauty & Spas,,
+I,The Pepper Pott,New Orleans,3.2,5,1,Hair Salons, Sandwiches, Local Services, Karaoke, Jewelry
+J,Brown Sugar Bakery & Cafe,Tucson,1.9,184,0,Hair Salons, Doctors, Sandwiches,,
+K,Plaza Bowling,Chalfont,3.5,28,1,Chicken Wings, Local Services,, Doctors,
+L,ZigZag Scallop,St. Louis,4.9,182,1,Vietnamese, Lounges, Eyelash Service, Trainers, Vintage & Consignment
+M,Cantina Los Tres Hombres,Tampa,4.6,131,1,Restaurants, American (New), Grocery,,
+N,Accurate Window & Screen,Philadelphia,3.2,5,1,Real Estate, Lounges, Wine & Spirits, Chocolatiers & Shops, Vintage & Consignment
+O,McDonald's,New Orleans,5.0,5,1,Restaurants, Education, Restaurants,,
+P,Creature Comforts Pet Sitting,Edmonton,4.1,5,1,Bridal, Restaurants, Virtual Reality Centers, Community Service/Non-Profit, Self Storage
+Q,Sweet Things Chocolates,Tucson,4.6,5,1,Home & Garden, Eyelash Service, Real Estate, Sandwiches, Window Washing
+R,Soho Oasis Cafe,Indianapolis,5.0,102,0,Doctors, Restaurants, Automotive, Nightlife,
+S,McDonald's,St Louis,4.8,5,1,Restaurants, Coffee & Tea, Hotels & Travel, Restaurants,
+T,Timber Creek Park,New Orleans,3.6,5,0,Hair Salons, Men's Clothing, Auto Detailing, Shopping, Beauty & Spas
+U,California Tacos and Taproom,New Orleans,2.5,43,1,Italian, Shopping, Shopping, Real Estate, American (Traditional)
+V,St Christopher Pediatric Urgent Care,Saint Louis,5.0,73,1,Day Spas, Active Life, Restaurants,,
+W,Aqua Terra Salon & Spa,Moorestown,3.5,5,1,Flowers & Gifts, Home Decor,,,
+X,Plume Salon,Newtown,4.3,5,1,Fashion, Hotels, Cajun/Creole, Used,
+Y,McDonald's,Tucson,3.9,133,1,Grocery, Shopping, Auto Repair, Italian, Nightlife
+Z,Lee Read Diamonds,Oro Valley,4.4,152,1,Car Dealers, Wheel & Rim Repair, Septic Services, Books,
+aa,Sherbrooke Liquor Store,Reno,1.9,96,1,Massage, Hair Removal, Arts & Entertainment,, Food
+ab,Domain Home Accessories & Gallery,Nashville,4.1,5,1,Home & Garden, Shoe Repair, Desserts, Burgers, Wine & Spirits
+ac,A Family Dental Care Center,Madeira Beach,3.5,58,0,Grocery, Beer,, Steakhouses, Venues & Event Spaces
+ad,The Music Box Village,Nashville,2.5,245,1,Home Services, Financial Services, Door Sales/Installation, Nightlife,
+ae,Straight Edge Barber Shop,Boise,3.5,5,1,Medical Centers, Auto Parts & Supplies, Auto Parts & Supplies,,
+af,Indianapolis Army Navy,Florissant,3.2,222,0,Shopping, Pizza, Italian, Pets, Commercial Real Estate
+ag,Diamondback Police Supply,Brookhaven,4.4,154,0,Restaurants, Bars, Auto Repair,, Local Services
+ah,Edwardsville Children's Museum,Jenkintown,3.2,441,0,Arts & Entertainment, Chicken Wings, Pubs, Towing, Desserts
+ai,Picasso Restaurant & Bar,Saint Louis,3.6,63,0,Food, Sandwiches, Burgers, Dentists,
+aj,Sherbrooke Liquor Store,Newtown,2.6,126,1,Home & Garden, Sandwiches, Food, Chicken Wings,
+ak,Nash Painting,Tampa,5.0,52,1,Event Planning & Services, Home Services,, Home Services,
+al,Think Box Photography,New Orleans,3.8,5,1,Japanese, Caribbean, Steakhouses, Soul Food, Beauty & Spas
+am,McDonald's,Carmel,4.2,45,1,Grocery, Real Estate,, Italian,
+an,Golf Galaxy,Edmonton,3.8,5,0,Musicians, Nightlife, Food, American (Traditional), Coffee & Tea
+ao,Philadelphia Room Escape,Philadelphia,4.0,43,1,Festivals, Shopping,,,
+ap,City Fitness - Northern Liberties,Saint Charles,3.2,5,0,Indian, Event Planning & Services, Active Life, Health & Medical, Shopping
+aq,Temple University Hospital ,New Port Richey,1.9,65,0,Event Planning & Services, Oil Change Stations,,,
+ar,Cornerstone Physical Therapy Associates,Oro Valley,4.0,12,1,Pets, Active Life, Auto Repair, American (Traditional), Automotive
+as,The Bricks,Saint Louis,2.8,30,0,Active Life, Sushi Bars, Hair Salons, Shopping,
+at,The Cake Drip,Boise,4.5,112,1,Health & Medical, Restaurants, Hair Stylists,,
+au,McDonald's,Tampa,3.0,5,1,Car Dealers, Grocery, Bakeries, Food, Automotive
+av,Bulls Barbershop,Edmonton,4.9,65,1,Day Spas, American (Traditional), Nightlife, Salad, Beauty & Spas
+aw,Foot Massage Reflexology,New Orleans,4.7,5,0,Home Services, Tattoo, Beauty & Spas, Arts & Entertainment, Nightlife
+ax,McDonald's,Ewing,3.2,54,1,American (Traditional), Restaurants, Coffee & Tea, Vegetarian, Active Life
+ay,Vietnamese Food Truck,Indianapolis,2.0,5,1,Food, Caterers, Health & Medical,,
+az,Dental Care at Quail Hollow,Santa Barbara,3.0,178,0,Furniture Stores, Tours, Wine & Spirits,,
+aA,Nevada Towing,Wesley Chapel,3.8,5,1,Self Storage, Indian, Auto Repair, Hair Salons, Restaurants
+aB,McDonald's,Tampa,4.2,164,1,Arts & Entertainment, Lounges, Health & Medical, Sports Bars, Candy Stores
+aC,Breadland Organic Whole Grain Bakery,Doylestown,4.5,5,1,Desserts, Men's Clothing, Salad, Mortgage Brokers, Beauty & Spas
+aD,Collision XS,Philadelphia,3.7,5,1,Drugstores, Pizza, Beauty & Spas, Food,
+aE,The Cobblestone Eatery and Drinkery,Tampa,4.3,246,1,Barbers, Telecommunications,, Used,
+aF,Cafe Con Leche,Nashville,4.5,119,0,Health & Medical, Nail Salons,, Restaurants,
+aG,Carmine's Steakhouse,Reno,4.8,9,1,Local Services, Hotels & Travel,,,
+aH,Burger Village,New Port Richey,3.2,180,1,Sandwiches, Women's Clothing,, Hair Extensions,
+aI,Wentworth At West Clay,Largo,5.0,194,1,Bridal, Beauty & Spas,,,
+aJ,Tuffy Tire & Auto Service Center,Tampa,3.0,70,1,Waxing, Coffee & Tea, Italian, Seafood,
+aK,A-1 Expert Cleaning Services,Tampa,3.7,242,1,Coffee & Tea, Active Life, Local Services,, Eyelash Service
+aL,City Center Park,Isla Vista,3.3,105,1,Nail Salons, Health & Medical, Event Planning & Services,,
+aM,Music City Pub Crawl,Saint Petersburg,1.5,171,1,Grocery, Police Departments, Health & Medical, Pizza,
+aN,Nash Painting,Warminster,1.7,5,1,Contractors, Tattoo, Bakeries,,
+aO,Katie's Pizza & Pasta Osteria,Kenner,2.9,61,1,Coffee & Tea, Sports Bars,,,
+aP,Tienda Ho,Largo,3.9,68,1,Automotive, Police Departments, Shopping,, Active Life
+aQ,Kinjo's Japanese Restaurant,Franklin,3.7,10,1,Coffee & Tea, Home Services, Beauty & Spas,,
+aR,City Barbeque,Norristown,4.2,160,0,Men's Hair Salons, Fast Food, Laser Hair Removal, Auto Repair,
+aS,Go! Gyro! Go!,New Orleans,4.0,183,0,Delis, Home Services, Weight Loss Centers, Food Trucks, Shopping
+aT,TD Bank Havertown,Langhorne,2.2,80,1,Shopping, Auto Parts & Supplies, Event Planning & Services, Auto Repair,
+aU,Willard Park,Ardmore,4.5,5,1,Fashion, Asian Fusion, American (Traditional), Event Planning & Services,
+aV,Saint Marys Medical Group,Reno,2.2,5,1,Home Services, Furniture Stores,,,
+aW,Apple Barn Cider Bar and General Store,Indianapolis,2.7,5,0,Pet Groomers, Auto Parts & Supplies, Men's Clothing, Pet Services,
+aX,Crown Fried Chicken,Boise,4.1,53,1,Weight Loss Centers, Beauty & Spas,, Restaurants,
+aY,Papa Murphy's,New Orleans,3.6,39,1,Parks, Shopping,, Nightlife,
+aZ,Nashville Delivers,Madison,4.9,207,1,Shipping Centers, Coffee & Tea, Event Planning & Services, Food, Bars
+ba,Crescent City Steak House,Edmonton,4.0,203,0,Steakhouses, Arts & Entertainment, Pizza, Home & Garden,
+bb,Gasparilla Pirate Festival,Nashville,3.9,5,0,Bridal, Shopping, Auto Glass Services, Health & Medical, Trainers
+bc,Tinkle Belle Diaper Service,Nashville,3.5,21,1,Masonry/Concrete, Bars, Eyelash Service, Food, Cocktail Bars
+bd,Wendy's,New Orleans,5.0,211,1,Accessories, Shopping, Fashion, Hair Salons, Cocktail Bars
+be,Expert Home Offers,Tucson,4.6,133,1,Sporting Goods, Sandwiches, Tires, Soul Food, Coffee & Tea
+bf,Plume Salon,Nashville,3.6,5,1,Accessories, Beauty & Spas, Diners, Restaurants,
+bg,Nails & Beauty Lounge,Metairie,3.4,31,0,Eyewear & Opticians, Donuts, Fashion,, Soul Food
+bh,Global Appliance Parts,Manchester,2.2,156,0,Restaurants, Automotive, Hotels & Travel, American (Traditional), Vehicle Wraps
+bi,Plume Salon,Ardmore,3.5,19,0,Bridal, Pet Sitting, Education, Drugstores,
+bj,Cooper Medical Center,Indianapolis,3.3,5,1,Burgers, Tours, Cabinetry,,
+bk,Union Teller Delicatessen,Philadelphia,4.0,125,1,Event Planning & Services, Donuts, Hotels & Travel, Sandwiches,
+bl,Bodyworks Salon & Day Spa,Santa Barbara,3.7,5,0,Hotels, Donuts,,,
+bm,Yerli's Alterations & Tailoring,Edmonton,3.7,198,1,Bars, Venues & Event Spaces, Breakfast & Brunch, Restaurants,
+bn,Pho Bistro,Santa Barbara,5.0,5,1,Italian, Shopping, Shaved Ice, Child Care & Day Care, Trainers
+bo,Rancho 777,Tampa,2.5,207,0,Pet Services, Food, Restaurants,,
+bp,The Bricks,Santa Barbara,4.8,140,0,Sushi Bars, Ice Cream & Frozen Yogurt, Health & Medical, Used, Restaurants
+bq,Eddie's Southtown Donuts,New Orleans,4.5,5,1,Korean, Restaurants,,, Cocktail Bars
+br,Man of the Soil Landscape Builder,Santa Barbara,4.6,5,1,Self Storage, Furniture Stores, Fast Food, Nightlife,
+bs,Pasquales,Morrisville,2.7,57,1,Chinese, Escape Games,,,
+bt,Bourgoyne Guest House,Edmonton,3.7,5,1,Weight Loss Centers, Fast Food, Food, Local Services, Coffee & Tea
+bu,Global Appliance Parts,New Orleans,3.3,57,1,Doctors, Nightlife,,, Italian
+bv,King of Jewelers,Brandon,1.5,5,0,Automotive, Mexican, Hair Stylists, Shopping,
+bw,Brewster's Pub,Reno,3.0,5,1,Event Planning & Services, Auto Detailing, Sporting Goods, Antiques, Vintage & Consignment
+bx,Brilliant Nail Spa,St. Louis,4.4,148,1,Fashion, Mags, Automotive,,
+by,Saks Fifth Avenue,Pottstown,4.0,108,1,Grocery, Restaurants, Fashion, Hair Removal,
+bz,Brixx Craft House,Montgomeryville,3.8,31,0,Pets, Spanish, Food,,
+bA,Xtreme Automotive,Largo,4.7,5,1,Diners, Fast Food, Bed & Breakfast, Active Life,
+bB,Super Sushi Kyo Hin,Nashville,4.6,199,0,Automotive, Bars, Health & Medical, Juice Bars & Smoothies,
+bC,Bucks-Mont Environmental,Jennings,2.8,138,0,Bars, Restaurants,,,
+bD,El Sabor Boricua,King of Prussia,5.0,191,0,Home & Garden, Active Life, Home Decor, Fashion,
+bE,Sport Clips Haircuts of Springfield,Malvern,3.2,5,1,Active Life, Chinese, Nightlife,,
+bF,Jaramillo Hair salon,New Orleans,2.7,20,1,Banks & Credit Unions, Cafes, Bars, Restaurants,
+bG,Fleet Feet Sports,Boise,2.1,309,1,Shopping, Mexican, Restaurants,, Fast Food
+bH,"Christopher J. Connolly, DMD, PA",Boise,2.7,20,1,Mexican, Home Services, Jazz & Blues, Used, Pubs
+bI,Bagelicious and More,Boise,2.1,184,1,Grocery, Apartments,, Nightlife,
+bJ,Rite Aid,Cherry Hill,5.0,106,1,Live/Raw Food, Shopping, Nightlife,, Restaurants
+bK,A Family Dental Care Center,Tucson,5.0,5,1,Hair Salons, Propane, Carpeting, Auto Repair,
+bL,The Pepper Pott,Lionville,3.5,5,1,Rehabilitation Center, Seafood, American (Traditional), Salad, Fruits & Veggies
+bM,Phone Repair Philly - Center City,Malvern,2.0,5,0,Hotels & Travel, General Dentistry, Trainers, Coffee & Tea,
+bN,Gavi Italian Restaurant,Lionville,1.5,5,1,Health & Medical, Chicken Wings, Oil Change Stations,, Pressure Washers
+bO,barre3 Nashville - The Gulch,Doylestown,2.8,5,1,Restaurants, Police Departments,,, American (Traditional)
+bP,Elysian Fields Animal Clinic,Lionville,3.5,5,1,Automotive, Jewelry, Fashion, Coffee & Tea, Nail Salons
+bQ,Tire Kingdom,Largo,2.6,188,1,Baby Gear & Furniture, Department Stores, Electronics, Used, Vintage & Consignment
+bR,PAWS  Plaquemines Animal Welfare Society,Boise,3.8,30,1,Bridal, Beauty & Spas,, Bars,
+bS,Fine Wine & Good Spirits,Boise,1.0,126,1,Fertility, Specialty Food, Burgers, Medical Centers,
+bT,Collective Concept,New Orleans,5.0,5,0,Hotels, Caribbean, Food,,
+bU,St Christopher Pediatric Urgent Care,Franklin,4.2,110,1,Shanghainese, Arts & Crafts, Food, Hair Removal, Bakeries
+bV,Dale's Auto Care,Saint Louis,2.1,5,1,Sporting Goods, Financial Services, Eyelash Service,,
+bW,H&M,New Orleans,4.6,49,1,Korean, Veterinarians, Sandwiches,,
+bX,Preferred Party Place,Nashville,4.2,18,0,Health & Medical, Auto Repair, Shipping Centers, Italian,
+bY,Leslie's,Glenolden,3.8,265,1,Italian, Ice Cream & Frozen Yogurt, Men's Clothing, Beer, Jewelry
+bZ,McDonald's,Indianapolis,3.5,5,1,Automotive, Arts & Entertainment,, Shopping,
+ca,The Moose Music Row,Edmonton,3.9,17,0,Movers, Restaurants, Restaurants,,
+cb,Surreal Virtual Reality Studio,Tampa,2.6,5,1,Hotels & Travel, Hotels & Travel,, Auto Repair,
+cc,Marino's Auto Repair,New Orleans,1.4,31,1,Pizza, Car Dealers,,,
+cd,Easy Rider Repair,Indianapolis,3.9,5,1,Automotive, American (Traditional), Italian,,
+ce,Lucianis Pizzeria & GRILL,Wesley Chapel,4.7,295,1,Beer, Cannabis Collective, Eyelash Service, Health & Medical, Tattoo
+cf,Fred Beans Nissan of Doylestown,Saint Louis,3.6,91,1,Preschools, Auto Parts & Supplies, Local Services, Salad,
+cg,The Cake Drip,St. Petersburg,4.4,246,1,Shopping, Local Services, Pets, Home & Garden, Mailbox Centers
+ch,El Rancho Nuevo,Tampa,3.1,5,1,Chicken Wings, Urgent Care,,,
+ci,Bronze Lady Home Furnishings,Edmonton,3.5,158,1,Nightlife, Restaurants, Home Decor, Restaurants, Professional Services
+cj,Morales Landscapers,Santa Barbara,2.2,132,0,Fashion, Police Departments, Pubs, Restaurants, Vintage & Consignment
+ck,Nesbit's Magazine Street Market,Philadelphia,3.5,15,1,Nightlife, Men's Clothing, Sandwiches, Nightlife, Nightlife
+cl,McDonald's,Philadelphia,5.0,334,1,Bars, Thai, Sandwiches,,
+cm,The Corner Cafe and Deli,Boise,3.6,176,1,Health & Medical, Barbeque, Bars, Cosmetic Dentists, Outdoor Gear
+cn,H&M,Lionville,4.6,5,0,Hotels, Personal Care Services, Sandwiches, Contractors,
+co,Children's Dental And Orthodontic Associates,Malvern,4.6,246,1,Burgers, Home Services, Salad,, Event Planning & Services
+cp,Lush Ink & Skin Studio,West Chester,3.6,140,1,General Dentistry, Police Departments, Campgrounds, Hair Extensions, Specialty Food
+cq,Brewster's Pub,Chalfont,3.8,5,1,Arts & Entertainment, Real Estate, Restaurants,,
+cr,Plaza Bowling,Edmonton,3.7,5,0,Pizza, Restaurants,, Restaurants,
+cs,Mazzoni Center,Norristown,2.8,21,1,Beauty & Spas, Police Departments, Electronics, Shopping,
+ct,Trattoria Totaro,Largo,3.6,5,1,Fashion, Gardeners, Furniture Assembly, Shopping, Nightlife
+cu,PolyEsther's Costume Boutique,Carmel,3.4,145,0,Restaurants, Police Departments, Eyelash Service, Health & Medical,
+cv,Audi Boise,Brentwood,4.0,213,1,Bars, Automotive, Auto Repair,,
+cw,Bistro St. Tropez,Brandon,4.0,5,0,Banks & Credit Unions, Sewing & Alterations, Professional Services, Health & Medical, Dentists
+cx,The Pet Trailer Mobile Grooming,Brandon,3.7,5,0,Japanese, Event Planning & Services, Eyelash Service,,
+cy,Lee Roy Selmon's,Cherry Hill,4.8,5,0,Local Services, Hair Salons, Shopping,,
+cz,Iron Horse Auto Body,Tucson,4.0,200,1,Restaurants, Party & Event Planning, Fashion,,
+cA,St Honore Pastries,Lionville,2.2,40,1,Home & Garden, Event Planning & Services, Italian, Chicken Wings, Sandwiches
+cB,Diagnostic Imaging Services,Reno,4.4,104,1,Shopping, Automotive,, Fashion,
+cC,Pacifico Hyundai,Saint Louis,2.0,253,1,Beer, Sandwiches, Health & Medical, Nightlife, Shopping
+cD,Blackrock Brewers,Brandon,4.6,214,0,Car Dealers, Auto Repair,,,
+cE,Sushi Wasabi,Boise,2.3,31,1,Coffee & Tea, Police Departments, Salad,,
+cF,Cunningham Pest Control,Philadelphia,3.5,5,1,Real Estate, Financial Services,, Food,
+cG,Nail Bar Nola,Wilmington,2.0,5,1,Pizza, University Housing,, Event Planning & Services,
+cH,Mirror Lake Community Library,Ewing,5.0,81,0,Health & Medical, Hardware Stores, Men's Clothing, Child Care & Day Care, Automotive
+cI,Ristenpart Law,Tampa,3.8,5,0,Beauty & Spas, Chinese, Shopping,,
+cJ,Trust Me BBQ,Reno,3.1,316,1,Pizza, Home Services, Health & Medical, Restaurants,
+cK,Creature Comforts Pet Sitting,Philadelphia,4.5,5,1,Apartments, Furniture Stores, Breakfast & Brunch,, Bakeries
+cL,Mr. Margarita,Brandon,5.0,58,1,Auto Repair, Urgent Care, Eyelash Service,,
+cM,Mighty Dustless,Ardmore,3.8,5,1,Auto Repair, Food, Bars, Hair Salons,
+cN,BJS Hardwood Floors,Largo,2.6,67,1,Fashion, Auto Detailing, Home Services,,
+cO,Pretty In Paint,Tampa,3.4,5,1,Windshield Installation & Repair, Hotels & Travel, Restaurants,,
+cP,Wildout Animal & Pest Removal Tampa,Saint Louis,3.5,200,1,Burgers, Beauty & Spas,, Contractors,
+cQ,More Than Old,Brentwood,4.4,5,0,Juice Bars & Smoothies, Chinese, Grocery, Used, Bars
+cR,The Hideout Coffee House,St. Petersburg,3.5,5,1,Flowers & Gifts, Pizza,,,
+cS,Red Hook Coffee & Tea,Franklin,4.4,109,0,Arts & Entertainment, Shopping,, Food,
+cT,McDonald's,Goleta,3.4,43,1,Carpenters, Hotels & Travel, American (Traditional), Sandwiches, Restaurants
+cU,Wissahickon Cyclery,Saint Louis,2.9,5,1,Active Life, Specialty Food, Education,,
+cV,Baxter's Saloon & Grill,Norristown,3.6,192,1,Department Stores, Restaurants,, Auto Repair,
+cW,China Sunrise Restaurant,Saint Louis,3.6,91,0,Sporting Goods, Mexican, Candy Stores, Cheesesteaks, Vintage & Consignment
+cX,City Fitness - Northern Liberties,Tampa,5.0,17,0,Home Services, Automotive, Desserts, Breakfast & Brunch,
+cY,Olde Black Horse,New Orleans,4.4,5,1,Home Services, Doctors, Home Services,,
+cZ,Silvio Hair Styling For Men,St. Petersburg,3.7,215,1,Shopping, Hair Removal, Arts & Entertainment, Food, Salad
+da,Mount Mogrit Gourmet,Goodlettsville,2.4,21,0,Bars, Automotive, Salad,,
+db,Plume Salon,New Orleans,3.1,98,1,Shopping, Barbers, Food,,
+dc,Williams Sub Shop,Ardmore,1.9,17,1,Health & Medical, Restaurants, Event Planning & Services,,
+dd,West Coast Awnings,Lionville,3.4,5,0,Sports Bars, Caterers, Food, Tires,
+de,Porpoise Pub,New Orleans,3.3,111,0,Automotive, Chicken Wings,,,
+df,New Orleans Spirit Tours,Boise,4.4,117,1,Home & Garden, Body Shops, Bars,, Shopping
+dg,The Office,Saint Petersburg,3.9,114,1,Steakhouses, Hotels,, Restaurants,
+dh,Key One,Reno,5.0,169,1,Mattresses, Coffee & Tea, Fast Food, Men's Clothing, Restaurants
+di,Tuffy Tire & Auto Service Center,Reno,4.4,151,1,Art Classes, Hotels, Hair Salons, Waxing,
+dj,Arhaus,Nashville,3.8,5,1,Hair Salons, Art Galleries, Pets,,
+dk,Dress Up,Cherry Hill,5.0,14,1,Bridal, Tours, Eyelash Service, Pizza, Shopping
+dl,Tuffy Tire & Auto Service Center,New Orleans,3.0,5,1,Health & Medical, Hair Removal, Men's Clothing, Real Estate, Dentists
+dm,City Center Park,Philadelphia,3.8,17,1,Car Stereo Installation, Burgers, Food Stands, Office Cleaning, Arcades
+dn,DSW Designer Shoe Warehouse,Nashville,2.7,28,1,Sports Bars, Donuts, Breakfast & Brunch, Child Care & Day Care, Vintage & Consignment
+do,Project Management Academy,Indianapolis,2.7,188,0,Coffee & Tea, Local Services, Fashion,,
+dp,McDonald's,Philadelphia,4.1,5,1,Restaurants, Sporting Goods, Restaurants,,
+dq,Plume Salon,Edmonton,5.0,75,0,Event Planning & Services, Nail Salons, Hair Salons, Nightlife, Beauty & Spas
+dr,McDonald's,Warminster,2.1,164,1,American (New), Home Services, Event Planning & Services, Food, Restaurants
+ds,Payless Liquors,Langhorne,4.0,231,1,Restaurants, Local Services, Bars,, Coffee & Tea
+dt,Creative Beginnings Pre-School & Kindergarten,Boise,3.3,5,1,Event Planning & Services, Auto Repair, Hotels & Travel,,
+du,Williams Sub Shop,Indianapolis,2.8,76,0,Restaurants, Breakfast & Brunch, American (Traditional), Auto Repair,
+dv,Mount Mogrit Gourmet,New Orleans,3.9,281,1,Furniture Stores, Restaurants, Pubs,,
+dw,Sweet Things Chocolates,Saint Petersburg,1.7,124,0,Active Life, Furniture Stores, Shopping, Hair Salons,
+dx,Plume Salon,Saint Louis,4.0,150,0,Real Estate, Hotels & Travel, Dry Cleaning & Laundry,,
+dy,Factotum Barber + Supply,Tampa,2.9,260,1,Breakfast & Brunch, Personal Care Services, Automotive, Used,
+dz,O'Shucks Seafood & Grill,Meridian,4.0,5,1,Plumbing, Bakeries, Real Estate, Nightlife, Coffee & Tea
+dA,ImmediaDent - Urgent Dental Care,St. Petersburg,3.3,5,1,Golf, Mexican, Burgers,,
+dB,B&L Nails Spa,Nashville,2.2,81,1,Automotive, Cannabis Collective, Auto Repair, Hotels & Travel,
+dC,Bulls Barbershop,Nashville,4.3,71,0,Chinese, Restaurants, Health & Medical,, Restaurants
+dD,Reno Family Chiropractic,Treasure Island,5.0,5,1,Bridal, Education, Education, American (New),
+dE,Element Granite & Quartz,New Orleans,3.4,5,1,Photography Stores & Services, Auto Repair,,,
+dF,The Silo Eatery Coffee Bakery,Reno,4.5,5,0,Car Wash, Sandwiches, Medical Centers, Body Shops, Candle Stores
+dG,Golf Galaxy,Media,4.1,87,1,Specialty Food, Hair Salons, Wine Bars, Event Planning & Services,
+dH,The Bricks,Exton,4.5,240,1,Auto Repair, Women's Clothing,, Restaurants,
+dI,The Hideout Coffee House,Boise,4.8,5,1,Pizza, Auto Repair,,,
+dJ,Go Auto Outlet West,Edmonton,3.7,36,1,Fitness & Instruction, Lounges, Local Flavor, Children's Clothing, Local Services
+dK,Reid Park Mico's Corner Playground,St. Petersburg,3.2,5,1,Beauty & Spas, Women's Clothing, Japanese, Szechuan, Bars
+dL,Window World of Philadelphia,Carmel,4.1,5,1,Arts & Entertainment, Restaurants,,,
+dM,Bang-N Heads Salon,Mount Juliet,4.1,54,1,Desserts, Restaurants, Home Decor, Restaurants,
+dN,Villas at San Dorado,Carmel,3.0,327,1,Self Storage, Food, Beauty & Spas, Hair Extensions, Sporting Goods
+dO,Gary's World of Wellness,Edmonton,3.6,5,0,Coffee & Tea, Active Life, Shopping,,
+dP,A.K. Lube & Auto,Cherry Hill,2.6,109,1,Pizza, Furniture Stores, Beauty & Spas,,
+dQ,Laser Spine Institute,Santa Barbara,5.0,5,1,Bridal, Italian, Tires, Adult Education, Pizza
+dR,Felix's Restaurant & Oyster Bar,Paoli,4.6,74,1,Bridal, Auto Repair,, Hotels & Travel,
+dS,Jack's Barber Shop,Largo,4.4,5,1,Delis, Pets, Vegetarian, Used, Food
+dT,Boogyz Donuts,Edmonton,2.0,118,1,Sandwiches, Appliances & Repair, Restaurants,,
+dU,The Waxing Queen Of Tucson,Lionville,2.7,102,1,Bridal, Doctors, Diners, Breweries, Venues & Event Spaces
+dV,Super Sushi Kyo Hin,Spring Hill,2.3,5,0,Churches, Restaurants,,,
+dW,Public Storage,Philadelphia,2.2,126,1,Real Estate, General Dentistry,,,
+dX,Plume Salon,Nashville,4.5,5,1,Bridal, Coffee & Tea, Burgers, Party Supplies, American (Traditional)
+dY,365 Caffe Italiano,Bala Cynwyd,3.3,110,1,Car Dealers, Bikes, Doctors, Elementary Schools, Vintage & Consignment
+dZ,Yi Fa Hair Salon,Philadelphia,3.6,5,0,Art Classes, Local Services, Fitness & Instruction,, Food
+ea,Mattress Factory,Tampa,2.9,55,1,Tires, Bars, Japanese, Automotive,
+eb,McDonald's,Tampa,4.6,19,1,Home & Garden, Restaurants, Home Services, Coffee & Tea,
+ec,Cal Taco,Carmel,3.6,55,1,Beauty & Spas, Chocolatiers & Shops, Nightlife, Sandwiches,
+ed,Cole Brothers,Santa Barbara,5.0,60,1,Beer, Cocktail Bars, Auto Parts & Supplies, Tires,
+ee,Century Auto Body,Brandon,2.8,202,1,Hair Salons, Lounges, Event Planning & Services, Used, Food
+ef,Taste of the Caribbean,Lionville,3.9,346,1,Pets, Beauty & Spas, Men's Clothing, American (Traditional),
+eg,Silvio Hair Styling For Men,Edmonton,3.2,176,1,Restaurants, Bars, Restaurants, Pizza, Bars
+eh,Yellow Garage Antiques,Haddon Township,4.1,5,0,Local Services, Seafood, Fitness & Instruction,,
+ei,Baxter's Saloon & Grill,Meridian,5.0,192,1,Food, Restaurants,,,
+ej,Ricardo's Italian Cafe,Indianapolis,2.7,68,1,Hotels & Travel, Electronics Repair, Sushi Bars,,
+ek,Little V.I.P's Preschool,Saint Louis,4.4,212,0,Synagogues, Beer, Auto Repair, Hair Loss Centers, Shopping
+el,Quiznos,Bensalem,4.4,98,1,Restaurants, Arts & Entertainment, Skin Care, Food Tours, Food
+em,Yi Fa Hair Salon,Lionville,3.2,5,1,Home Services, Restaurants, Fast Food,,
+en,Gaylord Opryland Resort & Convention Center,St. Petersburg,2.9,5,0,Sporting Goods, Health & Medical,, Sandwiches,
+eo,Jackson's Bar & Bistro - Nashville,Reno,3.8,105,1,Fitness & Instruction, Beauty & Spas, Restaurants,, Jewelry
+ep,Plume Salon,Haverford,4.3,86,0,Car Dealers, Food, Beauty & Spas,,
+eq,Sidekicks Pizza,Largo,3.8,5,0,Pizza, Local Services, Hair Salons, Restaurants, Hair Removal
+er,City Barbeque,Clearwater,2.7,34,1,Barbers, Police Departments,,,
+es,St Christopher Pediatric Urgent Care,Philadelphia,1.7,5,1,Self Storage, Drugstores, Automotive, Bars,
+et,Intuitive Readings and Meditation with Zev,Boise,5.0,5,1,Festivals, Handyman, Antiques, Food, Shopping
+eu,Bus Depot Discount VW Parts,Affton,3.0,29,1,Bars, Hair Removal, Pizza,,
+ev,McDonald's,Newtown,2.4,246,1,Restaurants, Bikes, Restaurants,,
+ew,Plume Salon,Tucson,3.4,106,0,Barbeque, Restaurants, Lawn Services,,
+ex,Enterprise Rent-A-Car,Lionville,4.4,5,1,Veterinarians, Chinese, Steakhouses,,
+ey,Michael Kors,Fishers,2.8,104,0,Restaurants, Food, Beauty & Spas, Bars,
+ez,Aj's Bikes and Boards,Edmonton,4.9,126,0,Restaurants, Hair Extensions,, Seafood, Automotive
+eA,Pima County Fair,Bensalem,5.0,54,1,Food Trucks, Shopping, Doctors, Skin Care, Automotive
+eB,Key One,Philadelphia,4.7,136,1,Active Life, Arts & Entertainment, American (Traditional),,
+eC,Plume Salon,Tampa,4.5,90,1,Bridal, Active Life, Automotive,,
+eD,Washington Memorial Chapel,Tampa,4.6,112,1,American (Traditional), Local Services, Active Life,,
+eE,The Main Lion Cat Grooming Salon,Media,3.6,18,0,Barbers, Doctors, Restaurants, Breakfast & Brunch, Bars
+eF,Olivier's Creole Restaurant,Nashville,4.5,230,1,General Dentistry, Restaurants, Restaurants,, Food
+eG,Blue Water Dental Care,Brandon,3.6,5,1,Bridal, Home & Garden, Eyelash Service, Used, Nightlife
+eH,Mister B's Cigar Box,Boise,4.5,5,0,Auto Repair, Chicken Wings, Home Services,, Shopping
+eI,Brew House Pub & Grill,Nashville,3.2,5,0,Beauty & Spas, Local Services, Food,,
+eJ,Saltwater Grill,Tampa,5.0,290,1,Automotive, Local Services, Local Services,,
+eK,Pete's Barber Shop,New Orleans,4.9,84,1,Fitness & Instruction, American (Traditional),,,
+eL,Ricardo's Italian Cafe,Tampa,2.7,128,0,Italian,, Food Trucks, Arts & Entertainment,
+eM,Storage of America,Philadelphia,4.1,5,0,Shopping, Hotels & Travel, Eyelash Service,,
+eN,Templet's Russell Barber Shop,Tampa,3.8,54,1,Active Life, Diagnostic Services,, Arts & Entertainment, Beauty & Spas
+eO,The Twisted Tail,Philadelphia,2.3,81,1,Parenting Classes, Piercing, Health & Medical, Mexican, Cocktail Bars
+eP,The Royal Indian Cuisine,New Orleans,3.6,213,1,Restaurants, Caterers, Hotels & Travel, Music & Video, Food
+eQ,Nesbit's Magazine Street Market,Spring Hill,3.3,35,1,Grocery, Health & Medical, Active Life,,
+eR,Selah,Boise,4.0,5,0,Event Planning & Services, Sushi Bars, Restaurants, Restaurants,
+eS,Incrediplex,Edmonton,3.9,36,1,Southern, Fashion, Caterers, Dentists,
+eT,Washington Memorial Chapel,Haddonfield,4.1,96,0,Women's Clothing, Restaurants,,,
+eU,McMahan Hair Salon,Reno,4.0,5,1,Beauty & Spas, Police Departments, Hair Salons, Health Markets,
+eV,Belle Chic Salon,Reno,3.2,162,0,Hotels & Travel, Sports Bars,, Hair Salons,
+eW,Pretty In Paint,Indianapolis,3.8,216,1,DUI Law, Notaries, Specialty Food, Used, Health & Medical
+eX,Painting with a Twist,Brentwood,4.3,77,1,Bars, Grocery, Pakistani, Cosmetic Dentists, Drugstores
+eY,Edgehill Cafe,Norristown,4.2,155,0,Coffee & Tea, Indian, Breakfast & Brunch,, Nightlife
+eZ,Top Shelf Sports Lounge,Wesley Chapel,3.4,5,1,Mexican, Ice Cream & Frozen Yogurt,,,
+fa,B&M Hardwood Flooring,New Orleans,3.4,138,0,Arts & Entertainment, Mexican, Shopping, Day Spas, Accessories
+fb,The Home Depot,Philadelphia,1.8,260,1,Car Dealers, Gardeners, Active Life, Restaurants, Sports Bars
+fc,Rogers & Hollands® Jewelers,Tucson,1.7,30,1,Juice Bars & Smoothies, Restaurants, Restaurants, Tires,
+fd,Philly Homebrew Outlet East,Indianapolis,4.5,126,1,Food, Police Departments, Restaurants, Health & Medical,
+fe,Advanced Towing & Recovery,St. Petersburg,3.3,106,1,Coffee & Tea, Mexican, Eyebrow Services, Personal Injury Law, Active Life
+ff,Momo's Ouzaria Taverna,Brandon,4.3,131,1,Burgers, Vegetarian, Junk Removal & Hauling,, Food
+fg,Affordable Lock & Security Solutions - Tampa,Santa Barbara,3.2,132,0,Indian, Shopping, Pets, Used, Vintage & Consignment
+fh,Hippie Hi,Saint Louis,2.8,12,1,Festivals, Pizza, Auto Repair, Used, Food Stands
+fi,JoJo's Hot Dogs and BBQ,Santa Barbara,3.7,182,1,Women's Clothing, Shopping, Home Services,,
+fj,The Pepper Pott,New Orleans,3.6,105,1,Real Estate, American (New), Shopping, Pet Services,
+fk,Nails & Beauty Lounge,Philadelphia,3.0,94,1,Sandwiches, Jewelry, Delis, Bars,
+fl,McDonald's,Lionville,3.3,10,1,Hotels, Beauty & Spas,,,
+fm,Fine Wine & Good Spirits,Tucson,3.3,143,1,Local Services, Wheel & Rim Repair, Bars, Hair Extensions, Restaurants
+fn,Salon 139,Saint Louis,3.5,60,0,Restaurants, Health & Medical, Diners, Gutter Services, Restaurants
+fo,Valley Cleaners,New Orleans,2.8,195,1,Auto Repair, Tanning, Breakfast & Brunch, Men's Clothing, Window Washing
+fp,Crescent City Steak House,Clearwater,4.5,5,0,Bridal, Beauty & Spas, Mexican, Bagels,
+fq,China City Restaurant,Tucson,5.0,5,1,Restaurants, American (New), Eyelash Service, Restaurants,
+fr,Spanish Trail Dental Group,Boise,4.0,161,1,Pet Sitting, Indian, Eyelash Service, Furniture Stores, Food
+fs,Casita Taqueria,Newtown,2.7,5,0,Apartments, Police Departments, Italian, Skin Care,
+ft,Locust Lane Craft Brewery,Indianapolis,2.9,5,1,Beauty & Spas, Car Window Tinting, Gift Shops, Used, Vintage & Consignment
+fu,Blaze Pizza,King of Prussia,4.3,5,1,Event Planning & Services, Restaurants, Antiques,,
+fv,King of Jewelers,Madeira Beach,3.7,184,0,Auto Parts & Supplies, Beauty & Spas,,,
+fw,Mattress Factory,Doylestown,2.2,69,1,Pet Services, Hair Removal, Restaurants, Breakfast & Brunch,
+fx,PAWS  Plaquemines Animal Welfare Society,Voorhees,3.7,5,1,Auto Repair, Italian, Hotels & Travel,,
+fy,Bay Area Appliance,Saint Petersburg,4.1,5,1,Movers, Restaurants, Security Systems, Local Services,
+fz,Dot's Dairy Bar,Tucson,1.9,201,0,Restaurants, Active Life,,,
+fA,Paws The Cat Cafe,Tampa,2.8,5,1,Hair Extensions, Chinese, Dive Bars, Used, Vintage & Consignment
+fB,McDonald's,Brandon,1.9,111,1,Restaurants, Caterers, Hotels & Travel,,
+fC,New India's Kitchen,Boise,5.0,96,1,Amusement Parks, Piercing, Hotels & Travel, Salad, Event Planning & Services
+fD,IU Health Urgent Care - Broadripple,Edmonton,4.5,117,1,Car Dealers, Education, Fast Food, Street Vendors, Vintage & Consignment
+fE,Hertz Car Sales Indianapolis,Southampton,4.1,5,1,Churches, Shopping, Organic Stores, Bars, Home Decor
+fF,Chick-fil-A,Bellmawr,2.3,38,1,Home Window Tinting, Breakfast & Brunch, Bars, Shopping,
+fG,Amber Indian Restaurant,Metairie,3.8,138,1,Home Services, Real Estate, Home Services, Bars, Sandwiches
+fH,All In Shipping,Brentwood,2.9,5,1,Festivals, Arts & Entertainment, Burgers,, Bars
+fI,Dwight's Auto Glass & Tint,Edmonton,3.6,69,1,Breakfast & Brunch, Pizza, Desserts, Shopping, Mags
+fJ,Momo's Ouzaria Taverna,Wilmington,4.3,148,1,Self Storage, Police Departments, Auto Parts & Supplies,, Automotive
+fK,Manor Riverwalk Luxury Apartments by TRG Management Company,New Orleans,4.6,178,1,Flowers & Gifts, Car Dealers, Health & Medical,,
+fL,Pho Friendly,Haddonfield,3.3,138,1,Festivals, Health & Medical, Auto Repair, Boating, Bikes
+fM,Hardee's,Nashville,2.4,84,0,Barbers, Italian,, Burgers,
+fN,James L Frank Door Service,Santa Barbara,4.1,223,1,Bridal, Italian, Education, Convenience Stores, Breakfast & Brunch
+fO,Plume Salon,Edwardsville,3.9,11,1,Venues & Event Spaces, Police Departments, Pubs, Restaurants, Nightlife
+fP,Bagelicious and More,Exton,4.8,107,0,Bridal, Jewelry, Sporting Goods, Seafood, Italian
+fQ,Lens Crafters,New Orleans,4.0,145,1,Painters, Medical Spas, Massage Therapy, Sandwiches, Local Services
+fR,Gaylord Opryland Resort & Convention Center,Reno,4.0,171,1,American (New), Police Departments, Soup, Used, Greek
+fS,Brilliant Nail Spa,Nashville,1.9,50,1,Ice Cream & Frozen Yogurt, Appliances & Repair, American (New), Shaved Ice,
+fT,Chase JP Morgan Bank Credit Card Services,Indianapolis,3.7,168,1,Doctors, Caterers, Automotive, Food Trucks, Food
+fU,ZigZag Scallop,New Port Richey,4.0,5,1,Pet Groomers, Breweries, Local Flavor, Shaved Ice,
+fV,Pho Friendly,Largo,3.7,5,1,Movers, Nightlife, Trainers, Fashion,
+fW,Creekside Inn,Philadelphia,2.3,5,1,Restaurants, Wine & Spirits, Skin Care, Home & Garden,
+fX,1-275 Rest Area Manatee County Mile 7,Reno,2.7,117,1,Restaurants, Italian, Home Services,,
+fY,Nitpicking in NOLA,Indianapolis,3.9,193,1,Delis, Local Services, Arts & Entertainment, Tires,
+fZ,39 North Taproom & Grill,Edmonton,4.5,82,1,Restaurants, Police Departments, Breakfast & Brunch, Coffee & Tea,
+ga,Babies R US the Baby Superstore,Edmonton,3.3,33,0,Apartments, Shopping,,,
+gb,Granite City Food & Brewery,Metairie,5.0,141,1,Apartments, Wine & Spirits, Food, Gift Shops, Food
+gc,McDonald's,Odessa,3.8,5,1,Golf, General Dentistry, American (Traditional), Hair Salons,
+gd,Xtreme Automotive,High Ridge,2.9,5,1,Local Services, Financial Services, Burgers, Automotive,
+ge,365 Caffe Italiano,Brentwood,3.0,229,1,Restaurants, Food,,,
+gf,Rosemont Plaza,Lionville,3.7,129,1,Beauty & Spas, Car Dealers, Wine & Spirits, Nightlife, Specialty Food
+gg,Metro Diner,Tampa,1.6,124,1,Real Estate Agents, Auto Repair, Education, Hair Removal,
+gh,Cooper Medical Center,Conshohocken,4.1,5,0,Barbers, Police Departments, Eyelash Service, Home Services,
+gi,IU Health Urgent Care - Broadripple,Nashville,2.8,191,0,Bakeries, Shopping, Auto Detailing, Hair Extensions, Venues & Event Spaces
+gj,A-1 Expert Cleaning Services,Clearwater,3.5,5,1,Amusement Parks, Grocery, Local Flavor, General Dentistry, Beauty & Spas
+gk,MDG Salon Studio,Indianapolis,3.5,146,1,Grocery, Piercing, Waxing, Burgers, Adult
+gl,Bob Kramer’s Marionnettes,Meridian,4.1,5,1,Bridal, Bars,,,
+gm,Octopus Car Wash,Indianapolis,3.2,5,1,Local Services, Restaurants, Local Services, Restaurants,
+gn,El Con Health & Wellness Center,Lionville,2.9,12,1,Hair Salons, Police Departments, Home & Garden, Real Estate, Coffee & Tea
+go,365 Caffe Italiano,Santa Barbara,3.9,105,1,Automotive, Police Departments,,,
+gp,Sign of the Arrow,Brandon,2.7,5,1,Sporting Goods, Delis, Home Services, Appliances & Repair, American (Traditional)
+gq,Panera Bread,Edmonton,3.4,138,0,Nightlife, Home Services, Pakistani, Skin Care, Cafes
+gr,Sign of the Arrow,Tucson,2.6,228,1,Desserts, Hair Stylists, Men's Clothing, Shopping,
+gs,Dead Ringer Analog Bar,Saint Louis,3.8,5,1,Vape Shops, Furniture Stores, Pizza, Coffee & Tea,
+gt,Brandon Burgers,Lionville,4.2,5,1,Restaurants, Auto Parts & Supplies,,,
+gu,Baxter's Saloon & Grill,Reno,2.9,300,1,Home Services, Health & Medical, Salad, Tours, Restaurants
+gv,The Home Depot,Largo,4.0,205,1,Chinese, Breweries, Weight Loss Centers, Italian, Chocolatiers & Shops
+gw,Plume Salon,Tampa,4.5,296,0,Delis, Auto Repair, Auto Detailing, Bars, Bars
+gx,Mr Wizard Worcester Car Wash,Lambertville,3.3,5,1,Chinese, Local Services, Breakfast & Brunch,,
+gy,Stylist Inside,St. Petersburg,3.7,47,1,Automotive, Donuts, Door Sales/Installation,,
+gz,Pep Boys,Indianapolis,3.5,137,1,Event Planning & Services, Active Life, Coffee & Tea, Skin Care, Restaurants
+gA,Liberty City Roasters,Cherry Hill,4.2,5,1,Steakhouses, Italian, Nightlife, Health & Medical, Ice Cream & Frozen Yogurt
+gB,Arhaus,Bryn Mawr,4.2,5,0,Arts & Crafts, Sports Wear, Hotels & Travel, Used,
+gC,Zakian Rug Cleaning,Philadelphia,2.4,81,0,Drugstores, Education, Restaurants, Restaurants,
+gD,Taqueria Los Primos,Edmonton,4.5,5,1,Makeup Artists, Police Departments, Hair Salons,, Sporting Goods
+gE,Brilliant Nail Spa,Brandon,2.9,156,0,Fashion, Automotive, Restaurants, Cafes,
+gF,Mike's Ice Cream,Philadelphia,3.8,5,1,Beauty & Spas, Beauty & Spas,, Burgers,
+gG,Days Inn by Wyndham Reno South,Tucson,2.6,51,1,Sandwiches, Italian, Check Cashing/Pay-day Loans, Restaurants,
+gH,Lee Roy Selmon's,King of Prussia,4.5,5,1,Restaurants, Police Departments, Auto Detailing, Active Life, Home Decor
+gI,Jos A Bank,New Hope,2.3,62,1,Restaurants, Gardeners, Chinese, Furniture Stores, Vintage & Consignment
+gJ,99 Cents Only Stores,Saint Louis,4.6,35,1,Pizza, Event Planning & Services, Health & Medical, Coffee & Tea,
+gK,Riverwood Apartments,Edmonton,3.3,5,1,Bridal, Event Planning & Services, Candy Stores, Fashion, Vegetarian
+gL,Endless Summer Tans,Tucson,2.1,215,1,Shopping, Fast Food, Fashion, Couriers & Delivery Services, Nightlife
+gM,Belle Chic Salon,Lionville,3.0,128,1,Pets, Restaurants, Home Services, Event Planning & Services,
+gN,The Collins Apartments,Nashville,2.8,118,1,Bridal, Bakeries, Breakfast & Brunch, Bagels, Flowers & Gifts
+gO,Inkorporated,Boise,4.5,5,0,Ice Cream & Frozen Yogurt, Restaurants, Health & Medical, Auto Repair,
+gP,Las Margaritas,Tampa Bay,2.5,5,1,Barbers, Auto Detailing, Sushi Bars, Nightlife,
+gQ,Plume Salon,Edmonton,2.9,98,1,Car Wash, Chinese, Food Trucks,, Restaurants
+gR,Dead Ringer Analog Bar,Marrero,2.8,76,1,Juice Bars & Smoothies, Jewelry,,,
+gS,Cafe Con Leche,New Orleans,5.0,60,1,Restaurants, Gardeners, Restaurants,,
+gT,LensCrafters,Ambler,4.2,201,1,Nail Salons, Home Services, Outdoor Gear, Community Service/Non-Profit,
+gU,BAP,Edmonton,4.0,205,1,Active Life, Restaurants, Sushi Bars,,
+gV,Plume Salon,Affton,3.6,74,0,Sandwiches, Sandwiches, Shoe Stores, Seafood,
+gW,Pho Friendly,Philadelphia,3.6,157,1,Trailer Dealers, Beauty & Spas, Fashion,,
+gX,Dermatology Associates of Indiana,Santa Barbara,3.4,5,0,Pizza, Pet Groomers, Towing, Sandwiches, Vintage & Consignment
+gY,Whetstone Tavern,Reno,4.7,5,1,Hotels, Burgers, Pizza, Italian, Coffee & Tea
+gZ,Rite Aid,Elkins Park,4.1,10,1,Automotive, Restaurants,,,
+ha,Cupcake Fairies,Philadelphia,2.7,191,1,Beauty & Spas, Nightlife,,,
+hb,Thai Tanic,New Orleans,4.9,218,1,Health & Medical, Hair Salons, Fast Food,,
+hc,Red Hook Coffee & Tea,Boise,3.6,233,1,Pizza, Fashion, Salad, Burgers, Nightlife
+hd,"Dawna Ara, DACM, LAc",Montgomeryville,1.6,104,0,Food, Police Departments, Seafood, Used,
+he,La Cucina Italian Eatery,Boise,3.5,70,1,Bars, Automotive,, Restaurants,
+hf,Rapco Automotive Centers,Indianapolis,4.0,208,1,Local Services, Bars, Active Life, Italian,
+hg,Jon's Bar & Grille,Voorhees,1.0,158,1,Food, Hair Salons, Pizza, Restaurants,
+hh,ALM Kainan,Saint Louis,2.4,20,1,Event Planning & Services, Wine & Spirits,, Active Life, Food
+hi,Gasparilla Pirate Festival,Indianapolis,4.4,9,0,Art Classes, Hair Salons, Bars,,
+hj,Master Bait and Fishing Supplies,Tampa,2.8,19,1,Food, Mattresses, Auto Glass Services, Used, Vintage & Consignment
+hk,Checkers,Palmyra,3.9,196,1,Event Planning & Services, Local Services, Automotive,, Fast Food
+hl,Saint Marys Medical Group,Ballwin,3.3,64,1,Fast Food, Hotels & Travel, Food,,
+hm,Baltic Bakery,Lionville,5.0,8,1,Food Trucks, Breweries, Burgers, Restaurants, Shopping
+hn,Bagelicious - King Of Prussia,Philadelphia,3.3,91,0,Hotels, Bars,, Shopping,
+ho,Jim's Auto Detailing,Largo,1.9,5,1,Shanghainese, Veterinarians, Department Stores, Local Services, Food
+hp,Belle Chic Salon,Philadelphia,3.5,5,1,Health & Medical, Wheel & Rim Repair, Appliances,,
+hq,Kelly's Taproom,Reno,4.4,82,1,Apartments, Party & Event Planning, Shopping, Shopping,
+hr,Ulta Beauty,Reno,1.6,98,1,Japanese, Barbers, Chinese, Home & Garden,
+hs,"C R Bhatia, DVM - Animal Clinic of Warrington",Tucson,3.8,61,1,Restaurants, Thrift Stores, Eyelash Service, RV Repair, Coffee & Tea
+ht,Felix's Restaurant & Oyster Bar,Reno,1.2,197,0,Breakfast & Brunch, Home & Garden, Restaurants, Nightlife,
+hu,Pls Check Cashers,Philadelphia,3.6,87,1,Restaurants, Hotels, Food Stands, Men's Clothing, Nightlife
+hv,Plume Salon,Warrington,3.6,5,1,American (Traditional), Local Services, Nail Salons, Restaurants,
+hw,Colonial Frontiers,Nashville,5.0,59,1,Real Estate, Piercing, Bars, Nightlife, Team Building Activities
+hx,Union Teller Delicatessen,Saint Louis,4.7,5,1,Car Wash, Beer, Grocery,,
+hy,Blue Wren Studio,Santa Barbara,4.6,95,1,Hotels & Travel, Hair Salons, Hotels & Travel, Shopping,
+hz,Timber Creek Park,Largo,3.6,103,1,Restaurants, Burgers, Shopping,,
+hA,Bar One,Santa Barbara,3.7,122,1,Restaurants, Restaurants, Shopping, Nightlife,
+hB,Mr. Margarita,Medford,4.7,238,1,Burgers, Kids Activities, Flooring, Gutter Services,
+hC,Idaho Center For Reproductive Medicine,Tampa,3.7,16,1,Fast Food, Professional Services, Lawyers, Pet Photography, Food
+hD,Brown Sugar Bakery & Cafe,Ambler,3.0,5,1,Bars, Shoe Stores, Sandwiches, Flowers & Gifts,
+hE,Best Tours,New Orleans,3.2,124,0,Fashion, Bars, Door Sales/Installation, Cosmetic Dentists,
+hF,Best Tours,Edmonton,3.2,13,1,Health & Medical, Police Departments, Event Planning & Services, Breakfast & Brunch, Women's Clothing
+hG,St. Louis Artists' Guild,Saint Louis,2.6,5,1,Restaurants, Convenience Stores, Beauty & Spas,,
+hH,Biryani Hut,Spring Hill,1.9,21,0,Local Services, Police Departments, Pubs, Event Planning & Services, Restaurants
+hI,City Fitness - Northern Liberties,Warminster,3.5,89,1,Restaurants, Coffee & Tea, Venues & Event Spaces, Health Markets,
+hJ,Family Air,Wilmington,4.1,134,1,Breakfast & Brunch, American (Traditional),, Used Car Dealers, Food
+hK,Silvio Hair Styling For Men,West Chester,4.1,143,1,Shipping Centers, Shopping, Local Services, Hair Removal, Soul Food
+hL,Sharky's Sports Bar & Grill,Meridian,3.9,30,1,American (Traditional), Restaurants,,,
+hM,Pima County Fair,Clearwater,4.8,5,1,Burgers, Chocolatiers & Shops, Desserts, Auto Repair,
+hN,Cocco's Gelateria,Cherry Hill,3.1,5,1,Eyebrow Services, Shopping, Delis, Sandwiches,
+hO,Whetstone Tavern,New Orleans,2.8,126,1,Women's Clothing, Pet Groomers, Real Estate Agents, Food,
+hP,Restoration Hardware,Saint Louis,3.5,5,1,Shopping, Police Departments, Guns & Ammo, Restaurants,
+hQ,James L Frank Door Service,Tucson,1.7,219,1,Home Services, Grocery, Office Cleaning, Active Life, Arts & Entertainment
+hR,Divine Designs Floral & Tropicals,Bellmawr,3.3,56,1,Chinese, Grocery, Beauty & Spas, Body Shops,
+hS,The Pearl,Bala Cynwyd,2.1,57,1,Italian, Wine & Spirits, Burgers, Used, Vintage & Consignment
+hT,Arizona Tile,Philadelphia,2.0,5,0,Food, Real Estate, Fashion, Hotels & Travel, Food
+hU,Locust Lane Craft Brewery,Levittown,4.2,267,1,Hotels, Restaurants, Mags, Massage, Tattoo
+hV,McDonald's,Reno,3.3,5,0,Hotels, Auto Repair, Museums, Specialty Food,
+hW,Accurate Window & Screen,Indianapolis,4.2,59,1,American (Traditional), Active Life,,,
+hX,J C Automotive Service,Philadelphia,3.1,28,1,Barbers, Fitness & Instruction, Nightlife,,
+hY,Something Special,St. Louis,4.0,5,0,Active Life, Pubs, Pizza, Home Services,
+hZ,None Such Farm Market,Boise,5.0,132,1,Restaurants, Eyelash Service, Auto Customization,, Electronics
+ia,Western Endocrine Associates,St. Petersburg,5.0,122,1,Active Life, Police Departments, Pets,, American (Traditional)
+ib,Belle Chic Salon,Madison,4.1,5,1,Italian, Art Supplies, Tires, Health & Medical, American (Traditional)
+ic,Hair By Audrey Johnson,St Louis,3.1,100,1,Auto Repair, Car Dealers, Auto Detailing,, Restaurants
+id,Yogurt Beach,Reno,4.3,5,1,Real Estate, Auto Repair, Coffee & Tea,, Bars
+ie,Tire Choice Auto Service Centers,Doylestown,4.5,5,1,Food, Sandwiches, Breakfast & Brunch, Hotels & Travel, Vintage & Consignment
+if,Rituals Aveda Salon,Philadelphia,5.0,5,1,Fashion, Restaurants, Diners, Doctors, Shopping
+ig,Adventure Coast Fun Park,Wesley Chapel,4.2,290,1,Italian, Skin Care,, Home Services,
+ih,Ryan Christopher,Isla Vista,4.5,5,1,Arts & Entertainment, Baby Gear & Furniture, Appliances,, Nightlife
+ii,Willard Park,Glenolden,3.5,21,1,Pizza, Restaurants, Home Services,,
+ij,Misto Diner,Media,5.0,175,1,Coffee & Tea, Gyms, American (Traditional), Restaurants,
+ik,Tomo Japanese Steakhouse and Sushi Bar,Philadelphia,4.8,5,1,American (New), Fast Food, Tires, Nightlife,
+il,Express Cafe,Tucson,3.6,145,1,Specialty Food, Arts & Entertainment, Home Services,,
+im,Debbie's Pet Sitting,Wesley Chapel,4.5,263,1,Active Life, Barbers, Restaurants,,
+in,Anytime Fitness,Tampa Bay,5.0,289,1,Radiologists, Real Estate, Chinese, Used, Hair Stylists
+io,Pretty In Paint,St. Louis,3.1,295,1,Local Services, Restaurants, Fashion,,
+ip,Yerli's Alterations & Tailoring,New Orleans,2.5,5,1,Restaurants, Home Services, Doctors,,
+iq,Plume Salon,Wesley Chapel,2.3,135,1,Local Services, Automotive,,,
+ir,Impasto,Philadelphia,5.0,168,1,Real Estate, Hotels, Dance Clubs, Oil Change Stations, Security Services
+is,Lee Read Diamonds,Tucson,5.0,5,0,Endodontists, Furniture Stores, Head Shops, Men's Clothing, Jewelry
+it,Jackson's Bar & Bistro - Nashville,Haverford,4.5,5,0,Nightlife, Bars, Italian, Restaurants,
+iu,Gandolfo's New York Deli,Tucson,2.2,118,1,Beauty & Spas, Food, Dive Bars, Tires,
+iv,Candida's Pizza,Tucson,3.6,219,1,General Dentistry, Education, Restaurants, Tires,
+iw,Recreational Integrative Wellness Center,Palmyra,4.8,144,1,Building Supplies, American (Traditional), Restaurants,,
+ix,Mellow Mushroom,Lutz,3.9,122,1,Restaurants, French, Auto Detailing, Flooring, Shopping
+iy,Apple Barn Cider Bar and General Store,Lionville,2.6,23,1,Restaurants, Health & Medical, Oil Change Stations, Home Services,
+iz,Plume Salon,Spring Hill,2.5,128,1,Health & Medical, Diagnostic Services,,,
+iA,Tabasco Country Store,Reno,4.9,64,1,Restaurants, Automotive, Fashion, Shopping,
+iB,Stylist Inside,New Orleans,4.2,167,1,Active Life, Venues & Event Spaces,,,
+iC,Express Cafe,Clearwater,3.7,158,1,Food, Local Services, Office Cleaning,,
+iD,Inspired By Purpose Wellness Center & Yoga Studio,Hernando Beach,2.9,5,1,Amusement Parks, Tours, Home Services,,
+iE,Mount Mogrit Gourmet,Brandon,5.0,16,1,Car Wash, Education, Eyelash Service, Used, Vintage & Consignment
+iF,Reinette Café & Patisserie,Brentwood,5.0,108,1,Carpet Cleaning, Transportation,, Local Services, Coffee & Tea
+iG,Treehouse Yoga for Children,Indianapolis,2.3,38,1,Ice Cream & Frozen Yogurt, Restaurants, Caterers, Convenience Stores,
+iH,Aj's Bikes and Boards,New Orleans,3.2,238,0,Women's Clothing, Breakfast & Brunch, Pubs, Southern, Home & Garden
+iI,M.L.Rose Craft Beer & Burgers - Melrose,New Port Richey,4.2,136,1,Pizza, Shopping, Health & Medical, Street Vendors,
+iJ,Crescent City Steak House,Tuscon,4.0,30,1,Flowers & Gifts, Chicken Wings, Mexican, Bike Repair/Maintenance,
+iK,Rita's Italian Ice,Nashville,4.1,159,1,Restaurants, Public Art, Food Trucks, Health & Medical, Automotive
+iL,Templet's Russell Barber Shop,New Orleans,5.0,27,1,Coffee & Tea, Local Services, Local Services,,
+iM,Sport Clips Haircuts of Exton,Santa Barbara,3.5,74,1,Restaurants, Wheel & Rim Repair, Doctors, Local Services, Hair Stylists
+iN,Frady's One Stop Food Store,Carmel,4.7,28,1,Restaurants, Donuts, Medical Spas, Home Services, Sandwiches
+iO,De Ville Coffee House & Creperie,Nashville,3.1,151,1,Sporting Goods, Pediatricians, Eyelash Service, Used, Flowers & Gifts
+iP,Plume Salon,Pinellas Park,2.5,5,1,Cocktail Bars, Chocolatiers & Shops, Local Services, Restaurants,
+iQ,Altitude Trampoline Park - Boise,Carmel,3.0,149,1,Pet Services, Restaurants, Gluten-Free, Shutters,
+iR,La Cucina Italian Eatery,Carmel,2.6,130,0,Massage, Restaurants, Burgers, Shopping,
+iS,Man of the Soil Landscape Builder,Tucson,3.3,8,0,Photography Stores & Services, Cocktail Bars, Arts & Entertainment, Gutter Services,
+iT,Hair By Audrey Johnson,Wyncote,3.6,52,1,Beer, Local Services, Eyelash Service, Hair Extensions, Sandwiches
+iU,Nails & Beauty Lounge,Tampa,4.8,132,1,Tours, Chiropractors, Internet Service Providers, Used, Vintage & Consignment
+iV,The Cake Drip,Tucson,4.8,5,1,Coffee & Tea, Shopping, Local Services,,
+iW,Saint Marys Medical Group,Santa Barbara,4.2,22,0,Active Life, Sandwiches, Burgers, Home Services,
+iX,Medford Village Car Care,Kenner,4.7,5,0,Tires, Professional Services, Doctors, Hair Salons,
+iY,Bagelicious - King Of Prussia,Philadelphia,2.8,121,1,Mexican, Guns & Ammo, Vegetarian, Restaurants, Local Services
+iZ,Blackrock Brewers,Tampa Bay,1.9,5,1,Apartments, Shoe Repair, Fashion, Nail Salons,
+ja,Plume Salon,Tucson,4.4,7,1,Active Life, Beauty & Spas, Fashion,,
+jb,Stomel Elliot Attorney-At-Law,Nashville,3.4,194,1,Restaurants, Furniture Stores, Farmers Market, Food Delivery Services, Italian
+jc,Heritage Hardwood Floors,Bellmawr,4.1,95,1,Event Planning & Services, Department Stores,, Seafood, Home Decor
+jd,Saltwater Grill,Brandon,4.2,5,1,Bridal, Coffee & Tea, Event Planning & Services, Used, Pubs
+je,Eat Mah Taco @ Pal's Lounge,Saint Petersburg,2.5,5,1,Sporting Goods, Mexican, Trainers, Food,
+jf,Valley Cleaners,Santa Barbara,3.5,9,1,Shoe Stores, Asian Fusion, Eyelash Service, Used, Pizza
+jg,Expert Home Offers,Boise,5.0,96,1,Ethnic Food, Food, Oil Change Stations, Thai, Vintage & Consignment
+jh,New India's Kitchen,Mount Juliet,3.5,202,1,Restaurants, Chinese, Auto Repair, Local Services, Food
+ji,Premier Mortgage Resources,Philadelphia,2.8,117,1,Hotels & Travel, Hair Salons, Carpeting, American (Traditional), Active Life
+jj,Des-Carr Doors,Valrico,5.0,11,1,Yoga, DJs, Auto Repair, Restaurants, Carpet Installation
+jk,Reeder's Auto Tint & Ceramic Coatings,Kenner,1.0,38,1,Pets, Urgent Care, Shopping, Restaurants,
+jl,Oscar's Cafe,New Orleans,4.2,40,1,Bridal, Home Services, Home Services, Health & Medical,
+jm,Taqueria Feliz,Carmel,4.3,237,0,Tires, Oil Change Stations, Sushi Bars, Day Spas,
+jn,Queen Nails & Spa,Tampa,4.5,5,1,Car Stereo Installation, Nail Salons, Department Stores, Doctors, Sandwiches
+jo,Think Box Photography,Edmonton,4.1,5,1,Burgers, Veterinarians,, Shopping, Burgers
+jp,Stomel Elliot Attorney-At-Law,Reno,4.5,5,1,Bridal, Jewelry, Body Shops, Bagels, Coffee & Tea
+jq,McDonald's,Saint Louis,3.5,73,1,General Dentistry, Sandwiches, Apartments, Doctors, Breakfast & Brunch
+jr,Pier 1,Reno,3.7,8,1,Restaurants, Restaurants, Home Services,,
+js,BurgerWorks,Largo,2.9,67,1,Sandwiches, Nail Salons, Wine & Spirits, Restaurants, Vintage & Consignment
+jt,None Such Farm Market,Nashville,3.3,61,1,Fashion, Veterinarians, Wine Bars, Hotels & Travel, Wine Bars
+ju,MedExpress Urgent Care,Boise,3.9,218,0,Burgers, Health & Medical, Hair Salons, Bars,
+jv,Sher-e-Punjab,Nashville,3.1,67,1,Chicken Wings, Vegetarian, Men's Clothing, Burgers, Local Services
+jw,Weinhardt Party Rentals,Tucson,3.3,5,0,American (Traditional), Wine & Spirits, Hair Salons, Burgers,
+jx,Jon's Bar & Grille,Nashville,2.8,133,0,Fashion, Cocktail Bars, Health & Medical, Restaurants,
+jy,Four Green Fields,Saint Louis,4.2,5,1,Desserts, Specialty Food,,,
+jz,The Cake Drip,Hazelwood,2.6,5,0,Flowers & Gifts, Event Planning & Services, Automotive,,
+jA,South Cleaner & Tailor,Philadelphia,5.0,222,1,Day Spas, Pubs, Oil Change Stations, Home Services,
+jB,Cold Stone Creamery,Wesley Chapel,4.4,214,1,Fashion, Nightlife,, Medical Supplies, Ice Cream & Frozen Yogurt
+jC,Plume Salon,Philadelphia,3.2,48,1,Bridal, Bakeries, Men's Clothing, Bakeries, Art Galleries
+jD,Jersey Mike's Subs,Philadelphia,3.7,188,0,Sandwiches, Religious Organizations, Pets,, Cocktail Bars
+jE,Plume Salon,Saint Louis,2.9,85,1,Party & Event Planning, Italian, Restaurants, Event Planning & Services,
+jF,Bistro St. Tropez,Santa Barbara,3.9,32,1,Event Planning & Services, Barbeque, Sandwiches,,
+jG,Baltic Bakery,Philadelphia,4.9,200,1,Sandwiches, Health & Medical, Venues & Event Spaces, Event Planning & Services, Bakeries
+jH,Nipper's Pub,Newtown,2.5,244,0,Home Services, Juice Bars & Smoothies, Restaurants, Pet Services, Restaurants
+jI,Laundromat,Boise,2.6,140,1,Sandwiches, Breakfast & Brunch, Auto Repair, Bars,
+jJ,St Christopher Pediatric Urgent Care,Cherry Hill,4.6,188,0,Burgers, Coffee & Tea, Pets, Pet Groomers,
+jK,BJS Hardwood Floors,Ardmore,4.1,158,1,Pets, Thrift Stores, Appliances, Health & Medical, Women's Clothing
+jL,Gavi Italian Restaurant,Tucson,2.8,44,1,Auto Repair, Education, Food, Health & Medical, Bars
+jM,Mister B's Cigar Box,Philadelphia,3.5,5,1,American (Traditional), Burgers, Breakfast & Brunch, Beer Bar,
+jN,Nipper's Pub,Saint Louis,4.2,112,1,Active Life, Hardware Stores, Food Trucks, Restaurants,
+jO,Hibachi Express,Nashville,3.3,5,1,Carpenters, Automotive, Beauty & Spas, Boating,
+jP,Harpeth Cleaners,Goleta,1.5,5,1,Bars, Juice Bars & Smoothies, Doctors,,
+jQ,Des-Carr Doors,West Chester,3.3,186,0,Real Estate, Auto Parts & Supplies, Hair Salons, Bars,
+jR,Robbi's Custom Leather Goods,Boise,4.2,5,1,Medical Centers, Shopping, Pet Services, Used, Eyelash Service
+jS,Jos A Bank,Edmonton,3.7,5,0,Fitness & Instruction, Restaurants, Home Services,,
+jT,Plaza Bowling,Tampa,3.1,237,1,Beer, Food,, Food,
+jU,Big Mike's BBQ,Kenner,5.0,61,1,Tires, Automotive, Breakfast & Brunch,,
+jV,Lip Collision,Boise,5.0,184,1,Breakfast & Brunch, Apartments, Bus Tours, Used, Tours
+jW,Rosati's Pizza,New Orleans,4.4,55,1,Italian, Nightlife, Restaurants,,
+jX,Alex Smith Hardwood Flooring,Newtown,3.4,34,1,Nightlife, Glass & Mirrors,, Automotive, Caterers
+jY,Papa John's Pizza,Tucson,3.9,48,0,Event Planning & Services, Health & Medical, Oil Change Stations, Gyms, Gyms
+jZ,Taqueria Feliz,Langhorne,3.5,5,0,Car Wash, Home Services, Beauty & Spas, Automotive,
+ka,Sierra Pro Events,Boise,2.9,127,1,Day Spas, Asian Fusion, Restaurants,,
+kb,Brew Brothers,Tampa,2.9,5,1,Fashion, Restaurants,,,
+kc,Seven Qi Spa,Boise,3.4,5,1,Sandwiches, Venues & Event Spaces,, Auto Repair, Food
+kd,James L Frank Door Service,Tampa,4.4,70,1,Bridal, Delis, Salad, Street Vendors, Specialty Food
+ke,Baxter's Saloon & Grill,Reno,4.7,59,1,Day Spas, American (Traditional), Event Planning & Services, Challenge Courses, Shopping
+kf,McDonald's,Saint Louis,5.0,5,1,Restaurants, Hotels, Arts & Entertainment, Restaurants,
+kg,Taste of the Caribbean,Goleta,4.9,5,1,Beauty & Spas, Paint Stores, Eyelash Service, Food,
+kh,Plume Salon,Ardmore,5.0,54,0,Bridal, Restaurants, Sewing & Alterations,,
+ki,McDonald's,Langhorne,4.5,196,1,Beauty & Spas, Arts & Entertainment, Fashion, Pizza, Food Stands
+kj,Its Sold Here,New Orleans,2.4,425,1,Fitness & Instruction, Apartments, Hair Stylists, Sandwiches,
+kk,Nippon Tei,Edmonton,4.2,5,1,Shopping, Breweries, Eyelash Service, Fashion, Pubs
+kl,Dwight's Auto Glass & Tint,Clearwater,4.4,182,0,Delis, Restaurants, Health & Medical, Hotels & Travel,
+km,J C Automotive Service,Brownsburg,4.7,126,0,Real Estate, Building Supplies,, Home Services,
+kn,Rosemont Plaza,Meridian,3.9,5,1,Barbeque, Music Venues,, Shopping, Mags
+ko,St. Louis Artists' Guild,Ardmore,2.1,77,1,Fitness & Instruction, Food,,,
+kp,Morton's The Steakhouse,Hudson,4.6,202,1,Coffee & Tea, Urgent Care, Event Planning & Services,,
+kq,530 Pub & Grill,West Chester,4.3,5,1,Restaurants, Nail Salons, Pets, Health & Medical,
+kr,Popeyes Louisiana Kitchen,Tucson,4.1,90,1,Delis, Police Departments, Caterers, Home & Garden, Coffee & Tea
+ks,Pls Check Cashers,Glassboro,2.7,5,1,Books, Restaurants, Pubs, Bars, Beauty & Spas
+kt,Crush Gourmet Raspados,Boise,2.0,5,0,Commercial Real Estate, Shopping, Shopping,,
+ku,Pacifico Hyundai,Lionville,3.3,70,1,Desserts, Urgent Care, Pizza, Real Estate Services, Beauty & Spas
+kv,Nashville Delivers,Saint Louis,2.5,239,1,Auto Repair, Italian,,,
+kw,Parlor Suburban Square,Indianapolis,4.0,138,1,Automotive, Gardeners, Food,,
+kx,Frankie's Fruit Bar,New Orleans,5.0,99,1,Automotive, Playgrounds, Dentists, Dry Cleaning & Laundry, Vintage & Consignment
+ky,reYOU massage,Indianapolis,5.0,41,0,Chinese, Men's Clothing, Fast Food, Coffee & Tea,
+kz,Plume Salon,Tucson,5.0,14,0,Car Stereo Installation, Home Services, Insurance, Landscape Architects, Automotive
+kA,Four Green Fields,Kenner,4.2,120,1,Local Services, Desserts, Food,,
+kB,Tin Drum Asia Cafe,Santa Barbara,3.2,80,0,Hotels, Health & Medical, Nightlife,,
+kC,Gold's Gym,Largo,3.0,170,1,Shipping Centers, Eyelash Service, Dentists, Gyms,
+kD,Marty's Pizza,Tampa,3.8,5,0,Restaurants, Education, Desserts, Nightlife,
+kE,Hands On Bicycle,Haddon Township,4.2,53,1,Local Services, Wedding Planning, Chicken Shop, Salad, American (Traditional)
+kF,The Steak Out,St Louis,3.3,303,0,Pizza, Health & Medical, Filipino,, Automotive
+kG,Baum's Dancewear,Largo,3.6,5,1,Pizza, Beer, Food,,
+kH,Visionworks,Metairie,4.1,225,1,Coffee & Tea, Fast Food, Hair Salons,,
+kI,Gifted Hands Barber Shop,Plant City,2.8,40,0,Department Stores, Local Services, Restaurants,,
+kJ,Zesty Tsunami,Chalfont,4.0,5,1,Chicken Wings, American (New), Restaurants, Bars,
+kK,McDonald's,Lionville,5.0,5,1,Fashion, Refinishing Services, Caterers, Beauty & Spas,
+kL,Monogram Express,Wilmington,3.3,5,1,Home & Garden, Fitness & Instruction, Restaurants,,
+kM,Skippack Sweet Spot,New Orleans,4.8,64,0,Arts & Entertainment, Gluten-Free,, IT Services & Computer Repair, Bakeries
+kN,Nailtek,Edmonton,2.1,93,1,Pizza, Shopping, Beauty & Spas, Men's Clothing, Home Decor
+kO,Nails & Beauty Lounge,Edmonton,2.3,215,1,Bridal, Contractors, Sushi Bars, Internet Cafes, Vintage & Consignment
+kP,Wesley Chapel Florist,Spring Hill,5.0,66,1,Event Planning & Services, Beauty & Spas, Bakeries, Beauty & Spas,
+kQ,The Silo Eatery Coffee Bakery,Nashville,3.3,5,1,Grocery, Religious Organizations, Shopping, Bagels,
+kR,Damaso Painting,Tucson,4.2,5,1,American (Traditional), Professional Services, Noodles, Arts & Entertainment, Food
+kS,CD Roma Restaurant,Glenolden,4.7,5,1,DUI Law, Eyelash Service, Pubs, Specialty Schools, Tattoo
+kT,McDonald's,Franklin,3.8,115,1,Flooring, Department Stores, Hotels, Used, Food
+kU,Plume Salon,Mt. Juliet,3.6,11,1,Food, Italian, Local Services,, Restaurants
+kV,Maximum Grow Gardening,Lutz,3.7,182,0,Hotels & Travel, Breakfast & Brunch, Automotive, Shopping,
+kW,Plume Salon,Franklin,4.0,123,1,Nightlife, Donuts, Eyelash Service, American (Traditional), Laser Eye Surgery/Lasik
+kX,Williams Sub Shop,Tucson,3.8,383,1,Weight Loss Centers, Auto Parts & Supplies, Restaurants, Food,
+kY,Digestive Diseases Associates of Tampa Bay,Havertown,2.5,38,1,Restaurants, Cafes, Shoe Stores,, Active Life
+kZ,Diana Michaels Jewelers,Philadelphia,2.3,5,1,Shopping, Public Art,, Food,
+la,Window World of Philadelphia,King of Prussia,2.4,52,1,Japanese, Desserts, Wine Bars, Mexican, Bakeries
+lb,Taj Mahal Homestyle Indian & Pakistani Cuisine,Nashville,4.1,20,0,Bridal, Automotive,, Restaurants,
+lc,Tattoos by Taz,Indianapolis,4.0,30,1,Health & Medical, Event Planning & Services,,,
+ld,Fisherman's Cove Seafood,St. Louis,3.0,87,1,Car Dealers, Pubs, Fashion,,
+le,Lens Crafters,Nashville,3.4,5,1,Golf, Bars, Laundry Services,, Massage
+lf,Carmine's Steakhouse,Boise,2.5,99,1,Beer, Restaurants, Beauty & Spas,,
+lg,Siam Elephant,Tampa,5.0,101,1,Health & Medical, Shopping, Beauty & Spas,,
+lh,Heitz Optical,Philadelphia,2.5,5,0,Local Services, Auto Repair,, Sandwiches,
+li,Crescent City Steak House,West Chester,4.2,5,1,Japanese, American (Traditional),, Shopping, Bars
+lj,Shapiro Supply,New Port Richey,5.0,80,1,Keys & Locksmiths, Lounges, Food, Restaurants, Shopping
+lk,Casita Taqueria,Tucson,3.1,5,0,Auto Repair, Bars, Restaurants,,
+ll,MH Pomander's Bridal,Edmonton,2.7,70,1,Barbers, Hotels & Travel, Eyelash Service,,
+lm,"Dawna Ara, DACM, LAc",Sparks,3.7,5,1,Oil Change Stations, Barbers,, Southern,
+ln,Andro Beavers & Associates,Tucson,4.8,52,0,Doctors, Mags, Music Venues, Health & Medical,
+lo,Half Price Books,Lionville,4.3,203,1,Body Shops, Fast Food, Pubs, Dentists, Italian
+lp,Gasparilla Pirate Festival,Reno,4.1,5,1,Real Estate, Sandwiches, Oil Change Stations, Food,
+lq,Rosati's Pizza,Newtown,5.0,102,1,Bridal, Restaurants, Grocery, Beer, Medical Centers
+lr,Colonial Frontiers,New Orleans,3.8,5,1,Hotels & Travel, Automotive, Hotels & Travel,,
+ls,McDonald's,Tucson,5.0,129,0,Wildlife Control, Shopping,,,
+lt,O'Shucks Seafood & Grill,Largo,4.3,5,1,Hotels, Nightlife, Pest Control, Food Tours, Hotels
+lu,China Pearl,Tampa,3.7,173,1,Restaurants, Hair Salons,,,
+lv,MedExpress Urgent Care,Madeira Beach,4.2,5,0,Sandwiches, Hair Removal, Sports Bars, Education, Vintage & Consignment
+lw,Dental Care at Quail Hollow,Reno,3.9,23,1,Italian, Professional Services,,,
+lx,Brew Brothers,Philadelphia,4.2,326,1,Food, Hair Salons,, Health & Medical,
+ly,O'Shucks Seafood & Grill,Tampa,5.0,5,1,Yoga, Professional Services, Wine & Spirits,,
+lz,Local Links,Warminster,3.6,5,0,Automotive, Hotels,,,
+lA,US Storage Centers,New Port Richey,2.1,267,0,Auto Repair, Automotive, Event Planning & Services, Used,
+lB,Medford Village Car Care,Plymouth Meeting,3.6,106,1,Car Wash, University Housing, Oil Change Stations, Food Trucks, Bikes
+lC,Domino's Pizza,New Orleans,3.9,5,0,Barbeque, Health & Medical,,,
+lD,Hands On Bicycle,Indianapolis,2.1,64,1,Shopping, Local Services, Restaurants, Mobile Phone Accessories, Used
+lE,The Waxing Queen Of Tucson,Lionville,2.8,5,1,Restaurants, Fast Food, Automotive,,
+lF,Manor Riverwalk Luxury Apartments by TRG Management Company,Southampton,3.4,21,1,American (New), Barbers,,,
+lG,1-275 Rest Area Manatee County Mile 7,Chalfont,3.8,16,1,Korean, Waxing, Restaurants, Event Planning & Services, Nightlife
+lH,Best Tours,Tampa,3.5,111,0,Steakhouses, Organic Stores, Bars, Shopping, Food
+lI,August Pearl Salon,Saint Petersburg,3.5,5,1,Fitness & Instruction, Mexican,,,
+lJ,Plume Salon,Wilmington,3.3,5,0,Shopping, Burgers, Arts & Entertainment, Home & Garden,
+lK,Once Upon A Child - Reno,Saint Petersburg,2.8,117,1,Hotels, Police Departments, Home Services,,
+lL,Jake's Place,Kenner,1.3,83,1,Event Photography, Restaurants, Beer, Auto Repair,
+lM,Norristown Car Wash,Blue Bell,3.4,5,0,Cocktail Bars, Apartments,, Hair Salons, Beauty & Spas
+lN,Arhaus,Reno,2.5,209,1,Body Shops, Beauty & Spas, Restaurants, Mexican, Event Planning & Services
+lO,Plume Salon,New Orleans,3.0,234,1,Hotels, Nightlife, Waxing, Used,
+lP,Philadelphia Room Escape,Brandon,3.1,5,0,Auto Repair, Restaurants, Home Services, Hair Removal, Active Life
+lQ,Tin Drum Asia Cafe,Tampa,5.0,63,1,Flooring, Hair Removal, Eyelash Service, Used, Kitchen & Bath
+lR,The Hideout Coffee House,Nashville,2.1,120,1,Shopping, Bars, Skin Care,,
+lS,Double Decker Pizza - Media,Reno,3.8,175,1,Pets, Real Estate,, Food,
+lT,Philadelphia Skating Club and Humane Society,Indianapolis,3.8,5,0,Music & DVDs, Sandwiches, Sushi Bars, Food,
+lU,Holly Nails & Spa,Franklin,5.0,68,1,Beauty & Spas, Nail Salons, Pets, Hair Salons, Restaurants
+lV,The Steak Out,Santa Barbara,3.8,84,1,General Dentistry, Oil Change Stations, Eyelash Service, Vegan, Vintage & Consignment
+lW,Tat Starz,Voorhees,4.4,176,0,Fast Food, Restaurants, Venues & Event Spaces, Bubble Tea, Furniture Reupholstery
+lX,T J Maxx,St. Louis,3.1,5,1,Gastropubs, Caterers, Salad, Restaurants, Bars
+lY,Tire Kingdom,St. Louis,4.3,166,1,Men's Clothing, Jewelry, Museums, Breweries, Breakfast & Brunch
+lZ,Plume Salon,Edmonton,3.6,5,1,Professional Sports Teams, Breakfast & Brunch, Eyelash Service, Seafood,
+ma,Candlewood Suites Tucson,Boise,3.0,87,0,Restaurants, Arts & Entertainment, Eyebrow Services, Used, Auto Detailing
+mb,Children's Dental And Orthodontic Associates,Saint Louis,4.1,5,1,Gas Stations, Financial Services, Hotels & Travel,,
+mc,The Mad Griddle ,Tampa,3.3,5,1,Shaved Ice, Shopping,, Sandwiches, Coffee & Tea
+md,The Cobblestone Eatery and Drinkery,New Orleans,2.8,133,0,Japanese, Professional Services, Fast Food, Hair Salons, Candy Stores
+me,China City Restaurant,Reno,3.1,291,1,Home Services, Pet Groomers, Fast Food, Home & Garden,
+mf,McDonald's,Lionville,3.3,66,1,Bridal, Auto Repair, Desserts, Nightlife,
+mg,Pottery Barn Kids,Tampa,4.0,5,1,American (Traditional), Maternity Wear, Wine Bars,,
+mh,Gandolfo's New York Deli,Indianapolis,3.0,78,1,Hotels, Pizza,,,
+mi,Northeast Auto Service,Haddonfield,3.5,45,1,Home Services, Traditional Chinese Medicine, Notaries,,
+mj,Camden Bay Apartments,Lionville,4.8,154,1,Shopping, Jewelry,, Local Services, Sporting Goods
+mk,McDonald's,Saint Louis,4.1,5,1,Makeup Artists, Burgers,,,
+ml,Plume Salon,Reno,2.3,171,0,Local Services, American (New), Food,,
+mm,McDonald's,Hermitage,2.3,166,1,Event Planning & Services, Restaurants, Hair Salons, Coffee & Tea,
+mn,Wildout Animal & Pest Removal Tampa,Saint Louis,2.9,5,0,Food, Gyms, Beauty & Spas,,
+mo,Boogyz Donuts,Meridian,2.4,5,1,Active Life, Breweries, Optometrists, Hair Removal, Restaurants
+mp,Plume Salon,Tampa,2.8,126,1,Fashion, Sushi Bars,, Food,
+mq,Tienda Ho,New Orleans,4.7,42,1,Fast Food, Cafes, Eyelash Service, Chicken Wings, Restaurants
+mr,Functional Life,Philadelphia,2.4,120,1,Breakfast & Brunch, Mexican, Eyelash Service,,
+ms,Bob Kramer’s Marionnettes,Philadelphia,3.9,5,0,Pizza, Health & Medical,,,
+mt,Recreational Integrative Wellness Center,Saint Petersburg,3.3,48,1,Restaurants, Nail Salons,,,
+mu,McDonald's,New Orleans,4.0,5,1,Shopping, Sports Wear, Italian, Wine Bars,
+mv,Reno Downtown Joint,Nashville,3.7,290,0,Flowers & Gifts, Restaurants, Caterers,,
+mw,Aqua Terra Salon & Spa,Lionville,3.0,5,0,Car Wash, Professional Services,,, Shopping
+mx,Westchase Compounding Pharmacy,Edmonton,3.2,5,1,Nail Salons, Sandwiches,,,
+my,Plume Salon,Cherry Hill,3.3,162,1,Health & Medical, Kebab, Food,,
+mz,Bus Depot Discount VW Parts,New Orleans,3.3,54,1,Fashion, Pet Sitting, Auto Repair, Restaurants,
+mA,The Home Depot,Reno,3.9,5,0,Wildlife Control, Bars,, Food,
+mB,Washington Memorial Chapel,New Orleans,4.0,134,1,Arts & Crafts, Tattoo, Sandwiches, Used, Coffee & Tea
+mC,Key One,Largo,4.1,102,1,Burgers, Health & Medical, Health & Medical,,
+mD,Whole Foods Market,New Orleans,5.0,93,0,Food, Contractors, Nightlife,,
+mE,Olivier's Creole Restaurant,Ambler,2.3,125,1,Italian, Bars, Desserts,,
+mF,Dune Coffee Roasters - Anacapa,Tampa,3.7,82,1,Caterers, Italian, Piercing, Hotels & Travel,
+mG,Cyclone Car Care,Reno,2.2,140,1,Restaurants, Donuts, Restaurants, Shopping,
+mH,Pho Bistro,Lionville,4.7,75,1,Active Life, Health & Medical, Auto Detailing, Mexican,
+mI,Stomel Elliot Attorney-At-Law,Edmonton,3.1,5,0,Nightlife, Veterinarians, Italian, Seafood, Tours
+mJ,The Original Pancake House,New Orleans,4.2,5,0,Restaurants, Beauty & Spas, Burgers, Skin Care,
+mK,Plume Salon,Lionville,4.3,5,1,Fashion, Gardeners, Home Services, Food,
+mL,Creature Comforts Pet Sitting,Reno,5.0,44,1,Beauty & Spas, Beer, Sandwiches, Food,
+mM,Nailtek,Newtown,3.1,23,1,Urgent Care, Chinese, Music Venues, Hair Salons,
+mN,Brown Sugar Bakery & Cafe,Boise,4.7,5,1,Home Services, Donuts, Shoe Stores, Nightlife,
+mO,King Ribs Bar-B-Q,Tampa,4.1,5,0,Historical Tours, Shoe Stores,,,
+mP,Majestic Towing,New Port Richey,2.9,40,1,Towing, Hair Removal, Pizza,, Restaurants
+mQ,Days Inn by Wyndham Reno South,Boise,2.9,222,0,Auto Repair, Grocery, Food Trucks, Nightlife,
+mR,Mirror Lake Community Library,Lutz,2.7,64,0,Fashion, Home & Garden,,,
+mS,Intuitive Readings and Meditation with Zev,Goodlettsville,4.3,82,1,Flooring, DJs, Diners, Used, Trainers
+mT,Carpet One Floor & Home,Nashville,1.9,22,1,Beer, Lounges, Pizza,,
+mU,Pep Boys,Tucson,4.6,16,1,Live/Raw Food, Indian, Cheesesteaks, Dentists, Salad
+mV,Ann Becnel Companion Dogs,Reno,3.1,76,0,Hotels & Travel, Hotels & Travel, Restaurants, Restaurants, Food
+mW,Big Mike's BBQ,Wesley Chapel,4.7,249,1,Grocery, Apartments, Sandwiches, Restaurants,
+mX,CedarBrook Deli,Saint Louis,3.5,5,0,Radiologists, DJs, Sushi Bars, Donuts, Bars
+mY,Main Exchange Barber Shop,Saint Louis,3.0,173,1,Tires, Beauty & Spas, Sandwiches, Seafood, Cocktail Bars
+mZ,McDonald's,Tucson,3.2,13,1,Automotive, Hair Salons,,,
+na,McCaffrey's Supermarket,Warminster,2.2,5,1,Doctors, Arts & Entertainment, Waxing,, Hotels & Travel
+nb,Core de Roma,Boise,2.5,305,1,Nightlife, Shoe Stores, Eyelash Service, Bagels, Home Services
+nc,Western Endocrine Associates,Santa Barbara,3.4,148,1,Grocery, Breakfast & Brunch, Beauty & Spas,,
+nd,JoJo's Hot Dogs and BBQ,Boise,5.0,97,0,Pets, American (Traditional), Shopping, Convenience Stores, Oil Change Stations
+ne,McDonald's,Newtown,3.4,5,1,Pet Services, Hotels & Travel, Real Estate, Skin Care,
+nf,The Love,Philadelphia,2.3,5,1,Nightlife, Auto Repair, Real Estate, Auto Repair,
+ng,Champion Chevrolet - Service Department,Langhorne,2.0,142,1,Guest Houses, Nightlife, Laundry Services, Arts & Entertainment, Motorcycle Gear
+nh,Ernie's Tours,Indianapolis,2.9,5,1,Doctors, Hair Salons, Shopping, Food,
+ni,La Sponda,Edmonton,4.9,5,1,Real Estate, Automotive, Restaurants,,
+nj,Brandon Burgers,Philadelphia,4.0,78,1,Health & Medical, Restaurants, Health & Medical,,
+nk,Jim's Appliance & Furniture,Conshohocken,4.1,158,1,Restaurants, Bars, Japanese,,
+nl,Diamondback Police Supply,Tucson,2.3,27,0,Restaurants, Caribbean, Home Services,,
+nm,Bus Depot Discount VW Parts,Conshohocken,3.6,133,1,Hair Extensions, Home Services, Beauty & Spas, Bagels,
+nn,Option 1 Barber Shop,Boise,4.1,5,1,Flooring, American (Traditional), Specialty Food, Lounges, Waxing
+no,Bronze Lady Home Furnishings,Saint Petersburg,2.7,5,1,Food, Cafes, Beauty & Spas, Breweries, Specialty Food
+np,Pima County Fair,Brownsburg,4.6,300,1,Hotels, Professional Services, Pizza, Pet Groomers, Nightlife
+nq,Little Golden Goose,Edmonton,4.4,23,1,Beauty & Spas, Police Departments, Restaurants, Mountain Biking,
+nr,"Dawna Ara, DACM, LAc",Voorhees,3.7,189,1,Caterers, Gluten-Free, Food, Food, Shopping
+ns,The Collins Apartments,Nashville,5.0,355,0,Hair Salons, Hotels & Travel,,, Restaurants
+nt,BODHI : Craft Bar + Thai Bistro,Elkins Park,4.6,76,1,Fast Food, Auto Parts & Supplies,,, Food
+nu,Plume Salon,Lutz,5.0,5,1,Sandwiches, Shopping Centers, Automotive,,
+nv,Chew Doin Fried Chicken & Ramen,New Orleans,3.1,136,1,Hotels, Hotels,, Event Planning & Services,
+nw,Soho Oasis Cafe,Clearwater,2.2,5,1,Seafood, Desserts, Brewpubs,,
+nx,Dermatology Associates of Indiana,Tampa,2.8,5,1,Restaurants, Men's Hair Salons, Pets, Bars,
+ny,Gifted Hands Barber Shop,Town and Country,4.1,5,1,Bridal, Financial Services, Makeup Artists, Thai, Toy Stores
+nz,DOSC,Delaware County,5.0,15,0,Home Services, Police Departments, Nightlife,,
+nA,CD Roma Restaurant,New Orleans,4.4,5,1,Restaurants, Tours, Shopping, Food,
+nB,Arizona Stagecoach,Ardmore,2.5,78,1,Coffee & Tea, Barbeque, Cosmetics & Beauty Supply, Beer Bar,
+nC,McDonald's,Saint Louis,2.5,190,1,Walking Tours, Beer, Restaurants,,
+nD,Ottewell Animal Clinic,Newtown,5.0,97,0,Restaurants, Event Planning & Services, Hotels & Travel,,
+nE,Hong Kong Chinese Restaurant,Saint Louis,4.5,103,1,Home & Garden, Beer, Antiques,,
+nF,Norma's Sweets Bakery,Carmel,4.5,29,1,Real Estate, Police Departments,,,
+nG,Lee Roy Selmon's,Indianapolis,1.5,153,1,Baby Gear & Furniture, Food, Oil Change Stations,,
+nH,Jaramillo Hair salon,Santa Barbara,2.5,130,1,Pizza, Sandwiches,,,
+nI,Jon's Bar & Grille,Edmonton,4.0,333,1,Mexican, Italian, Home Services, Caterers, American (Traditional)
+nJ,David Thomas Trailways,Lionville,3.3,5,1,Food, Health & Medical, Shopping,,
+nK,Corissa Miller,Saint Petersburg,4.1,185,1,Beauty & Spas, Caribbean, Seafood, Italian,
+nL,Plume Salon,Metairie,2.9,23,1,Grocery, Italian, Shopping,,
+nM,Parasailing The Pass,Reno,3.3,5,0,Burgers, Local Services, Food, Home Services, Active Life
+nN,ImmediaDent - Urgent Dental Care,Tucson,2.9,131,1,Pets, Chinese, Real Estate Agents, Food Trucks,
+nO,El Rancho Nuevo,St. Petersburg,4.3,130,1,American (Traditional), Bars, Home Services, Nightlife,
+nP,Caring Hands Veterinary Clinic,Tucson,2.6,65,1,Department Stores, Restaurants, Doctors, Health & Medical,
+nQ,Carnivore,New Orleans,3.8,213,1,Tires, Performing Arts, Arts & Entertainment, Sandwiches, Food
+nR,P's & Q's - Premium Quality,Edmonton,5.0,9,0,Fashion, Chinese, Food Trucks, Restaurants,
+nS,Restoration Hardware,New Orleans,5.0,41,0,Flooring, Pizza, Health & Medical, Shaved Ice, Salad
+nT,Jos A Bank,Philadelphia,3.1,15,1,Bridal, Oil Change Stations, Event Planning & Services, Nightlife,
+nU,Porpoise Pub,O Fallon,3.6,78,1,Shipping Centers, Police Departments, Event Planning & Services, Restaurants,
+nV,B&M Hardwood Flooring,North Wales,1.7,5,0,Health & Medical, Restaurants, Breakfast & Brunch, Coffee & Tea,
+nW,Mungenast Lexus of St Louis,Indianapolis,4.8,5,1,Car Rental, Doctors, Italian, Hair Salons,
+nX,Plume Salon,Tucson,4.1,166,1,Hair Salons, Restaurants, Auto Customization, Skin Care,
+nY,African Palace Bar And Grill,Meridian,4.0,95,1,Orthodontists, Restaurants, Restaurants, Nightlife,
+nZ,Stomel Elliot Attorney-At-Law,Haddonfield,4.1,31,1,Event Planning & Services, Convenience Stores, Breakfast & Brunch, Shopping, Restaurants
+oa,Yerli's Alterations & Tailoring,Tampa Bay,3.6,5,0,Restaurants, Wildlife Control, Desserts,,
+ob,Nesbit's Magazine Street Market,Madeira Beach,4.0,357,1,Restaurants, Pizza,, Local Services, Restaurants
+oc,Plume Salon,Madison,2.1,204,1,Arts & Entertainment, Local Services,, Food,
+od,Taqueria Feliz,New Orleans,4.7,13,1,Awnings, Real Estate, Breakfast & Brunch,, Breakfast & Brunch
+oe,Mason's Tree Service,New Orleans,4.2,144,1,Nightlife, Restaurants,,,
+of,El Rancho Nuevo,Indianapolis,4.3,5,0,Home Services, Cafes, Local Flavor,, Restaurants
+og,Valley Cleaners,Philadelphia,2.2,128,1,Pet Services, Fitness & Instruction, Bus Tours, Food,
+oh,Saladworks,Tampa,3.4,262,1,Yoga, Restaurants, Florists,,
+oi,Saint Marys Medical Group,Tucson,2.7,5,1,Professional Services, Hair Removal, Salad, Hotels & Travel,
+oj,Reno Tahoe Shuttle,Philadelphia,3.4,5,1,Nail Salons, Arts & Entertainment, Restaurants,,
+ok,Expert Home Offers,Media,3.7,159,1,Real Estate, Professional Services, Specialty Food, Fast Food, Shopping
+ol,Cantina Los Tres Hombres,Indianapolis,5.0,5,0,Shopping, Home Services, Restaurants, Shopping,
+om,Legacy Coins,Riverview,2.6,232,0,Laundromat, Tours, Education, Bars,
+on,Appreciate You Hair And Nails,Reno,4.2,63,1,Bars, Restaurants,,,
+oo,Philadelphia Room Escape,Bensalem,3.8,5,0,Barbeque, Wine & Spirits, Tires, Coffee & Tea,
+op,Silvio Hair Styling For Men,Tucson,4.5,81,1,Restaurants, Used Car Dealers, Food, Shopping,
+oq,Half Price Books,Largo,3.5,44,1,Home Services, Party Bus Rentals, Eyelash Service, Automotive, Nail Salons
+or,Indianapolis Army Navy,Indianapolis,3.7,20,1,Event Planning & Services, Jewelry Repair, Specialty Food, Seafood, Restaurants
+os,Jong Ka Jib,Largo,4.6,121,0,Tabletop Games, Restaurants, Automotive, Shopping,
+ot,CedarBrook Deli,Wesley Chapel,5.0,5,1,Nightlife, Health & Medical, Contractors, Food,
+ou,Candida's Pizza,Tucson,4.2,213,1,Active Life, Party & Event Planning, Restaurants, Restaurants,
+ov,Bulk Barn,Brandon,4.1,82,1,Local Services, Active Life,,,
+ow,McDonald's,Carmel,3.5,258,0,Doctors, Active Life, Beauty & Spas, Restaurants,
+ox,Ulta Beauty,King of Prussia,1.6,133,1,Home Services, Home & Garden, Internet Service Providers, Sports Bars, Window Washing
+oy,Go! Gyro! Go!,Philadelphia,3.5,252,1,Shopping, Nightlife, Breakfast & Brunch,,
+oz,BODHI : Craft Bar + Thai Bistro,Brandon,3.9,139,0,Hotels, Restaurants,, Auto Repair,
+oA,Acadia,Philadelphia,2.7,5,1,Keys & Locksmiths, Police Departments, Event Planning & Services,, Food
+oB,Tucson Iron & Metal,Santa Barbara,5.0,69,0,Salad, Mexican, Seafood, Fashion, Mags
+oC,Mason's Tree Service,Hermitage,4.6,5,1,Flowers & Gifts, Car Dealers, Shopping, Sandwiches, Food
+oD,ZigZag Scallop,Reno,4.6,299,1,Movers, Shopping,, Food,
+oE,Ernie's Tours,Lionville,5.0,140,1,Real Estate, Tours, Medical Centers, Walk-in Clinics, Coffee & Tea
+oF,Pier 1,Santa Barbara,4.7,5,1,Financial Services, Event Planning & Services, Desserts, Nightlife, Convenience Stores
+oG,Rosemont Plaza,Tampa,3.7,5,1,Car Dealers, Arts & Entertainment, Arts & Entertainment,, Food
+oH,Las Margaritas,Philadelphia,3.6,26,0,Beer, Doctors, Apartments, Bubble Tea, Food
+oI,Lush Ink & Skin Studio,Paoli,3.2,184,1,Automotive, Barbeque, Salad, Appliances & Repair, Ice Cream & Frozen Yogurt
+oJ,Piccadilly,Indianapolis,3.0,71,0,Bars, Professional Services,,,
+oK,1-Hour Auto Glass,Edmonton,3.9,215,0,Massage, Sandwiches, Automotive,, Restaurants
+oL,Sam's Plaza Shoe Repair,Metairie,1.7,5,1,Books, Food, Nightlife,,
+oM,Taco Truck Stl,Brandon,3.3,5,1,Local Services, Education, Fast Food, Food,
+oN,Queen Nails & Spa,Philadelphia,3.9,264,1,Bike Rentals, Hotels & Travel, Coffee & Tea, Nightlife,
+oO,Bucks-Mont Environmental,Metairie,3.0,5,1,Car Dealers, Local Services, Health & Medical, Burgers,
+oP,JCPenney,Nashville,4.7,41,1,Coffee & Tea, Fast Food, Nail Salons,,
+oQ,Swat Pest Control,Lutz,3.3,5,1,Bridal, Hotels & Travel,, Pet Services,
+oR,Soco's Gyros,Reno,3.5,147,1,Event Planning & Services, Financial Services, Italian,,
+oS,Plume Salon,Tampa Bay,3.3,73,1,Home Services, Police Departments, Restaurants, Used,
+oT,Acadia,Newtown,3.4,5,0,Food, Delis, Fashion, Juice Bars & Smoothies, Tattoo
+oU,Dead Ringer Analog Bar,Malvern,2.9,5,1,Weight Loss Centers, Police Departments, American (Traditional), Coffee & Tea, Restaurants
+oV,Jim's Appliance & Furniture,Nashville,4.2,129,0,Barbeque, Delis,,, Food
+oW,Wentworth At West Clay,Tampa,3.7,79,1,Heating & Air Conditioning/HVAC, General Dentistry, Bars,,
+oX,Fishers Freedom Festival,Philadelphia,4.3,71,0,Pizza, Hotels & Travel, Middle Eastern, Medical Supplies, Accessories
+oY,Blackrock Brewers,Tucson,4.1,76,1,Burgers, Fitness & Instruction, American (Traditional), Hair Removal,
+oZ,O'Briens Irish Pub,Saint Petersburg,5.0,125,1,Bridal, Chinese,,,
+pa,Sweetwater Wetlands,Philadelphia,2.1,5,1,Sandwiches, Pet Stores, Fast Food, Convenience Stores, Food
+pb,Fishers Freedom Festival,Saint Louis,4.1,5,0,Beauty & Spas, Specialty Food,, Coffee & Tea, Food
+pc,The Bricks,Pottstown,2.8,5,1,Car Dealers, Furniture Stores, Japanese, Comic Books,
+pd,Kids 'R' Kids of Waterset,Warrington,4.4,5,1,Grocery, Restaurants, Shopping, Coffee & Tea, Obstetricians & Gynecologists
+pe,Belle Chic Salon,Edmonton,3.7,5,1,Sandwiches, Chicken Wings, Hair Salons, Vegetarian,
+pf,Stefanec's South Barber Shop,Indianapolis,3.7,342,0,Automotive, Police Departments, Music Venues, Hair Extensions, Food
+pg,Mellow Mushroom,Madison,3.0,57,0,Towing, Sandwiches, Restaurants, Food,
+ph,Coliseum Ballroom,Reno,3.3,5,1,Bars, Food, Local Services, Fashion,
+pi,Taqueria Feliz,Ballwin,2.8,195,1,Fashion, American (Traditional), Oil Change Stations,,
+pj,Temple University Hospital ,Sparks,1.9,5,0,Bridal, Nightlife, Pakistani, Books, Local Services
+pk,Crescent City Steak House,Cherry Hill,3.0,5,1,Thai, Breakfast & Brunch,, Restaurants,
+pl,Appliance Center,Philadelphia,3.2,84,0,Bars, Professional Services, Windshield Installation & Repair,,
+pm,Bear's Skin Art Studio,Saint Louis,2.9,5,0,Restaurants, Massage, Hair Salons, Shopping,
+pn,Villas at San Dorado,Reno,5.0,5,1,Apartments, Veterinarians,,,
+po,New Orleans Spirit Tours,Tampa,2.8,45,0,Sandwiches, Indian, Nightlife,,
+pp,Dekalb Produce,Santa Barbara,3.6,5,1,Beauty & Spas, Police Departments,,,
+pq,Mai Thai Restaurant,Langhorne,4.2,222,1,Home & Garden, Automotive,,,
+pr,Blue Sage Vegetarian Grille,Langhorne,4.6,5,1,Automotive, Local Services, Tires,,
+ps,Nifty Car Rental,Tucson,4.5,5,0,Plumbing, Fast Food,, Shopping,
+pt,Womens Health Partners,Wilmington,3.3,136,1,Beauty & Spas, Auto Parts & Supplies, Salad, Falafel, Event Planning & Services
+pu,Sharky's Sports Bar & Grill,Brownsburg,3.9,17,1,Shopping, Professional Services, Hotels & Travel, Tanning, Nightlife
+pv,Poppy's Ice Cream,Wilmington,2.7,5,1,Beauty & Spas, Beer Bar,,,
+pw,Locust Lane Craft Brewery,Bala Cynwyd,3.8,200,1,Shaved Ice, Mexican, Eyelash Service, Mexican, Venues & Event Spaces
+px,Lens Crafters,Camden,2.9,117,1,Active Life, Wine & Spirits,, Chicken Wings,
+py,Taqueria Feliz,Philadelphia,3.7,293,1,Coffee & Tea, Police Departments, Arts & Entertainment, Skin Care, Jewelry
+pz,Wildout Animal & Pest Removal Tampa,Boise,3.6,241,1,Auto Repair, Shopping, Education, Breweries, Home Decor
+pA,Denny's,Tucson,2.7,156,1,Grocery, Arts & Entertainment, Restaurants, Community Service/Non-Profit, Specialty Food
+pB,Disc Replay,Lionville,3.8,5,0,Burgers, Beauty & Spas, Mexican, Restaurants,
+pC,Big Mike's BBQ,Tampa,3.9,42,0,Home Services, Donuts,, Automotive,
+pD,Easy Rider Repair,Camden,3.5,31,1,Home Decor, Restaurants, Nail Salons, Local Services,
+pE,McDonald's,Philadelphia,3.3,5,0,Shopping, Nightlife, Hotels & Travel,,
+pF,California Tacos and Taproom,Malvern,3.6,5,1,Breakfast & Brunch, Food, Diners, Coffee & Tea,
+pG,Main Exchange Barber Shop,Horsham,3.5,188,1,Food Trucks, Home Services,, Local Services,
+pH,Nails & Beauty Lounge,Meridian,3.4,5,1,Carpenters, General Dentistry, Auto Detailing, Shopping,
+pI,Plume Salon,St. Petersburg,4.3,236,1,Restaurants, Obstetricians & Gynecologists, Italian, Hotels & Travel, Printing Services
+pJ,Sparkle Cupcake Company,Philadelphia,4.0,226,1,Veterinarians, Event Planning & Services, Pets, Used, American (Traditional)
+pK,Tim Hortons,Philadelphia,3.8,5,0,Pets, Veterinarians, Event Planning & Services, Asian Fusion, Hotels & Travel
+pL,Ottewell Animal Clinic,Edmonton,3.2,182,1,Health & Medical, Tours, Arts & Entertainment, Pet Services, American (Traditional)
+pM,Plume Salon,New Orleans,3.5,5,0,Barbers, Massage, Wine Bars,, Coffee & Tea
+pN,Oscar's Cafe,Edmonton,1.7,158,1,Auto Repair, Breakfast & Brunch, Nightlife,, Restaurants
+pO,The Juice Pod,Saint Petersburg,3.5,149,1,Coffee & Tea, Auto Repair, Pets, Restaurants, Coffee & Tea
+pP,McMahan Hair Salon,Boise,1.9,152,1,Beauty & Spas, Shopping,, Shopping, Specialty Food
+pQ,Misto Diner,Holiday,3.0,5,1,Barbers, Pubs, Shopping,,
+pR,Kim Kelly & Co Clinical Skin Care,Edwardsville,4.1,5,1,Italian, Asian Fusion, Eyelash Service, Shopping, Bikes
+pS,River City Games,Nashville,5.0,222,1,Italian, Auto Repair, Naturopathic/Holistic, Shopping, Shopping
+pT,Boise 4x4,New Port Richey,4.3,319,1,Delis, Restaurants, Bars, Restaurants,
+pU,M.L.Rose Craft Beer & Burgers - Melrose,Reno,3.9,5,1,Couriers & Delivery Services, Skate Parks, Shopping,,
+pV,Saks Fifth Avenue,Tampa,5.0,5,0,Art Classes, Pet Sitting, Shopping, Auto Repair, Trainers
+pW,Herb Import Co,Fenton,3.7,5,0,Uniforms, Bars, Sandwiches, Restaurants,
+pX,Gaylord Opryland Resort & Convention Center,Nashville,4.1,43,1,Beauty & Spas, Japanese, Food, Seafood,
+pY,Blue Water Dental Care,Noblesville,4.1,5,0,Shopping, Fast Food, Event Planning & Services, Home & Garden,
+pZ,4th Street Nails,King of Prussia,4.3,128,1,Bars, Physical Therapy, Laundry Services, Books, Asian Fusion
+qa,Appliance Center,Tampa,3.6,211,0,Nightlife, Shopping,, Automotive,
+qb,Plume Salon,Indianapolis,5.0,5,1,Apartments, Police Departments, Food, Pet Services, Dentists
+qc,"Dutch Oven Bakery, Inc",Plymouth Meeting,4.7,153,1,Breakfast & Brunch, Police Departments, Eyelash Service, Beauty & Spas, Health & Medical
+qd,1-Hour Auto Glass,Philadelphia,2.6,5,1,Automotive, Professional Services, Tires, Donuts, Active Life
+qe,Wildout Animal & Pest Removal Tampa,Franklin,2.2,28,1,Fast Food, Home & Garden, Sandwiches, Automotive, Specialty Food
+qf,Templet's Russell Barber Shop,Brownsburg,4.1,97,1,Party Supplies, Police Departments, Food, Shopping,
+qg,Wendy Warner- Medicine In Balance,Indianapolis,4.2,5,1,Tires, Veterinarians, Eyelash Service, Gyms, Kitchen & Bath
+qh,Dead Ringer Analog Bar,Doylestown,4.7,5,1,Salad, Chinese,, Coffee & Tea, Food
+qi,Pita Pit,Indianapolis,2.4,78,1,Pizza, Pubs, Bakeries, Body Shops, Fast Food
+qj,Sonny's Phat Smoke,Santa Barbara,4.5,80,1,Parenting Classes, Pubs, Burgers,,
+qk,Salon 139,Malvern,5.0,68,1,Grocery, Bakeries,, Seafood,
+ql,The Cider Factory,Lutz,3.3,148,0,Restaurants, Convenience Stores,, Chicken Wings, Food
+qm,Chrysalis,Philadelphia,3.5,286,1,Chinese, Mexican, Skin Care, Used, Sporting Goods
+qn,Style Lab For Men,Lionville,4.0,90,1,Cocktail Bars, Active Life, Health & Medical,,
+qo,"American Freight Furniture, Mattress, Appliance",Philadelphia,2.4,5,0,Bridal, Restaurants, American (Traditional), Party & Event Planning, American (Traditional)
+qp,Tim Hortons,New Orleans,4.1,315,0,Pizza, Health & Medical, Eyelash Service, Used, Toy Stores
+qq,McDonald's,Philadelphia,2.6,248,1,Bridal, Auto Repair,,,
+qr,Disc Replay,Reno,4.4,5,0,Fashion, Hair Removal, Shopping,,
+qs,Trust Me BBQ,Tampa,3.2,5,1,Food, Apartments, Makeup Artists, Food,
+qt,Thai Tanic,Edmonton,2.1,5,1,Tires, Pizza, Beauty & Spas, Food,
+qu,IU Health Urgent Care - Broadripple,Philadelphia,4.7,5,1,Chicken Wings, Doctors, Cosmetics & Beauty Supply, Juice Bars & Smoothies,
+qv,Thai Tanic,Edwardsville,5.0,46,1,Home Decor, Shopping, Shopping,,
+qw,Blackrock Brewers,Indianapolis,2.6,5,1,Mediterranean, Shoe Stores, Wine & Spirits, Ice Cream & Frozen Yogurt, Beauty & Spas
+qx,Mai Thai Restaurant,Indianapolis,4.1,5,1,Bars, Police Departments, Event Planning & Services,,
+qy,99 Cents Only Stores,Bala Cynwyd,2.8,5,1,Women's Clothing, Gyms, Automotive, Breakfast & Brunch, Arts & Entertainment
+qz,Washington Memorial Chapel,Franklin,1.9,5,1,Towing, Nightlife, Local Services,, Food
+qA,Bronze Lady Home Furnishings,St. Louis,2.6,5,1,Arts & Entertainment, Active Life,, Home Services, Cocktail Bars
+qB,U-Pack Moving,Indianapolis,3.9,115,1,Shopping, Venues & Event Spaces, Barbeque, Home & Garden, Hair Removal
+qC,Brewster's Pub,Riverside,3.5,7,1,Grocery, Chicken Shop, Specialty Food, Pet Groomers, American (Traditional)
+qD,Midas,Philadelphia,1.8,237,1,Restaurants, Burgers, Restaurants, Arts & Entertainment,
+qE,West Coast Roofing,Tampa,5.0,9,0,Chicken Wings, Bakeries, Home Services,,
+qF,Stylist Inside,Ewing,5.0,5,1,Bridal, Coffee & Tea,, Ice Cream & Frozen Yogurt,
+qG,Rippy's Central Pike Collision Repair,Reno,3.2,5,1,Restaurants, Piercing, Real Estate, Food,
+qH,Selah,Isla Vista,3.2,5,1,Bowling, Sports Bars, Hair Salons, Hair Removal,
+qI,Barista Cafe,Clearwater,2.2,82,1,Restaurants, Baby Gear & Furniture, Auto Repair,,
+qJ,Checkers,Lutz,2.5,33,1,Endodontists, Cajun/Creole,,,
+qK,Preferred Party Place,Narberth,4.3,5,0,Hotels, Restaurants, Jazz & Blues, Bars, Coffee & Tea
+qL,BayLife Physical Therapy and Rehabilitation- St. Petersburg,Indianapolis,3.5,5,1,Italian, Police Departments,, Health & Medical,
+qM,Banfield Pet Hospital,Saint Louis,3.6,5,0,Food, Kebab, Local Services,,
+qN,Plume Salon,Santa Barbara,1.9,5,0,Home & Garden, American (New), Cafes,, Food
+qO,Ricardo's Italian Cafe,Tucson,1.7,117,1,Pain Management, Health & Medical, Education, Props, Golf Lessons
+qP,Anytime Fitness,New Orleans,3.4,144,1,Food, Auto Repair, Makeup Artists, Restaurants, Food
+qQ,Marty's Pizza,Saint Petersburg,3.8,66,0,Auto Repair, Sandwiches, Weight Loss Centers, Party & Event Planning, Landscaping
+qR,Muse Entertainment,Edmonton,4.7,55,1,Auto Repair, Bars, Hotels & Travel, Restaurants,
+qS,Bay Area Appliance,Odessa,1.9,114,1,Coffee & Tea, Home Services, Eyelash Service, Mexican, Vintage & Consignment
+qT,Cantina Los Tres Hombres,Tucson,4.6,123,1,Medical Centers, Bars, Waxing, Books,
+qU,The Salvation Army Family Store & Donation Center,Saint Louis,4.4,5,1,Health & Medical, Car Rental, Nail Salons,,
+qV,Westchase Compounding Pharmacy,Nashville,4.3,339,1,Food, Doctors, Eyelash Service, Hotels & Travel,
+qW,Yi Fa Hair Salon,Indianapolis,3.3,172,1,Banks & Credit Unions, Middle Eastern, Delis, Food Tours, Food
+qX,Boise 4x4,Warminster,3.1,5,1,Restaurants, Professional Services, Automotive,,
+qY,Mike's Ice Cream,Tampa,3.5,209,1,American (Traditional), Fitness & Instruction,,,
+qZ,Nash Painting,Tucson,4.4,5,1,Day Camps, Shopping, Restaurants, Soup,
+ra,Fusion Pizza & Grill,Reno,5.0,30,1,Banks & Credit Unions, Real Estate, Home Services, Southern,
+rb,Fairfield Inn & Suites,Montgomeryville,3.2,5,1,Oil Change Stations, Fast Food, Fashion,, Venues & Event Spaces
+rc,Xtreme Automotive,Saint Petersburg,3.2,5,1,Fashion, Massage, Hair Salons,,
+rd,Naked Cyber Cafe & Espresso Bar,Sparks,2.3,5,1,Food, Wine Bars, American (Traditional),,
+re,Dwight's Auto Glass & Tint,Tampa,3.0,5,1,Bridal, Bars, Financial Services, Apartments, Food
+rf,Ryan Christopher,Reno,3.1,82,1,Italian, Nail Salons, Automotive, Nightlife,
+rg,Inspired By Purpose Wellness Center & Yoga Studio,Indianapolis,4.3,5,1,Beauty & Spas, Active Life, Local Services,,
+rh,Whetstone Tavern,Franklin,3.0,217,1,Sandwiches, French, Auto Detailing, Home & Garden, Venues & Event Spaces
+ri,Phone Repair Philly - Center City,O Fallon,4.9,81,1,Sandwiches, Auto Repair, Hair Stylists,, Waxing
+rj,Recreational Integrative Wellness Center,Tucson,4.2,7,1,Auto Repair, Hotels & Travel, American (Traditional), Health & Medical,
+rk,Panera Bread,Carmel,3.3,254,0,Restaurants, Barbeque, Cosmetics & Beauty Supply,,
+rl,Pretty In Paint,Tucson,4.4,281,1,Grocery, Breakfast & Brunch,,, Shopping
+rm,Rosa Mezcal,Nashville,2.0,79,1,Keys & Locksmiths, Hotels & Travel, Food, Contractors,
+rn,Mike's Ice Cream,Brentwood,2.7,37,1,Italian, Professional Services, Cafes,,
+ro,Family Air,Brandon,3.4,53,1,Italian, Police Departments,, Hair Salons, Local Services
+rp,Element Granite & Quartz,Philadelphia,4.9,5,0,Seafood, Home Services, Event Planning & Services, Bars,
+rq,Ricardo's Italian Cafe,Ardmore,4.1,223,1,Health & Medical, Health & Medical, Beauty & Spas, Skin Care,
+rr,Katie's Pizza & Pasta Osteria,Reno,3.0,289,1,Beauty & Spas, Shopping, Real Estate Agents, Home Services, Restaurants
+rs,Fine Wine & Good Spirits,Indianapolis,5.0,136,0,Shopping, Escape Games,, Arts & Entertainment, Salad
+rt,Hippie Hi,Tucson,3.0,260,1,Home & Garden, Wine & Spirits,, Food,
+ru,Little Golden Goose,Madeira Beach,4.4,126,1,Bars, Shopping, Hair Salons, Hair Salons,
+rv,McDonald's,Indianapolis,2.9,57,1,Yoga, Hardware Stores, Shopping, Sandwiches, Beauty & Spas
+rw,Noble Crust,Indianapolis,3.4,68,1,Pets, Home Services, Food Trucks, Noodles, Vintage & Consignment
+rx,Thai Tanic,Brookhaven,3.3,25,0,Coffee & Tea, Restaurants,,,
+ry,Silvio Hair Styling For Men,Warrington,3.6,5,1,Indian, Home Services, Breakfast & Brunch,,
+rz,MedExpress Urgent Care,Meridian,4.5,5,1,American (Traditional), Hair Salons,, Burgers, Food
+rA,Taco Del Mar,Indianapolis,2.7,219,1,Shopping, Libraries, Appliances, American (Traditional),
+rB,Diana Michaels Jewelers,Lionville,3.1,13,1,Restaurants, Shopping,,,
+rC,Santa Barbara Athletic Club,Oro Valley,4.6,5,1,American (New), Hospitals, Fashion, Breakfast & Brunch,
+rD,Capitol Cellars,Boise,4.7,5,1,Restaurants, Beer Bar, Eyewear & Opticians, Pizza,
+rE,"Bottom Zupp ""Floor Removal Experts""",Philadelphia,4.4,267,0,Beauty & Spas, Restaurants,, Home Services,
+rF,Local Links,New Orleans,3.6,239,0,Hair Salons, Restaurants, Food,,
+rG,Advanced Towing & Recovery,Langhorne,4.0,148,1,Active Life, Professional Services, Cafes,, Food
+rH,Altamura,Reno,5.0,118,1,Desserts, Event Planning & Services, Food, Pet Groomers, Restaurants
+rI,PalmerCash,High Ridge,3.4,25,1,Chinese, Shopping, Shopping, Salad,
+rJ,Champion Chevrolet - Service Department,Brandon,3.7,21,0,Automotive, Education, Children's Clothing, Flooring, Food Stands
+rK,Cupcake Fairies,Edmonton,5.0,122,0,Fitness & Instruction, Food, Sporting Goods,,
+rL,Plaza Bowling,Norristown,4.3,58,1,Sandwiches, Home Inspectors, Steakhouses, Active Life,
+rM,Bus Depot Discount VW Parts,Saint Petersburg,3.7,55,1,Home Services, Police Departments, Bars,,
+rN,Half Price Books,Santa Barbara,1.9,73,1,Real Estate, Shopping, Restaurants,,
+rO,McDonald's,Fishers,4.2,14,1,Flowers & Gifts, Restaurants, Health & Medical,,
+rP,The Pet Trailer Mobile Grooming,Oro Valley,4.7,112,1,Nightlife, Police Departments, Pubs, Dentists, Vintage & Consignment
+rQ,Arizona Stagecoach,Nashville,3.7,5,1,Sandwiches, Breakfast & Brunch, Shopping, Used,
+rR,Ristenpart Law,Reno,3.3,233,1,Flowers & Gifts, Italian, Food, Health & Medical,
+rS,Arhaus,Lionville,2.9,114,1,Auto Repair, Food,,,
+rT,Auntie Anne's,New Orleans,3.6,21,1,Sandwiches, Hair Salons, Health & Medical,,
+rU,The Pet Trailer Mobile Grooming,Saint Louis,3.0,162,1,Bridal, Donuts, Mags, Team Building Activities, Vintage & Consignment
+rV,Wissahickon Cyclery,Boise,3.1,90,1,Chinese, Juice Bars & Smoothies, Education, Food Trucks,
+rW,Affordable Lock & Security Solutions - Tampa,West Chester,3.2,5,1,Party Supplies, Restaurants, Cocktail Bars, Health & Medical,
+rX,A-1 Expert Cleaning Services,Reno,4.4,5,0,Vegan, Hotels,, Restaurants,
+rY,Kathy's Airport Limousine Service,Saint Petersburg,2.9,5,0,Beauty & Spas, Imported Food, Makeup Artists, Breweries,
+rZ,Candlewood Suites Tucson,Saint Louis,3.6,142,1,Japanese, Men's Clothing, Appliances, Used, Salad
+sa,Digestive Diseases Associates of Tampa Bay,Tampa,4.9,5,1,Coffee & Tea, Local Services, Pizza, Contractors,
+sb,Shanghai Station,Lionville,3.6,5,0,Barbers, Police Departments, Local Services, Beauty & Spas, Bakeries
+sc,Harpeth Cleaners,Boise,3.6,188,1,Italian, Sushi Bars, American (Traditional),, Restaurants
+sd,Jon's Bar & Grille,New Orleans,2.2,131,0,Eyewear & Opticians, Italian, Pakistani, Sandwiches, Oil Change Stations
+se,Taqueria Feliz,Nashville,4.0,319,1,Restaurants, Veterinarians, Event Planning & Services,,
+sf,Solid Wood Cabinets,Gulfport,3.6,55,1,Bridal, Optometrists, Beauty & Spas,,
+sg,Mungenast Lexus of St Louis,Nashville,5.0,5,1,Coffee & Tea, Italian, Event Planning & Services, Event Planning & Services,
+sh,Twin Peaks,Lionville,4.1,5,1,Parks, Burgers, Food, Food Trucks, Food
+si,Majestic Towing,Lionville,5.0,293,1,Restaurants, Wine Bars, Eyelash Service,, Vintage & Consignment
+sj,Inspired By Purpose Wellness Center & Yoga Studio,Malvern,4.2,5,1,Bridal, Food, Fruits & Veggies, Nightlife,
+sk,The Ladies Room,Nashville,4.8,5,1,Bridal, Jewelry, Restaurants, Pizza,
+sl,Exterior Building Solutions,Indianapolis,2.6,56,0,Cocktail Bars, Specialty Food,,,
