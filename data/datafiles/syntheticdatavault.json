@@ -4,6 +4,7 @@
     ,"name":"business"
     ,"candidate_keys": ["business_id"]
     ,"foreign_keys": []
+    ,"analyse_columns": ["city", "stars"]
     ,"drop_columns": ["hours","hours.Monday","hours.Tuesday","hours.Wednesday","hours.Thursday","hours.Friday","hours.Saturday","hours.Sunday"
     ,"postal_code","attributes.ByAppointmentOnly","attributes.BusinessAcceptsCreditCards","attributes.BikeParking","attributes.RestaurantsPriceRange2","attributes.CoatCheck","attributes.RestaurantsTakeOut","attributes.RestaurantsDelivery","attributes.Caters","attributes.WiFi","attributes.BusinessParking.garage","attributes.BusinessParking.street","attributes.BusinessParking.validated","attributes.BusinessParking.lot","attributes.BusinessParking.valet","attributes.WheelchairAccessible","attributes.HappyHour","attributes.OutdoorSeating","attributes.HasTV","attributes.RestaurantsReservations","attributes.DogsAllowed","attributes.Alcohol","attributes.GoodForKids","attributes.RestaurantsAttire","attributes.RestaurantsTableService","attributes.RestaurantsGoodForGroups","attributes.DriveThru","attributes.NoiseLevel","attributes.Ambience.romantic","attributes.Ambience.intimate","attributes.Ambience.touristy","attributes.Ambience.hipster","attributes.Ambience.divey","attributes.Ambience.classy","attributes.Ambience.trendy","attributes.Ambience.upscale","attributes.Ambience.casual","attributes.GoodForMeal.dessert","attributes.GoodForMeal.latenight","attributes.GoodForMeal.lunch","attributes.GoodForMeal.dinner","attributes.GoodForMeal.brunch","attributes.GoodForMeal.breakfast","attributes.BusinessAcceptsBitcoin","attributes.Smoking","attributes.Music.dj","attributes.Music.background_music","attributes.Music.no_music","attributes.Music.jukebox","attributes.Music.live","attributes.Music.video","attributes.Music.karaoke","attributes.GoodForDancing","attributes.AcceptsInsurance","attributes.BestNights.monday","attributes.BestNights.tuesday","attributes.BestNights.friday","attributes.BestNights.wednesday","attributes.BestNights.thursday","attributes.BestNights.sunday","attributes.BestNights.saturday","attributes.BYOB","attributes.Corkage","attributes.BYOBCorkage","attributes.HairSpecializesIn.straightperms","attributes.HairSpecializesIn.coloring","attributes.HairSpecializesIn.extensions","attributes.HairSpecializesIn.africanamerican","attributes.HairSpecializesIn.curly","attributes.HairSpecializesIn.kids","attributes.HairSpecializesIn.perms","attributes.HairSpecializesIn.asian","attributes.Open24Hours","attributes.RestaurantsCounterService","attributes.AgesAllowed","attributes.DietaryRestrictions.dairy-free","attributes.DietaryRestrictions.gluten-free","attributes.DietaryRestrictions.vegan","attributes.DietaryRestrictions.kosher","attributes.DietaryRestrictions.halal","attributes.DietaryRestrictions.soy-free","attributes.DietaryRestrictions.vegetarian"
     ,"address","state","latitude","longitude","categories5","categories6","categories7","categories8","categories9","categories10","categories11","categories12","categories13","categories14","categories15","categories16","categories17","categories18","categories19","categories20","categories21","categories22"
@@ -14,7 +15,8 @@
     ,"output_file_path":"/data/datafiles/out/sdv/yelp_academic_dataset_user_transformed_synthentic.csv"
     ,"name":"user"
     ,"candidate_keys": ["user_id"]
-    ,"foreign_keys": []
+    ,"foreign_keys": []  
+    ,"analyse_columns": ["review_count"]
     ,"drop_columns": ["useful","funny","cool","elite","friends","fans","average_stars","compliment_hot","compliment_more","compliment_profile","compliment_cute","compliment_list","compliment_note","compliment_plain","compliment_cool","compliment_funny","compliment_writer","compliment_photos"]
 },
 {
@@ -35,6 +37,7 @@
         ,"reference_key": "user_id"
     }
     
-    ]
+    ]  
+    ,"analyse_columns": ["useful", "stars"]
     ,"drop_columns": ["text"]
 }]
