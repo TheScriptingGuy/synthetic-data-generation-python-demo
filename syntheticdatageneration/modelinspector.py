@@ -44,6 +44,10 @@ def processCSVFiles(input_data_file):
       original_datafile_path= input_data_file['input_file_path']
       synthetic_datafile_path = input_data_file['output_file_path']
 
+      analyse_columns = []
+      if 'analyse_columns' in input_data_file:
+         analyse_columns = input_data_file['analyse_columns']
+
       originalDfOut: dd
       syntheticDfOut: dd
 
@@ -70,15 +74,17 @@ def processCSVFiles(input_data_file):
                               ,left_on=f"{os.path.basename(foreign_key['reference_key'])}"
                               ,right_on=f"{os.path.basename(foreign_key['foreign_key'])}")
 
-      st.write(f" datafile: {os.path.basename(original_datafile_path)}")
+      st.write(f"## datafile: {os.path.basename(original_datafile_path)}")
       col1, col2 = st.columns(2, gap="medium")
       col1.header("Original")
       col2.header("Synthetic")
       #Iterate through all attributes
       labels = []
-      for label, content in originalDf.items(): 
+      for label, content in originalDf.items():               
          if(label not in input_data_file['candidate_keys']):
-            labels.append(label)
+            #if a set of analyse_columns is provided, only select these columns for the histograms. Otherwise, select all.
+            if(label in analyse_columns or not analyse_columns):
+               labels.append(label)
       for label in labels: 
 
             #construct histogram
@@ -87,17 +93,15 @@ def processCSVFiles(input_data_file):
             attrOriginalDf = attributeSeries_Org.to_frame().reset_index().rename(columns={label:"count","index":label}).assign(type="original")
             attrSyntheticDf = attributeSeries_Synth.to_frame().reset_index().rename(columns={label:"count","index":label}).assign(type="synthetic")  
             unionDf = dd.concat([attrOriginalDf, attrSyntheticDf]).sort_values(by="count", ascending=False)       
-            #plot= unionDf.head(10).hvplot.bar(y="count",x=label, by="type",stacked=False,rot=60).opts(title=f"Histogram by {label}")
 
             plot1= attrOriginalDf.sort_values(by="count", ascending=False).head(10).hvplot.bar(y="count",x=label,stacked=False,rot=60, width=1000).opts(title=f"Histogram by {label}")
             plot2= attrSyntheticDf.sort_values(by="count", ascending=False).head(10).hvplot.bar(y="count",x=label,stacked=False,rot=60).opts(title=f"Histogram by {label}")
-
-            #plot1= attrOriginalDf.head(10).hvplot.hist("count",by="type",stacked=False,rot=60).opts(title=f"Histogram by {label}")
-
-            #col1.write(hv.render(plot1, backend='bokeh'))
-            col1.bar_chart(attrOriginalDf.sort_values(by="count", ascending=False).head(10), x=label, y="count")
-            col2.bar_chart(attrSyntheticDf.sort_values(by="count", ascending=False).head(10), x=label, y="count")
-            #col2.write(hv.render(plot2, backend='bokeh'))
+            
+            #cache the list of top 10 attributes of the original dataset
+            collist = list(attrOriginalDf.sort_values(by="count", ascending=False).head(10).iloc[:,0])
+            col1.bar_chart(attrOriginalDf.sort_values(by="count", ascending=False).head(10), x=label, y="count")         
+            #select the synthetic attributes that match the top 10 original attributes
+            col2.bar_chart(attrSyntheticDf[attrSyntheticDf[label].isin(collist)].sort_values(by="count", ascending=False).head(10), x=label, y="count")
 
             #construct heatmap by categorizing attributes
             if 'originalDfOut' in locals():  
@@ -127,7 +131,7 @@ def processCSVFiles(input_data_file):
       col2.write(hv.render(heatmap_synth, backend='bokeh'))
 
 
-option = st.sidebar.selectbox('Select output', ['datasynthesizer','trumania','faker','syntheticdatavault'])
+option = st.sidebar.selectbox('Select output', ['faker','datasynthesizer','syntheticdatavault','trumania'])
 json_path = f"/data/datafiles/{option}.json"
 
 
