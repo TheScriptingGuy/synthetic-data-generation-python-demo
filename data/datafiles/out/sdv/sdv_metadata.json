@@ -1,110 +1,102 @@
 {
     "tables": {
         "business": {
-            "fields": {
+            "primary_key": "business_id",
+            "columns": {
                 "business_id": {
-                    "type": "id",
-                    "subtype": "string"
+                    "sdtype": "text"
                 },
                 "name": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "city": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "stars": {
-                    "type": "numerical",
-                    "subtype": "float"
+                    "sdtype": "numerical"
                 },
                 "review_count": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "is_open": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "categories0": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "categories1": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "categories2": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "categories3": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "categories4": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 }
-            },
-            "primary_key": "business_id"
+            }
         },
         "user": {
-            "fields": {
+            "primary_key": "user_id",
+            "columns": {
                 "user_id": {
-                    "type": "id",
-                    "subtype": "string"
+                    "sdtype": "text"
                 },
                 "name": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 },
                 "review_count": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "yelping_since": {
-                    "type": "categorical"
+                    "sdtype": "categorical"
                 }
-            },
-            "primary_key": "user_id"
+            }
         },
         "review": {
-            "fields": {
+            "columns": {
                 "review_id": {
-                    "type": "id",
-                    "subtype": "string"
+                    "sdtype": "text"
                 },
                 "user_id": {
-                    "type": "id",
-                    "subtype": "string",
-                    "ref": {
-                        "table": "user",
-                        "field": "user_id"
-                    }
+                    "sdtype": "text"
                 },
                 "business_id": {
-                    "type": "id",
-                    "subtype": "string",
-                    "ref": {
-                        "table": "business",
-                        "field": "business_id"
-                    }
+                    "sdtype": "text"
                 },
                 "stars": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "useful": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "funny": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "cool": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 },
                 "date": {
-                    "type": "numerical",
-                    "subtype": "integer"
+                    "sdtype": "numerical"
                 }
-            },
-            "primary_key": "review_id"
+            }
         }
-    }
+    },
+    "relationships": [
+        {
+            "parent_table_name": "business",
+            "child_table_name": "review",
+            "parent_primary_key": "business_id",
+            "child_foreign_key": "business_id"
+        },
+        {
+            "parent_table_name": "user",
+            "child_table_name": "review",
+            "parent_primary_key": "user_id",
+            "child_foreign_key": "user_id"
+        }
+    ],
+    "METADATA_SPEC_VERSION": "MULTI_TABLE_V1"
 }

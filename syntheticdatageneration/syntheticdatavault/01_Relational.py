@@ -13,7 +13,7 @@
 import dask.dataframe as dd
 import json
 
-from sdv import Metadata
+from sdv.metadata import MultiTableMetadata
 
 # Let us now see how to build a `Metadata` object that represents this
 # dataset.
@@ -30,7 +30,7 @@ from sdv import Metadata
 # import the class and create an empty instance:
 
 # %%
-metadata = Metadata()
+metadata = MultiTableMetadata()
 metadata
 
 # import CSV Function
@@ -63,11 +63,12 @@ def readCSVFile(input_data_file):
 #add metadata to earlier added metadata variable
 def add_sdv_metadata(input_data_file):
     if len(input_data_file['foreign_keys']) == 0:
-        metadata.add_table(
-        name=input_data_file['name'],
-        data=tables[input_data_file['name']],
-        primary_key=input_data_file['candidate_keys'][0]
+        metadata.detect_table_from_dataframe(
+        table_name=input_data_file['name'],
+        data=tables[input_data_file['name']]
         )
+        metadata.update_column(table_name=input_data_file['name'],column_name=input_data_file['candidate_keys'][0], sdtype="text")
+        metadata.set_primary_key(table_name=input_data_file['name'],column_name=input_data_file['candidate_keys'][0])
 
 # Add a Child Table
 # -----------------
@@ -81,25 +82,24 @@ def add_sdv_metadata(input_data_file):
 
 
     else:
-        i:int = 1
+        metadata.detect_table_from_dataframe(
+
+                    table_name=input_data_file['name'],
+                    data=tables[input_data_file['name']]
+
+                )
+
+        metadata.update_column(table_name=input_data_file['name'],column_name=input_data_file['candidate_keys'][0], sdtype="text")
+                
+
         for foreign_key in input_data_file['foreign_keys']:
-            if i == 1:
-                metadata.add_table(
-
-                    name=input_data_file['name'],
-                    data=tables[input_data_file['name']],
-                    primary_key=input_data_file['candidate_keys'][0],
-                    parent=foreign_key['reference_table_name'],
-                    foreign_key=foreign_key['foreign_key']
-
-                )
-            if i > 1:
+                metadata.update_column(table_name=input_data_file['name'],column_name=foreign_key['foreign_key'], sdtype="text")
                 metadata.add_relationship(
-                    parent=foreign_key['reference_table_name'],
-                    child=input_data_file['name'],
-                    foreign_key=foreign_key['foreign_key']
+                                        parent_table_name=foreign_key['reference_table_name']
+                                        ,child_table_name=input_data_file['name']
+                                        ,parent_primary_key=foreign_key['foreign_key']
+                                        ,child_foreign_key=foreign_key['foreign_key']
                 )
-            i = i + 1
         
 
         
@@ -170,7 +170,7 @@ metadata
 # In[7]:
 
 
-metadata.get_table_meta('business')
+metadata.tables['business']
 
 
 
@@ -179,7 +179,7 @@ metadata.get_table_meta('business')
 # In[9]:
 
 
-metadata
+metadata.validate()
 
 
 
@@ -197,8 +197,9 @@ metadata
 
 from pathlib import Path
 
-Path('/data/datafiles/out/sdv/sdv_metadata.json').touch()
-metadata.to_json('/data/datafiles/out/sdv/sdv_metadata.json')
+Path('/data/datafiles/out/sdv/sdv_metadata.json').unlink()
+
+metadata.save_to_json('/data/datafiles/out/sdv/sdv_metadata.json')
 
 # After creating the JSON file, loading it back as a `metadata` object is
 # as simple as passing it to the `Metadata` constructor:
@@ -206,8 +207,8 @@ metadata.to_json('/data/datafiles/out/sdv/sdv_metadata.json')
 # In[15]:
 
 
-metadata = Metadata('/data/datafiles/out/sdv/sdv_metadata_persisted.json')
-metadata
+metadata1 = MultiTableMetadata()
+metadata1.load_from_json('/data/datafiles/out/sdv/sdv_metadata_persisted.json')
 # For more details about how to build the `Metadata` for your own dataset,
 # please refer to the [relational_metadata](relational_metadata.ipynb)
 # Guide.
@@ -235,9 +236,9 @@ for name, table in tables.items():
 
 # %%
 
-from sdv.relational import HMA1
+from sdv.multi_table import HMASynthesizer
 
-model = HMA1(metadata)
+model = HMASynthesizer(metadata)
 
 model.fit(tables)
 
@@ -311,7 +312,7 @@ model.save('my_model.pkl')
 # In[11]:
 
 
-model = HMA1.load('my_model.pkl')
+model = HMASynthesizer.load('my_model.pkl')
 
 
 # <div class="alert alert-warning">
@@ -336,7 +337,7 @@ model = HMA1.load('my_model.pkl')
 # In[12]:
 
 
-dictData = model.sample(num_rows=1000)
+dictData = model.sample(scale=1.0)
 
 for input_data_file in input_data_files:
     dictData[input_data_file['name']].to_csv(input_data_file['output_file_path'],index=False)

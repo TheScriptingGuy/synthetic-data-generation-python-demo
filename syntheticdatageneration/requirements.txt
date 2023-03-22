@@ -14,7 +14,8 @@ distributed
 hvplot
 faker
 pydbgen
-sdv==0.18.0
+sdv==1.0.0b1
+pandas
 #Faker==2.0.5
 networkx
 bson
