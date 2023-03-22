@@ -1,3 +1,4 @@
+#warning sdmetrics v.0.18, needs to be redone for 1.0.0
 # %%
 from sdmetrics.reports.single_table import QualityReport
 report = QualityReport()
